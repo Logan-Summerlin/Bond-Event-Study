@@ -25,6 +25,28 @@ Validation: our implementation reproduces Weidenmier & Oosterlinck's (2007)
 headline number — at the pre-Gettysburg price of 60, the model yields a
 **42.9%** implied probability of Confederate victory against their ~42%.
 
+**Identification discipline.** Event attributions on monthly data are easy to
+overclaim, so the pipeline enforces four rules. (i) *No look-ahead*: a large
+move is only ever matched to an event **at or before** the quote date — a
+month-end price cannot react to next week's news. (ii) *A placebo base rate*:
+each largest-moves table is published alongside the **chance-match rate** —
+the share of *all* observation months that would match some chronology event
+under the same rule (30–52% here, the chronologies being dense). Matches are
+informative only insofar as they beat that base rate in timing specificity
+and sign-consistency, not because a match exists. (iii) *An estimation
+window*: event-window z-scores are computed against volatility estimated
+from the **non-event months only**, as in a standard event study — full-sample
+sigma would let the event shocks inflate the null and shrink every z.
+Windows of nearby events can share months; the tables flag these overlaps
+(`overlaps`), which are joint, not independent, tests. (iv) *Clipping is
+reported, not hidden*: wherever the two-state inversion pins π at 0 or 1
+(price outside the assumed [V_lose, V_win]), the share of clipped months is
+printed — where it is large, only *changes* in π are interpretable, not
+levels. None of this makes the exercise causal in the potential-outcomes
+sense: with one price path per war there is no counterfactual, and the design
+is an *event study on archival data*, i.e. descriptive evidence that markets
+aggregated war news, subject to the selection caveats in §9.
+
 ## 2. US Civil War, 1861–65 (full treatment)
 
 **Instruments.** Union: the gold value of $100 in greenbacks, New York gold
@@ -46,8 +68,11 @@ they come from different markets pricing different instruments:
   war-time floor in July–August 1864 (greenbacks at 38.7 cents gold — under a
   40-cent defeat-recovery assumption the implied probability touches **zero**).
   This is exactly the moment Lincoln himself wrote he expected to lose the
-  election. Atlanta (Sept 1864, +14%) and the re-election turn it; Richmond's
-  fall produces the single largest monthly gain of the war (+18%).
+  election. Atlanta (Sept 1864, +14%) turns it; the largest monthly gains of
+  the war come at its end — +18.1% in March 1865 as final victory was priced
+  in ahead of Richmond's fall (the month's chronology match is McCulloch's
+  Treasury nomination; Sherman's Carolinas march is the likelier driver), and
+  +17.0% in April (Richmond and Appomattox).
 - Confederate victory probability starts at ~0.43 pre-Gettysburg, drops to
   ~0.25 by end-1863, decays through 1864 with only two blips (Chickamauga
   +/−, and the July 1864 Wilderness/Early rally: 0.07 → 0.11), and is under
@@ -55,12 +80,13 @@ they come from different markets pricing different instruments:
   never believed the 1864 peace-platform scenario.
 
 **Turning points** (`output/civilwar_greenback_largest_moves.csv`, event
-windows in `..._event_windows.csv`): the largest greenback moves match, in
-order of size: Early at Washington + the gold corner (Jul 1864, −18.5%),
-Richmond (+18.1%), Appomattox month (+17.0%), Atlanta (+14.0%), Gettysburg/
-Vicksburg (+10.7%), the Legal Tender Acts (Jan–Feb 1863, −8.9% each). Note
-how *financial* legislation rivals battles — greenbacks priced fiscal
-credibility jointly with military survival.
+windows in `..._event_windows.csv`; chance-match base rate 52%): the largest
+greenback moves match, in order of size: Early at Washington + the gold
+corner (Jul 1864, −18.5%), the end-of-war repricing (Mar 1865 +18.1%, Apr
+1865 +17.0%), Atlanta (+14.0%), Gettysburg/Vicksburg (+10.7%), the Legal
+Tender Acts (Jan–Feb 1863, −8.9% each). Note how *financial* legislation
+rivals battles — greenbacks priced fiscal credibility jointly with military
+survival.
 
 ## 3. World War I, 1914–18 (full treatment; the Brusilov test case)
 
@@ -82,14 +108,17 @@ campaign moved the market's estimate of Russia's survival by ~4–7 percentage
 points — but the market also *marked the gain back down* when the strategic
 picture reverted, which is what a functioning prediction market should do.
 
-**Russia's full turning-point ranking** (`output/ww1_russia_largest_moves.csv`)
-is dominated not by battles but by **regime and exit events**: October
-Revolution (−13.5%), the Brest-Litovsk armistice (−8.7%), the repudiation
-decree (−7.6%), war outbreak (−8.8%), Brusilov (+7.3%), Bucharest's fall
-(−7.3%) — and then, remarkably, the bond *rallies double digits* in mid-1918
-(+11.4% in June, +8.2% July, +11.2% October) on Allied intervention and the
-Central Powers' collapse: by late 1918 London priced a meaningful chance the
-repudiation would not stand (see §4).
+**Russia's full turning-point ranking** (`output/ww1_russia_largest_moves.csv`;
+chance-match base rate 42%) is dominated not by battles but by **regime and
+exit events**: October Revolution (−13.5%), the Brest-Litovsk armistice
+(−8.7%), war outbreak (−8.8%), Brusilov (+7.3%), the November 1916 slide
+(−7.3%, Bucharest fell in early December — under the no-look-ahead rule the
+move stays unattributed), and the January 1918 slide (−7.6%) as repudiation
+loomed (the decree itself came days after the quote). And then, remarkably,
+the bond *rallies double digits* in mid-1918 (+11.4% in June — unattributed;
++8.2% July, matched to the Second Marne; +11.2% October, after Bulgaria's
+armistice) as the Central Powers collapsed: by late 1918 London priced a
+meaningful chance the repudiation would not stand (see §4).
 
 **Cross-country read.** France's rentes never priced serious defeat risk
 after the Marne (survival probability stays 0.75–0.85); Austria's gold
@@ -131,7 +160,11 @@ French and Belgian state bonds (plus Stockholm for Germany/Belgium),
 1933–48. Germany was already in partial external default after 1933, so
 V_win is anchored to the 1936–38 trading level rather than par, and the
 German series must be read knowing Swiss–German clearing politics supported
-prices into 1944 (the "Zurich puzzle" in the literature).
+prices into 1944 (the "Zurich puzzle" in the literature). That anchor is
+visibly too low for 1940–42: German prices sat *above* it and the inversion
+clips π at 1.0 in **33% of war months** (France 18%, Belgium 0%) — so the
+German *level* is uninformative there, and only its collapses and recoveries
+should be read.
 
 **German bonds as an Axis-victory barometer**
 (`output/ww2_germany_largest_moves.csv`, `..._event_windows.csv`):
@@ -140,10 +173,10 @@ prices into 1944 (the "Zurich puzzle" in the literature).
 |---|---|
 | Czech crisis, Aug 1938 | −16.4% |
 | Schacht dismissed, Jan 1939 | −19.5% |
-| **War begins, Sep 1939** | **−48.2%, the largest move of the sample** (z = −3.1 over the Aug–Oct window) |
-| Fall of France, Jun–Jul 1940 | **+50.0%** (event-window CAR +67%, z = 2.5) |
+| **War begins, Sep 1939** | **−48.2%, the largest move of the sample** (window CAR −47.7%, z = −5.1 vs non-event volatility) |
+| Fall of France, Jun–Jul 1940 | **+50.0%** (event-window CAR +67%, z = 4.1) |
 | Stalingrad/Feb 1943 | trend break: survival index slides from ~1.0 (1942) to 0.6–0.75 (1943–44) |
-| Ardennes failure + Yalta, Dec 44–Feb 45 | −43.3%, window CAR −46% (z = −2.9) |
+| Ardennes failure + Yalta, Dec 44–Feb 45 | −43.3%, window CAR −46% (z = −4.9) |
 
 The market's most violent updates were the *outbreak of the war itself*
 (priced as a disaster for Germany's creditors) and the *fall of France*
@@ -212,6 +245,17 @@ futures) price supply disruption, not either side's victory probability.
 
 - Monthly frequency (data-limited) smears event timing by up to a month;
   the "candidate event" matching is suggestive, not causal identification.
+  The chance-match base rates (30–52%) quantify how much of that matching
+  could arise mechanically; the event chronologies were also compiled
+  knowing how the wars ended, an unavoidable hindsight-selection risk.
+- Event-window z-scores use non-event volatility as the null, but nearby
+  events share window months (flagged `overlaps` in the tables): clustered
+  windows are one joint test, not several independent ones, and no
+  multiple-testing correction is applied across the ~15–20 events per war.
+- The two-state inversion clips π to [0, 1]; the published clipping shares
+  (e.g. 33% of German war months in WW2, 17% of greenback months) mark the
+  stretches where the level is model-inconsistent and only changes carry
+  information.
 - The Confederate Amsterdam series is literature-anchored (±2 gold dollars
   on figure-read months); the greenback series is OCR-parsed from the
   public-domain primary compilation with a reciprocal cross-check.

@@ -39,22 +39,18 @@ def match_events(moves: pd.DataFrame, events: pd.DataFrame,
 
     `events` needs columns [date, event]; extra columns are carried along.
     Monthly quotes react to news with a lag (news travel + end-of-month
-    stamping), so the nearest event *before or shortly after* the quote
-    within `tolerance_days` is reported.
+    stamping), so the nearest event *at or before* the quote date within
+    `tolerance_days` is reported. Events after the quote date are never
+    matched: a price stamped at month-end cannot react to later news, and
+    allowing it would smuggle look-ahead into the attribution.
     """
     ev = events.sort_values("date").reset_index(drop=True)
     rows = []
     for dt, row in moves.iterrows():
         delta = (dt - ev["date"]).dt.days
-        cand = ev[(delta >= -10) & (delta <= tolerance_days)]
+        cand = ev[(delta >= 0) & (delta <= tolerance_days)]
         if len(cand):
-            # a month-end quote reacts to news *during* the month: prefer the
-            # nearest event at-or-before the quote date over later ones
-            deltas = (dt - cand["date"]).dt.days
-            before = cand[deltas >= 0]
-            pick_from = before if len(before) else cand
-            nearest = pick_from.iloc[
-                (dt - pick_from["date"]).dt.days.abs().argmin()]
+            nearest = cand.iloc[(dt - cand["date"]).dt.days.argmin()]
             rows.append({"date": dt, "pct_change": row["pct_change"],
                          "candidate_event": nearest["event"],
                          "event_date": nearest["date"],
@@ -64,6 +60,25 @@ def match_events(moves: pd.DataFrame, events: pd.DataFrame,
                          "candidate_event": None, "event_date": pd.NaT,
                          "days_after_event": np.nan})
     return pd.DataFrame(rows).set_index("date")
+
+
+def chance_match_rate(series: pd.Series, events: pd.DataFrame,
+                      tolerance_days: int = 45) -> float:
+    """Placebo baseline for `match_events`: the share of *all* observation
+    dates that would match some chronology event under the same rule.
+
+    With a dense chronology and a generous tolerance nearly every date
+    "matches" something, and the largest-moves table degenerates into
+    storytelling. Report this alongside the table: attributions are only
+    informative to the extent the matched moves beat this base rate in
+    specificity (small `days_after_event`) and sign-consistency.
+    """
+    dates = series.dropna().index
+    ev_dates = events["date"].dropna().sort_values()
+    hits = sum(
+        bool(((dt - ev_dates).dt.days.between(0, tolerance_days)).any())
+        for dt in dates)
+    return hits / len(dates) if len(dates) else np.nan
 
 
 def structural_breaks(series: pd.Series, n_bkps: int = 6) -> list[pd.Timestamp]:
@@ -84,34 +99,55 @@ def event_window_study(series: pd.Series, events: pd.DataFrame,
 
     Works in *periods of the series' own frequency* (months for monthly
     data). The return from `pre` periods before the event to `post`
-    periods after is compared with the series' full-sample volatility to
-    give a z-score. If `benchmark` is given, its matching return is
-    subtracted first (abnormal return).
+    periods after is compared with the series' *non-event* volatility to
+    give a z-score: the null (sigma) is estimated from the observations
+    outside every event window, as in a standard event-study estimation
+    window - estimating sigma from the full sample would let the event
+    shocks themselves inflate the null and bias every z toward zero.
+    If `benchmark` is given, its matching return is subtracted first
+    (abnormal return). Windows of nearby events can overlap; overlapping
+    CARs share observations and are not independent tests, so the output
+    flags them (`overlaps`).
     """
     r = log_returns(series)
     if benchmark is not None:
         rb = log_returns(benchmark).reindex(r.index).fillna(0.0)
         r = r - rb
-    sigma = r.std()
-    rows = []
+    # locate each event's window first, so sigma can exclude all of them
+    windows = []
     for _, ev in events.iterrows():
-        # first observation at/after the event date
+        # first observation at/after the event date (15-day grace: a
+        # month-end quote already embeds an event from late that month)
         after = r.index[r.index >= ev["date"] - pd.Timedelta(days=15)]
         if not len(after):
             continue
         i = r.index.get_loc(after[0])
         lo, hi = max(0, i - pre + 1), min(len(r), i + post + 1)
+        if hi > lo:
+            windows.append((ev, lo, hi))
+    in_any_window = np.zeros(len(r), dtype=bool)
+    for _, lo, hi in windows:
+        in_any_window[lo:hi] = True
+    est = r[~in_any_window]
+    sigma = est.std() if len(est) >= 12 else r.std()
+    rows = []
+    for ev, lo, hi in windows:
         window = r.iloc[lo:hi]
-        if not len(window):
-            continue
         car = window.sum()
         rows.append({
             "event": ev["event"], "event_date": ev["date"],
             "window": f"{window.index[0].date()}..{window.index[-1].date()}",
             "car_pct": (np.exp(car) - 1) * 100,
             "z": car / (sigma * np.sqrt(len(window))) if sigma > 0 else np.nan,
+            "overlaps": False,  # filled below
+            "_lo": lo, "_hi": hi,
         })
     out = pd.DataFrame(rows)
     if len(out):
-        out = out.sort_values("car_pct", key=lambda s: s.abs(), ascending=False)
+        spans = out[["_lo", "_hi"]].to_numpy()
+        out["overlaps"] = [
+            bool(((spans[:, 0] < hi) & (spans[:, 1] > lo)).sum() > 1)
+            for lo, hi in spans]
+        out = (out.drop(columns=["_lo", "_hi"])
+               .sort_values("car_pct", key=lambda s: s.abs(), ascending=False))
     return out

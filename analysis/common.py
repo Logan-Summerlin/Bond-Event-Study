@@ -47,7 +47,9 @@ def save_table(df: pd.DataFrame, name: str, float_fmt="%.2f"):
     print(f"  wrote {path.relative_to(ROOT)}")
 
 
-def save_fig(fig, name: str):
+def save_fig(fig, name: str, footnote: str | None = None):
+    from bondwar import plotting
+
     path = OUT / f"{name}.png"
-    fig.savefig(path, bbox_inches="tight")
+    plotting.save_fig(fig, path, footnote=footnote)
     print(f"  wrote {path.relative_to(ROOT)}")

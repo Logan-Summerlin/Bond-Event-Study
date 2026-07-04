@@ -17,7 +17,7 @@ import pandas as pd
 from common import PROCESSED, load_events, save_fig, save_table
 from bondwar import event_study as es
 from bondwar import probability as pr
-from bondwar.plotting import annotated_series
+from bondwar import plotting as bp
 
 events = load_events("ww2")
 ww2 = pd.read_csv(PROCESSED / "ww2_bond_prices.csv", parse_dates=["date"])
@@ -45,26 +45,43 @@ for name, s in zh.items():
         for v in (0.0, 10.0, 20.0)})
     print(f"Zurich {name}: V_win anchor = {v_win:.1f}")
 
-fig, axes = plt.subplots(2, 1, figsize=(12.5, 10.5), sharex=False)
-annotated_series(axes[0], {f"{k} (Zurich)": v for k, v in zh.items()}
-                 | {f"{k} (Stockholm)": v for k, v in st.items()},
-                 events=events, ylabel="bond price index",
-                 title="WW2 sovereign bonds on neutral exchanges, 1933-48")
-colors = dict(zip(zh, plt.rcParams["axes.prop_cycle"].by_key()["color"]))
-for name, b in bands.items():
-    axes[1].fill_between(b.index, b.min(axis=1), b.max(axis=1),
-                         alpha=0.18, color=colors[name])
-    axes[1].plot(b["v_lose_10.0"], lw=1.7, color=colors[name],
-                 label=f"{name}: P(no defeat-driven default)")
-for _, r in events[(events.major == 1)
-                   & (events.date >= "1938-01-01")
-                   & (events.date <= "1945-12-31")].iterrows():
-    axes[1].axvline(r.date, color="grey", ls="--", lw=0.6, alpha=0.5)
-axes[1].set_ylim(0, 1.15)
-axes[1].set_ylabel("implied probability")
-axes[1].legend(fontsize=8)
-axes[1].set_title("Two-state model vs 1936-38 anchor (bands: recovery 0-20)")
-save_fig(fig, "ww2_probabilities")
+key_events = bp.select_events(events, names=[
+    "Munich", "invades Poland", "Fall of France", "Battle of Britain",
+    "Barbarossa", "Pearl Harbor", "Stalingrad", "D-Day", "Ardennes",
+    "unconditional surrender"])
+series_map = ({f"{k} (Zurich)": v for k, v in zh.items()}
+              | {f"{k} (Stockholm)": v for k, v in st.items()})
+colors = dict(zip(series_map, bp.PALETTE))
+
+fig = plt.figure(figsize=(11.5, 10.5))
+gs = fig.add_gridspec(2, 3, height_ratios=[1.5, 0.8],
+                      hspace=0.4, wspace=0.22)
+ax_top = fig.add_subplot(gs[0, :])
+bp.annotated_series(ax_top, series_map, events=key_events, colors=colors,
+                    ylabel="Bond price index",
+                    title="WW2 sovereign bonds on neutral exchanges, 1933-48")
+# small multiples: one probability path per issuer (Zurich)
+for i, (name, b) in enumerate(bands.items()):
+    ax = fig.add_subplot(gs[1, i])
+    bp.prob_band(ax, b, "v_lose_10.0", name,
+                 color=colors[f"{name} (Zurich)"])
+    bp.mark_events(ax, key_events, numbered=False)
+    bp.year_ticks(ax, step=2)
+    ax.set_title(f"{name}: P(no defeat-driven default)", fontsize=9.5, pad=6)
+    if i == 0:
+        ax.set_ylabel("Implied probability")
+save_fig(fig, "ww2_probabilities",
+         footnote="Two-state model against each issuer's 1936-38 Zurich "
+                  "price anchor (V_win). Line: recovery 10 on defeat; "
+                  "shading spans recovery 0-20.\n" + bp.event_key(key_events))
+
+for name, s in zh.items():
+    war = s.loc["1938-01-01":"1945-12-31"]
+    raw = pr.implied_prob(war, anchors[name], 10.0, clip=False)
+    print(f"{name}: share of war months where the inversion clips "
+          f"(price outside [V_lose, V_win]): {pr.clipped_share(raw):.0%}")
+print(f"chance-match baseline (any month, 45-day rule): "
+      f"{es.chance_match_rate(zh['Germany'].loc['1938':'1945'], events, 45):.0%}")
 
 # --------------------------------------------------------- event study ----
 for name, s in zh.items():

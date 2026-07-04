@@ -1,0 +1,29 @@
+date,event,favors,category,major
+1861-04-12,Fort Sumter fired upon; war begins,CSA,military,1
+1861-07-21,First Bull Run (CSA victory),CSA,military,0
+1862-02-16,Fort Donelson falls (Grant),USA,military,0
+1862-04-07,Shiloh (Union holds),USA,military,0
+1862-04-25,New Orleans captured by Union navy,USA,military,1
+1862-07-01,Seven Days: McClellan repulsed from Richmond,CSA,military,1
+1862-08-30,Second Bull Run (CSA victory),CSA,military,0
+1862-09-17,Antietam: Lee's invasion turned back,USA,military,1
+1862-09-22,Preliminary Emancipation Proclamation,USA,political,1
+1862-12-13,Fredericksburg (CSA victory),CSA,military,0
+1863-01-08,Third Legal Tender Act recommended (Ways & Means),CSA,financial,0
+1863-03-19,Erlanger cotton loan floated in Europe,CSA,financial,0
+1863-05-04,Chancellorsville (CSA victory),CSA,military,0
+1863-07-04,Gettysburg and fall of Vicksburg,USA,military,1
+1863-09-20,Chickamauga (CSA victory),CSA,military,1
+1863-11-25,Chattanooga: Bragg routed,USA,military,1
+1864-05-12,Wilderness/Spotsylvania: Grant's costly advance stalls,CSA,military,1
+1864-06-17,Gold Act (attempt to close gold room); gold corner peak,CSA,financial,0
+1864-07-11,Jubal Early's army at the outskirts of Washington,CSA,military,1
+1864-08-05,Mobile Bay falls to Farragut,USA,military,0
+1864-09-02,Fall of Atlanta,USA,military,1
+1864-11-08,Lincoln re-elected (McClellan peace platform defeated),USA,political,1
+1864-12-16,Hood's army destroyed at Nashville,USA,military,1
+1864-12-21,Savannah falls (Sherman's march complete),USA,military,0
+1865-01-15,Fort Fisher falls; last CSA port closing,USA,military,0
+1865-03-08,McCulloch nominated Treasury Secretary,USA,financial,0
+1865-04-03,Richmond falls,USA,military,1
+1865-04-09,Lee surrenders at Appomattox,USA,military,1

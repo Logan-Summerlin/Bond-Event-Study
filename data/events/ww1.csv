@@ -1,0 +1,31 @@
+date,event,favors,category,major
+1914-07-28,Austria-Hungary declares war on Serbia,CP,political,1
+1914-08-04,Britain enters the war; general European war,Entente,political,1
+1914-08-30,Tannenberg: Russian 2nd Army destroyed,CP,military,1
+1914-09-12,First Marne: German advance on Paris stopped,Entente,military,1
+1914-11-05,Ottoman entry closes the Straits (Russian trade cut),CP,political,1
+1915-03-18,Gallipoli naval attack fails,CP,military,0
+1915-05-04,Gorlice-Tarnow breakthrough begins,CP,military,1
+1915-08-05,Fall of Warsaw (Russian Great Retreat),CP,military,1
+1915-09-18,Great Retreat ends; front stabilizes,Entente,military,0
+1916-02-21,Verdun offensive begins,CP,military,1
+1916-03-18,Lake Naroch offensive fails (Russia),CP,military,0
+1916-06-04,Brusilov Offensive begins: Austrian front collapses,Entente,military,1
+1916-07-01,Somme offensive begins,Entente,military,0
+1916-08-27,Romania joins the Entente,Entente,political,1
+1916-09-20,Brusilov Offensive halts (exhaustion),CP,military,0
+1916-12-06,Bucharest falls to the Central Powers,CP,military,0
+1916-12-30,Rasputin assassinated,Entente,political,0
+1917-03-15,February Revolution: Tsar abdicates,CP,political,1
+1917-04-06,United States declares war on Germany,Entente,political,1
+1917-07-16,Kerensky Offensive collapses,CP,military,1
+1917-09-03,Riga falls; Kornilov affair,CP,military,0
+1917-11-07,October Revolution: Bolsheviks seize power,CP,political,1
+1917-12-15,Russo-German armistice at Brest-Litovsk,CP,political,1
+1918-02-10,Bolshevik repudiation of Tsarist debts (decree of 3 Feb),CP,financial,1
+1918-03-03,Treaty of Brest-Litovsk signed,CP,political,1
+1918-03-21,German Spring Offensive (Michael) begins,CP,military,1
+1918-07-18,Second Marne: Allied counterattack,Entente,military,1
+1918-08-08,Amiens: 'black day of the German Army',Entente,military,1
+1918-09-29,Bulgaria signs armistice; Hindenburg demands peace,Entente,military,1
+1918-11-11,Armistice: Germany defeated,Entente,political,1

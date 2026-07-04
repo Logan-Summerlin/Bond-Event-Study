@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# large raw downloads (re-fetch with scripts/fetch_data.sh)
+data/raw/Stocks_new.csv
+data/raw/imm_stocks.csv.zip
+data/raw/mitchell1908_full.txt

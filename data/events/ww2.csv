@@ -1,0 +1,27 @@
+date,event,favors,category,major
+1936-03-07,Remilitarization of the Rhineland,Axis,political,0
+1938-03-12,Anschluss of Austria,Axis,political,1
+1938-09-30,Munich agreement (Sudetenland ceded),Axis,political,1
+1939-03-15,Germany occupies rump Czechoslovakia,Axis,political,0
+1939-08-23,Molotov-Ribbentrop pact,Axis,political,1
+1939-09-01,Germany invades Poland; war begins,Axis,military,1
+1940-04-09,Germany invades Denmark and Norway,Axis,military,1
+1940-05-10,Germany invades France and the Low Countries,Axis,military,1
+1940-06-22,Fall of France: armistice at Compiegne,Axis,military,1
+1940-09-15,Battle of Britain climax: invasion postponed,Allies,military,1
+1941-06-22,Operation Barbarossa: invasion of the USSR,Axis,military,1
+1941-12-05,Red Army counteroffensive before Moscow,Allies,military,1
+1941-12-07,Pearl Harbor: US enters the war,Allies,political,1
+1942-06-04,Midway,Allies,military,0
+1942-11-04,Second El Alamein: Axis rout in Egypt,Allies,military,1
+1942-11-08,Operation Torch landings,Allies,military,1
+1943-02-02,Surrender of the 6th Army at Stalingrad,Allies,military,1
+1943-05-13,Axis surrender in Tunisia,Allies,military,0
+1943-07-12,Kursk: last German strategic offensive fails,Allies,military,1
+1943-09-08,Italy's armistice announced,Allies,political,1
+1944-06-06,D-Day: Normandy landings,Allies,military,1
+1944-06-22,Operation Bagration destroys Army Group Centre,Allies,military,1
+1944-08-25,Liberation of Paris,Allies,military,1
+1944-12-16,Ardennes offensive (Battle of the Bulge),Axis,military,1
+1945-02-11,Yalta conference ends,Allies,political,0
+1945-05-08,German unconditional surrender,Allies,political,1

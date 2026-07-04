@@ -93,6 +93,20 @@ def currency_implied_prob(gold_value: pd.Series,
     return implied_prob(gold_value, v_resume, v_collapse)
 
 
+def clipped_share(pi_unclipped) -> float:
+    """Share of observations where the two-state inversion leaves [0, 1].
+
+    pi > 1 means the price exceeds V_win (the victory-state value is set
+    too low); pi < 0 means the price is below V_lose. Clipping hides both,
+    so report this share wherever probabilities are published: a large
+    value says the *levels* are not interpretable there, only the changes.
+    """
+    pi = pd.Series(pi_unclipped).dropna()
+    if not len(pi):
+        return np.nan
+    return float(((pi > 1.0) | (pi < 0.0)).mean())
+
+
 def prob_bands(prices: pd.Series, rf_yields, coupon_rate, maturity_years,
                recoveries=(0.0, 0.25, 0.5), **kw) -> pd.DataFrame:
     """Probability paths under several recovery assumptions -> DataFrame."""

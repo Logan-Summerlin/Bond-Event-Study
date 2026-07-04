@@ -1,16 +1,16 @@
-event,event_date,window,car_pct,z
-Richmond falls,1865-04-03,1865-03-31..1865-04-30,38.19,3.14
-Lee surrenders at Appomattox,1865-04-09,1865-03-31..1865-04-30,38.19,3.14
-Jubal Early's army at the outskirts of Washington,1864-07-11,1864-06-30..1864-07-31,-31.75,-3.71
-Fall of Atlanta,1864-09-02,1864-08-31..1864-09-30,16.02,1.44
-Chickamauga (CSA victory),1863-09-20,1863-09-30..1863-10-31,-14.84,-1.56
-Gettysburg and fall of Vicksburg,1863-07-04,1863-06-30..1863-07-31,13.99,1.27
-Preliminary Emancipation Proclamation,1862-09-22,1862-09-30..1862-10-31,-10.88,-1.12
-Antietam: Lee's invasion turned back,1862-09-17,1862-09-30..1862-10-31,-10.88,-1.12
-Seven Days: McClellan repulsed from Richmond,1862-07-01,1862-06-30..1862-07-31,-10.54,-1.08
-Hood's army destroyed at Nashville,1864-12-16,1864-12-31..1865-01-31,9.35,0.87
-Wilderness/Spotsylvania: Grant's costly advance stalls,1864-05-12,1864-04-30..1864-05-31,-7.65,-0.77
-Lincoln re-elected (McClellan peace platform defeated),1864-11-08,1864-10-31..1864-11-30,-4.68,-0.47
-Chattanooga: Bragg routed,1863-11-25,1863-11-30..1863-12-31,-2.22,-0.22
-New Orleans captured by Union navy,1862-04-25,1862-04-30..1862-05-31,-1.43,-0.14
-Fort Sumter fired upon; war begins,1861-04-12,1862-02-28..1862-03-31,0.61,0.06
+event,event_date,window,car_pct,z,overlaps
+Richmond falls,1865-04-03,1865-03-31..1865-04-30,38.19,5.60,True
+Lee surrenders at Appomattox,1865-04-09,1865-03-31..1865-04-30,38.19,5.60,True
+Jubal Early's army at the outskirts of Washington,1864-07-11,1864-06-30..1864-07-31,-31.75,-6.61,False
+Fall of Atlanta,1864-09-02,1864-08-31..1864-09-30,16.02,2.57,False
+Chickamauga (CSA victory),1863-09-20,1863-09-30..1863-10-31,-14.84,-2.78,False
+Gettysburg and fall of Vicksburg,1863-07-04,1863-06-30..1863-07-31,13.99,2.27,False
+Preliminary Emancipation Proclamation,1862-09-22,1862-09-30..1862-10-31,-10.88,-1.99,True
+Antietam: Lee's invasion turned back,1862-09-17,1862-09-30..1862-10-31,-10.88,-1.99,True
+Seven Days: McClellan repulsed from Richmond,1862-07-01,1862-06-30..1862-07-31,-10.54,-1.93,False
+Hood's army destroyed at Nashville,1864-12-16,1864-12-31..1865-01-31,9.35,1.55,False
+Wilderness/Spotsylvania: Grant's costly advance stalls,1864-05-12,1864-04-30..1864-05-31,-7.65,-1.38,False
+Lincoln re-elected (McClellan peace platform defeated),1864-11-08,1864-10-31..1864-11-30,-4.68,-0.83,False
+Chattanooga: Bragg routed,1863-11-25,1863-11-30..1863-12-31,-2.22,-0.39,False
+New Orleans captured by Union navy,1862-04-25,1862-04-30..1862-05-31,-1.43,-0.25,False
+Fort Sumter fired upon; war begins,1861-04-12,1862-02-28..1862-03-31,0.61,0.11,False

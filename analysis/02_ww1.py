@@ -16,7 +16,7 @@ import pandas as pd
 from common import imm_series, load_events, load_nber, save_fig, save_table
 from bondwar import event_study as es
 from bondwar import probability as pr
-from bondwar.plotting import annotated_series
+from bondwar import plotting as bp
 
 events = load_events("ww1")
 nber = load_nber()
@@ -42,40 +42,50 @@ for name, s in series.items():
                                 recoveries=(0.0, 0.25, 0.5))
 
 # ------------------------------------------------------------- figures ----
-fig, axes = plt.subplots(2, 1, figsize=(12.5, 10.5), sharex=True)
-annotated_series(axes[0], series, events=events,
-                 ylabel="price (% of par), London",
-                 title="WW1 belligerents' bonds in London (IMM monthly)")
-colors = dict(zip(series, plt.rcParams["axes.prop_cycle"].by_key()["color"]))
-for name in series:
-    b = bands[name]
-    axes[1].fill_between(b.index, b.min(axis=1), b.max(axis=1),
-                         alpha=0.18, color=colors[name])
-    axes[1].plot(b["recovery_25pct"], lw=1.7, color=colors[name], label=name)
-for _, r in events[events.major == 1].iterrows():
-    axes[1].axvline(r.date, color="grey", ls="--", lw=0.6, alpha=0.5)
-axes[1].set_ylim(0, 1.05)
-axes[1].set_ylabel("implied P(debt survival) = P(no defeat-driven default)")
-axes[1].legend(fontsize=8)
-axes[1].set_title("Two-state model, recovery 0-50% bands "
-                  "(central line: 25% recovery)")
-save_fig(fig, "ww1_probabilities")
+key_events = bp.select_events(events, names=[
+    "Britain enters", "Tannenberg", "Marne", "Gorlice", "Fall of Warsaw",
+    "Brusilov Offensive begins", "Romania joins", "February Revolution",
+    "United States declares", "October Revolution",
+    "armistice at Brest-Litovsk"])
+colors = dict(zip(series, bp.PALETTE))
+
+fig = plt.figure(figsize=(11.5, 10.5))
+gs = fig.add_gridspec(3, 2, height_ratios=[1.5, 0.75, 0.75],
+                      hspace=0.45, wspace=0.18)
+ax_top = fig.add_subplot(gs[0, :])
+bp.annotated_series(ax_top, series, events=key_events, colors=colors,
+                    ylabel="Price (% of par), London",
+                    title="WW1 belligerents' bonds in London (IMM monthly)")
+# probability paths as small multiples: four overlapping bands on one
+# axis are unreadable, and each path only needs comparing with itself
+for i, name in enumerate(series):
+    ax = fig.add_subplot(gs[1 + i // 2, i % 2])
+    bp.prob_band(ax, bands[name], "recovery_25pct", name, color=colors[name])
+    bp.mark_events(ax, key_events, numbered=False)
+    ax.set_title(name, fontsize=10, pad=6)
+    if i % 2 == 0:
+        ax.set_ylabel("Implied P(debt survival)")
+save_fig(fig, "ww1_probabilities",
+         footnote="Two-state model. Line: 25% recovery on defeat; "
+                  "shading spans recovery assumptions 0-50%.\n"
+                  + bp.event_key(key_events))
 
 # ----------------------------------------- Russia close-up & Brusilov ----
 rus = series["Russia 5% 1906"]
-fig2, ax = plt.subplots(figsize=(12.5, 6))
-annotated_series(ax, {"Russia 5% 1906 (London)": rus},
-                 events=events[events.event.str.contains(
-                     "Tannenberg|Straits|Gorlice|Warsaw|Brusilov|Romania|"
-                     "February|Kerensky|October|repudiation|Brest",
-                     case=False)],
-                 ylabel="price (% of par)",
-                 title="Russian Imperial 5% 1906 through the Great War")
-save_fig(fig2, "ww1_russia_closeup")
+rus_events = bp.select_events(events, names=[
+    "Tannenberg", "Straits", "Gorlice", "Warsaw", "Brusilov", "Romania",
+    "February", "Kerensky", "October", "repudiation", "Brest"])
+fig2, ax = plt.subplots(figsize=(11.5, 5.5))
+bp.annotated_series(ax, {"Russia 5% 1906 (London)": rus}, events=rus_events,
+                    ylabel="Price (% of par)",
+                    title="Russian Imperial 5% 1906 through the Great War")
+save_fig(fig2, "ww1_russia_closeup", footnote=bp.event_key(rus_events))
 
 moves = es.largest_moves(rus, k=12)
 save_table(es.match_events(moves, events, tolerance_days=45),
            "ww1_russia_largest_moves")
+print(f"chance-match baseline (any month, 45-day rule): "
+      f"{es.chance_match_rate(rus, events, 45):.0%}")
 
 car = es.event_window_study(rus, events[events.major == 1], pre=1, post=2,
                             benchmark=None)

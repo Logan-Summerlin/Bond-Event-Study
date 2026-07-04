@@ -21,7 +21,7 @@ import pandas as pd
 from common import imm_series, load_events, load_nber, save_fig, save_table
 from bondwar import event_study as es
 from bondwar import probability as pr
-from bondwar.plotting import annotated_series
+from bondwar import plotting as bp
 
 events = load_events("russian_civil_war")
 nber = load_nber()
@@ -34,26 +34,32 @@ rus45 = imm_series("Russia", "4.5% Loan 1909", START, END)
 bands = pr.prob_bands(rus, consols, coupon_rate=0.05, maturity_years=40,
                       recoveries=(0.0, 0.1, 0.25))
 
-fig, axes = plt.subplots(2, 1, figsize=(12.5, 10.5), sharex=True)
-annotated_series(axes[0],
-                 {"Russia 5% 1906": rus, "Russia 4.5% 1909": rus45},
-                 events=events, ylabel="price (% of par), London",
-                 title="Repudiated Tsarist bonds during the Russian Civil War")
-axes[1].fill_between(bands.index, bands.min(axis=1), bands.max(axis=1),
-                     alpha=0.25)
-axes[1].plot(bands["recovery_10pct"], lw=1.8,
-             label="P(White victory / debt-honoring settlement)")
-for _, r in events[events.major == 1].iterrows():
-    axes[1].axvline(r.date, color="grey", ls="--", lw=0.7, alpha=0.6)
-axes[1].set_ylim(0, 1.0)
-axes[1].set_ylabel("implied probability")
-axes[1].legend(fontsize=8)
+key_events = bp.select_events(events, names=[
+    "October Revolution", "Repudiation", "Brest-Litovsk", "Czechoslovak",
+    "Archangel", "Kolchak spring", "Tsaritsyn", "Orel - closest",
+    "Novorossiysk", "Vistula", "Wrangel evacuates", "Genoa"])
+
+fig, axes = plt.subplots(2, 1, figsize=(11, 9), sharex=True)
+bp.annotated_series(axes[0],
+                    {"Russia 5% 1906": rus, "Russia 4.5% 1909": rus45},
+                    events=key_events, ylabel="Price (% of par), London",
+                    title="Repudiated Tsarist bonds during the Russian "
+                          "Civil War")
+bp.prob_band(axes[1], bands, "recovery_10pct",
+             "P(White victory / debt-honoring settlement)")
+bp.mark_events(axes[1], key_events, numbered=False)
+axes[1].set_ylabel("Implied probability")
 axes[1].set_title("Implied probability that the repudiation would be undone")
-save_fig(fig, "rcw_probabilities")
+save_fig(fig, "rcw_probabilities",
+         footnote="Two-state model on the 5% 1906. Line: 10% recovery under "
+                  "a consolidated Soviet state; shading spans 0-25%.\n"
+                  + bp.event_key(key_events))
 
 moves = es.largest_moves(rus, k=14)
 save_table(es.match_events(moves, events, tolerance_days=45),
            "rcw_largest_moves")
+print(f"chance-match baseline (any month, 45-day rule): "
+      f"{es.chance_match_rate(rus, events, 45):.0%}")
 car = es.event_window_study(rus, events[events.major == 1], pre=1, post=2)
 save_table(car.set_index("event"), "rcw_event_windows")
 

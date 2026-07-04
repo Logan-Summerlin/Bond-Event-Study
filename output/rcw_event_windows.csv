@@ -1,22 +1,22 @@
-event,event_date,window,car_pct,z
-Novorossiysk evacuation: Denikin's army broken,1920-03-27,1920-03-31..1920-05-31,-33.33,-1.95
-Wrangel evacuates Crimea: organized White resistance ends,1920-11-14,1920-10-31..1920-12-31,-27.27,-1.53
-October Revolution: Bolsheviks seize power,1917-11-07,1917-10-31..1917-12-31,-26.06,-1.45
-Miracle on the Vistula: Poles rout Red Army at Warsaw,1920-08-16,1920-08-31..1920-10-31,-23.73,-1.30
-Kolchak abdicates (shot 7 Feb),1920-01-04,1919-12-31..1920-02-29,-20.25,-1.09
-Denikin takes Tsaritsyn; Moscow Directive (3 Jul),1919-06-30,1919-06-30..1919-08-31,-19.64,-1.05
-Polish offensive takes Kiev (Soviet-Polish war),1920-04-25,1920-04-30..1920-06-30,-19.40,-1.04
-Allied intervention: landings at Archangel,1918-08-02,1918-07-31..1918-09-30,18.37,0.81
-Peace of Riga; Kronstadt rebellion crushed,1921-03-18,1921-03-31..1921-05-31,16.00,0.71
-Czechoslovak Legion revolt opens the Volga front,1918-05-25,1918-05-31..1918-07-31,13.98,0.63
-Denikin takes Orel - closest approach to Moscow,1919-10-13,1919-09-30..1919-11-30,-12.22,-0.63
-Kolchak proclaimed Supreme Ruler at Omsk,1918-11-18,1918-11-30..1919-01-31,-11.63,-0.60
-Red counter-offensive against Kolchak begins,1919-04-28,1919-04-30..1919-06-30,11.11,0.51
-Repudiation of Tsarist state debts,1918-02-10,1918-01-31..1918-03-31,-9.52,-0.48
-Omsk falls; Kolchak's army disintegrates,1919-11-14,1919-10-31..1919-12-31,-7.41,-0.37
-Red counterblows: Orel retaken; Yudenich repulsed,1919-10-24,1919-10-31..1919-12-31,-7.41,-0.37
-Yudenich reaches the outskirts of Petrograd,1919-10-20,1919-10-31..1919-12-31,-7.41,-0.37
-Genoa conference & Rapallo treaty (debt-settlement hopes dashed),1922-04-16,1922-04-30..1922-06-30,-7.41,-0.37
-Kolchak spring offensive toward the Volga,1919-03-04,1919-02-28..1919-04-30,-4.39,-0.22
-WW1 armistice frees Allied resources; Black Sea opened,1918-11-11,1918-10-31..1918-12-31,4.31,0.20
-Brest-Litovsk: Russia exits WW1,1918-03-03,1918-02-28..1918-04-30,-4.12,-0.20
+event,event_date,window,car_pct,z,overlaps
+Novorossiysk evacuation: Denikin's army broken,1920-03-27,1920-03-31..1920-05-31,-33.33,-1.77,True
+Wrangel evacuates Crimea: organized White resistance ends,1920-11-14,1920-10-31..1920-12-31,-27.27,-1.39,True
+October Revolution: Bolsheviks seize power,1917-11-07,1917-10-31..1917-12-31,-26.06,-1.32,False
+Miracle on the Vistula: Poles rout Red Army at Warsaw,1920-08-16,1920-08-31..1920-10-31,-23.73,-1.18,True
+Kolchak abdicates (shot 7 Feb),1920-01-04,1919-12-31..1920-02-29,-20.25,-0.99,True
+Denikin takes Tsaritsyn; Moscow Directive (3 Jul),1919-06-30,1919-06-30..1919-08-31,-19.64,-0.95,True
+Polish offensive takes Kiev (Soviet-Polish war),1920-04-25,1920-04-30..1920-06-30,-19.40,-0.94,True
+Allied intervention: landings at Archangel,1918-08-02,1918-07-31..1918-09-30,18.37,0.74,True
+Peace of Riga; Kronstadt rebellion crushed,1921-03-18,1921-03-31..1921-05-31,16.00,0.65,False
+Czechoslovak Legion revolt opens the Volga front,1918-05-25,1918-05-31..1918-07-31,13.98,0.57,True
+Denikin takes Orel - closest approach to Moscow,1919-10-13,1919-09-30..1919-11-30,-12.22,-0.57,True
+Kolchak proclaimed Supreme Ruler at Omsk,1918-11-18,1918-11-30..1919-01-31,-11.63,-0.54,True
+Red counter-offensive against Kolchak begins,1919-04-28,1919-04-30..1919-06-30,11.11,0.46,True
+Repudiation of Tsarist state debts,1918-02-10,1918-01-31..1918-03-31,-9.52,-0.44,True
+Omsk falls; Kolchak's army disintegrates,1919-11-14,1919-10-31..1919-12-31,-7.41,-0.34,True
+Red counterblows: Orel retaken; Yudenich repulsed,1919-10-24,1919-10-31..1919-12-31,-7.41,-0.34,True
+Yudenich reaches the outskirts of Petrograd,1919-10-20,1919-10-31..1919-12-31,-7.41,-0.34,True
+Genoa conference & Rapallo treaty (debt-settlement hopes dashed),1922-04-16,1922-04-30..1922-06-30,-7.41,-0.34,False
+Kolchak spring offensive toward the Volga,1919-03-04,1919-02-28..1919-04-30,-4.39,-0.20,True
+WW1 armistice frees Allied resources; Black Sea opened,1918-11-11,1918-10-31..1918-12-31,4.31,0.18,True
+Brest-Litovsk: Russia exits WW1,1918-03-03,1918-02-28..1918-04-30,-4.12,-0.18,True

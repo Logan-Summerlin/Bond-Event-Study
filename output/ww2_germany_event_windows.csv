@@ -1,22 +1,22 @@
-event,event_date,window,car_pct,z
-Fall of France: armistice at Compiegne,1940-06-22,1940-07-31..1940-09-30,67.39,2.45
-Germany invades Poland; war begins,1939-09-01,1939-08-31..1939-10-31,-47.69,-3.09
-Molotov-Ribbentrop pact,1939-08-23,1939-08-31..1939-10-31,-47.69,-3.09
-Germany invades Denmark and Norway,1940-04-09,1940-03-31..1940-07-31,46.81,1.83
-Ardennes offensive (Battle of the Bulge),1944-12-16,1944-12-31..1945-02-28,-46.03,-2.94
-Germany invades France and the Low Countries,1940-05-10,1940-04-30..1940-08-31,42.86,1.70
-Battle of Britain climax: invasion postponed,1940-09-15,1940-08-31..1940-10-31,26.81,1.13
-Munich agreement (Sudetenland ceded),1938-09-30,1938-09-30..1938-11-30,21.62,0.93
-Operation Bagration destroys Army Group Centre,1944-06-22,1944-06-30..1944-08-31,19.01,0.83
-D-Day: Normandy landings,1944-06-06,1944-05-31..1944-07-31,18.33,0.80
-Pearl Harbor: US enters the war,1941-12-07,1941-11-30..1942-01-31,-13.33,-0.68
-Red Army counteroffensive before Moscow,1941-12-05,1941-11-30..1942-01-31,-13.33,-0.68
-Second El Alamein: Axis rout in Egypt,1942-11-04,1942-10-31..1942-12-31,-10.67,-0.54
-Operation Torch landings,1942-11-08,1942-10-31..1942-12-31,-10.67,-0.54
-German unconditional surrender,1945-05-08,1945-04-30..1945-06-30,10.47,0.47
-Surrender of the 6th Army at Stalingrad,1943-02-02,1943-01-31..1943-03-31,-8.96,-0.45
-Liberation of Paris,1944-08-25,1944-08-31..1944-10-31,-8.45,-0.42
-Kursk: last German strategic offensive fails,1943-07-12,1943-06-30..1943-08-31,-5.88,-0.29
-Operation Barbarossa: invasion of the USSR,1941-06-22,1941-06-30..1941-08-31,2.29,0.11
-Italy's armistice announced,1943-09-08,1943-08-31..1943-10-31,0.85,0.04
-Anschluss of Austria,1938-03-12,1938-02-28..1938-04-30,0.57,0.03
+event,event_date,window,car_pct,z,overlaps
+Fall of France: armistice at Compiegne,1940-06-22,1940-07-31..1940-09-30,67.39,4.08,True
+Germany invades Poland; war begins,1939-09-01,1939-08-31..1939-10-31,-47.69,-5.14,True
+Molotov-Ribbentrop pact,1939-08-23,1939-08-31..1939-10-31,-47.69,-5.14,True
+Germany invades Denmark and Norway,1940-04-09,1940-03-31..1940-07-31,46.81,3.04,True
+Ardennes offensive (Battle of the Bulge),1944-12-16,1944-12-31..1945-02-28,-46.03,-4.89,False
+Germany invades France and the Low Countries,1940-05-10,1940-04-30..1940-08-31,42.86,2.83,True
+Battle of Britain climax: invasion postponed,1940-09-15,1940-08-31..1940-10-31,26.81,1.88,True
+Munich agreement (Sudetenland ceded),1938-09-30,1938-09-30..1938-11-30,21.62,1.55,False
+Operation Bagration destroys Army Group Centre,1944-06-22,1944-06-30..1944-08-31,19.01,1.38,True
+D-Day: Normandy landings,1944-06-06,1944-05-31..1944-07-31,18.33,1.33,True
+Pearl Harbor: US enters the war,1941-12-07,1941-11-30..1942-01-31,-13.33,-1.13,True
+Red Army counteroffensive before Moscow,1941-12-05,1941-11-30..1942-01-31,-13.33,-1.13,True
+Second El Alamein: Axis rout in Egypt,1942-11-04,1942-10-31..1942-12-31,-10.67,-0.89,True
+Operation Torch landings,1942-11-08,1942-10-31..1942-12-31,-10.67,-0.89,True
+German unconditional surrender,1945-05-08,1945-04-30..1945-06-30,10.47,0.79,False
+Surrender of the 6th Army at Stalingrad,1943-02-02,1943-01-31..1943-03-31,-8.96,-0.74,False
+Liberation of Paris,1944-08-25,1944-08-31..1944-10-31,-8.45,-0.70,True
+Kursk: last German strategic offensive fails,1943-07-12,1943-06-30..1943-08-31,-5.88,-0.48,True
+Operation Barbarossa: invasion of the USSR,1941-06-22,1941-06-30..1941-08-31,2.29,0.18,False
+Italy's armistice announced,1943-09-08,1943-08-31..1943-10-31,0.85,0.07,True
+Anschluss of Austria,1938-03-12,1938-02-28..1938-04-30,0.57,0.04,False

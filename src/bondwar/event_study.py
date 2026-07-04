@@ -48,7 +48,13 @@ def match_events(moves: pd.DataFrame, events: pd.DataFrame,
         delta = (dt - ev["date"]).dt.days
         cand = ev[(delta >= -10) & (delta <= tolerance_days)]
         if len(cand):
-            nearest = cand.iloc[(dt - cand["date"]).dt.days.abs().argmin()]
+            # a month-end quote reacts to news *during* the month: prefer the
+            # nearest event at-or-before the quote date over later ones
+            deltas = (dt - cand["date"]).dt.days
+            before = cand[deltas >= 0]
+            pick_from = before if len(before) else cand
+            nearest = pick_from.iloc[
+                (dt - pick_from["date"]).dt.days.abs().argmin()]
             rows.append({"date": dt, "pct_change": row["pct_change"],
                          "candidate_event": nearest["event"],
                          "event_date": nearest["date"],

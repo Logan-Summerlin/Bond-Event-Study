@@ -1,7 +1,9 @@
 date,event,favors,category,major
 1936-03-07,Remilitarization of the Rhineland,Axis,political,0
 1938-03-12,Anschluss of Austria,Axis,political,1
+1938-08-15,Czech crisis: German mobilization / war scare,Axis,political,0
 1938-09-30,Munich agreement (Sudetenland ceded),Axis,political,1
+1939-01-20,Schacht dismissed from the Reichsbank,Axis,financial,0
 1939-03-15,Germany occupies rump Czechoslovakia,Axis,political,0
 1939-08-23,Molotov-Ribbentrop pact,Axis,political,1
 1939-09-01,Germany invades Poland; war begins,Axis,military,1

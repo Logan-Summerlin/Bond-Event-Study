@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/../data/raw"
 
 echo "== NBER Macrohistory chapter 13 yield series =="
-for s in m13041c m13028a m13028b m13033a; do
+for s in m13041b m13041c m13028a m13033a; do
   [ -f "nber_$s.dat" ] || curl -sfL \
     "https://data.nber.org/databases/macrohistory/rectdata/13/$s.dat" \
     -o "nber_$s.dat"

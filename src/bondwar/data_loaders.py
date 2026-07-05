@@ -41,14 +41,60 @@ def load_nber_dat(path: Path, name: str) -> pd.Series:
 
 # ----------------------------------------------------------------- IMM ----
 IMM_TARGETS = {
-    # (country label, compsecdes regex) -> output issuer/series name
+    # (country regex, compsecdes regex) -> output issuer/series name.
+    # Both patterns are anchored matches; the same issue often changes its
+    # printed description over the decades, so alternations splice the
+    # variants into one series.
     ("RUSSIAN", r"^5 % 1906"): ("Russia", "5% State Loan 1906"),
     ("RUSSIAN", r"^4 1/2 % 1909"): ("Russia", "4.5% Loan 1909"),
-    ("FRENCH", r"^3 % Rentes"): ("France", "3% Rentes"),
-    ("GERMAN", r"^Imp(erial|\.) 3 %,? 1891-3"): ("Germany", "Imperial 3% 1891-3"),
+    ("FRENCH", r"^(3 per cents\.|3 per cent\.,? Rentes|3 %,? Rentes)"):
+        ("France", "3% Rentes"),
+    ("FRENCH", r"^6 % (Sterling, 1870|New Redemable Sterling)"):
+        ("France", "6% Morgan Loan 1870"),
+    ("FRENCH", r"^5 % National, (18)?71$"):
+        ("France", "5% National Loan 1871"),
+    ("NORTH GERMAN( CONFEDERATION)?", r"^5 (%|per cent)"):
+        ("North German Confederation", "5% Loan 1870"),
+    ("GERMAN", r"^Imp(erial|\.) 3 %,?( (18)?91-(2-)?3)?$"):
+        ("Germany", "Imperial 3% 1891-3"),
     ("AUSTRIAN", r"^4 % Gold Rentes"): ("Austria", "4% Gold Rentes"),
     ("ITALIAN", r"(3 1/2 %|5 %) .*"): ("Italy", "Rentes (London)"),
     ("JAPANESE", r"^4 % Ster.*1st"): ("Japan", "4% Sterling Loan"),
+    ("DANISH", r"^4 (%|per cent\.),? 1850(-| and 18)61( do)?"):
+        ("Denmark", "4% Loans 1850-61"),
+    ("DANISH", r"^(5 % debentures, 1864|5 %, 1864|5 pr\. cnt\. Debenture)"):
+        ("Denmark", "5% Loan 1864"),
+    # --- Ottoman Empire (the 1865 General Debt is the workhorse series) ---
+    # NB: ", 1874" excluded - that is the new 1874 loan, quoted as scrip
+    # at a premium over paid-up value until Jan 1875
+    ("TURKISH", r"^(5 p ct\. 1865|5 % General Debt(, '65|\.)?$"
+                r"|5 % Genrl\. Debt|Registered General Debt)"):
+        ("Turkey", "5% General Debt 1865"),
+    ("TURKISH", r"^(6 per cent\. 1858|6 %, 1858|Registered, 1858)"):
+        ("Turkey", "6% Loan 1858 (Customs)"),
+    ("TURKISH", r"^4 (%, guaranteed by England and France, 1855"
+                r"|per cent\. guaranteed by British & French Gov\."
+                r"|%, '55 gtd\. by Eng\. & France|%, g\. by Englnd & France)"):
+        ("Turkey", "4% 1855 (Anglo-French guarantee)"),
+    ("TURKISH", r"^Converted - S(e)?ries A 1 %|^Converted - B 1 %"):
+        ("Turkey", "Converted (Muharrem) Series A/B"),
+    ("TURKISH", r"^4 % Unified"): ("Turkey", "4% Unified Debt"),
+    ("TURKISH", r"^4 % 1891$"): ("Turkey", "4% Loan 1891"),
+    ("TURKISH", r"^3 1/2 % 1894$"): ("Turkey", "3.5% Loan 1894"),
+    # --- China: Qing and Republican foreign debt ---
+    ("CHINESE", r"^8 %,? 1874-6$"): ("China", "8% Loan 1874-6"),
+    ("CHINESE", r"^8 %, 1877$"): ("China", "8% Loan 1877"),
+    ("CHINESE", r"^Series A, 7 %$"): ("China", "7% Loan Series A"),
+    ("CHINESE", r"^7 % Silver Loan,? ('|18)?94"):
+        ("China", "7% Silver Loan 1894"),
+    ("CHINESE", r"^6 % (Gold|Gld)"): ("China", "6% Gold Loan 1895"),
+    ("CHINESE", r"^5 %,? 1896$"): ("China", "5% Gold Loan 1896"),
+    ("CHINESE", r"^4 1/2 % Gold Bonds, 1898"):
+        ("China", "4.5% Gold Loan 1898"),
+    ("CHINESE", r"^5 % Hukuang"): ("China", "5% Hukuang Railways 1911"),
+    ("CHINESE", r"^5 % Reorg"): ("China", "5% Reorganisation Loan 1913"),
+    ("CHINESE", r"^8 % (Treasury Bills|Stg\. Treas)"):
+        ("China", "8% Sterling Treasury 1920s"),
 }
 
 
@@ -60,6 +106,30 @@ def _num(x):
         return np.nan
 
 
+# The IMM quotes new loans as scrip at a *premium over the paid-up issue
+# price* until they are fully paid; those readings (single digits) are not
+# comparable with per-100 bond prices, so series known to begin life as
+# scrip get a floor below which quotes are discarded.
+PRICE_FLOORS = {
+    "6% Morgan Loan 1870": 20.0,
+    "5% National Loan 1871": 20.0,
+    "5% Loan 1870": 20.0,
+    # Jul 1913: partly-paid scrip in the 50s; fully-paid quotes ~90 from Aug
+    "5% Reorganisation Loan 1913": 60.0,
+}
+
+# Known-bad readings, dropped after extraction. Jan-Mar 1871: the IMM shows
+# no rente bargains in London (siege of Paris / Commune) and carries only a
+# 'lastbusiness' placeholder of 80, inconsistent with every surrounding
+# quote (54 in Dec 1870, 51 in Apr 1871) and with Paris levels; treat the
+# months as missing rather than inventing a 50% rally.
+BAD_QUOTES = {
+    ("France", "3% Rentes"): ["1871-01", "1871-02", "1871-03"],
+    # 132.5 sandwiched between months of ~107: a digit error in the source
+    ("China", "6% Gold Loan 1895"): ["1899-02"],
+}
+
+
 def extract_imm_sovereigns(csv_path: Path) -> pd.DataFrame:
     """Pull monthly London prices for the target sovereign bonds from the
     Yale ICF Investor's Monthly Manual master file (Stocks_new.csv).
@@ -69,8 +139,8 @@ def extract_imm_sovereigns(csv_path: Path) -> pd.DataFrame:
     [date, issuer, series, price].
     """
     usecols = ["year", "month", "country", "compsecdes",
-               "pricemonthlate", "pricemonthlastday",
-               "pricemonthhigh", "pricemonthlow"]
+               "pricemonthlate", "pricemonthlastday", "lastbusiness",
+               "pricemonthopen", "pricemonthhigh", "pricemonthlow"]
     df = pd.read_csv(csv_path, usecols=usecols, low_memory=False)
     df["country"] = (df["country"].astype(str).str.upper()
                      .str.strip().str.rstrip("."))
@@ -78,22 +148,38 @@ def extract_imm_sovereigns(csv_path: Path) -> pd.DataFrame:
 
     frames = []
     for (country, pattern), (issuer, series) in IMM_TARGETS.items():
-        sub = df[(df["country"] == country)
+        sub = df[df["country"].str.fullmatch(country, na=False)
                  & df["compsecdes"].str.match(pattern)].copy()
         if not len(sub):
             continue
-        for col in ["pricemonthlate", "pricemonthlastday",
-                    "pricemonthhigh", "pricemonthlow"]:
+        for col in ["pricemonthlate", "pricemonthlastday", "lastbusiness",
+                    "pricemonthopen", "pricemonthhigh", "pricemonthlow"]:
             sub[col] = sub[col].map(_num)
+        # a 'latest price' far outside the month's own high-low range is a
+        # transcription error (e.g. Turkish GD Oct 1872: late 72.75 vs
+        # high 53.25); drop it so the fallback chain supplies the price
+        hi, lo = sub["pricemonthhigh"], sub["pricemonthlow"]
+        bad_late = (hi.notna() & lo.notna()
+                    & ((sub["pricemonthlate"] > hi * 1.1)
+                       | (sub["pricemonthlate"] < lo * 0.9)))
+        sub.loc[bad_late, "pricemonthlate"] = np.nan
         mid = (sub["pricemonthhigh"] + sub["pricemonthlow"]) / 2
         sub["price"] = (sub["pricemonthlate"]
                         .fillna(sub["pricemonthlastday"])
-                        .fillna(mid))
+                        .fillna(sub["lastbusiness"])
+                        .fillna(mid)
+                        .fillna(sub["pricemonthopen"]))
+        floor = PRICE_FLOORS.get(series)
+        if floor is not None:
+            sub.loc[sub["price"] < floor, "price"] = np.nan
         sub = sub.dropna(subset=["price"])
         sub["date"] = pd.to_datetime(dict(year=sub.year, month=sub.month,
                                           day=1)) + pd.offsets.MonthEnd(0)
         g = (sub.groupby("date", as_index=False)["price"].median()
              .assign(issuer=issuer, series=series))
+        bad = BAD_QUOTES.get((issuer, series))
+        if bad:
+            g = g[~g["date"].dt.strftime("%Y-%m").isin(bad)]
         frames.append(g)
     out = pd.concat(frames, ignore_index=True)
     return out[["date", "issuer", "series", "price"]].sort_values(

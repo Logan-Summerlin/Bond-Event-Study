@@ -1,0 +1,14 @@
+event,event_date,window,car_pct,z,overlaps
+Congress of Berlin revises San Stefano; empire survives,1878-07-13,1878-06-30..1878-08-31,46.00,3.52,False
+Full suspension of coupon payments,1876-03-01,1876-02-29..1876-04-30,-36.14,-4.18,False
+Ramazan decree: interest on the debt halved - partial default,1875-10-06,1875-09-30..1875-11-30,-34.03,-3.87,False
+Russia declares war,1877-04-24,1877-04-30..1877-06-30,-32.65,-3.68,False
+Decree of Muharrem: debt written down ~50%; Ottoman Public Debt Administration created,1881-12-20,1883-03-31..1883-05-31,-30.18,-3.34,False
+Herzegovina uprising opens the Great Eastern Crisis,1875-07-09,1875-06-30..1875-08-31,-17.24,-1.76,False
+Serbia and Montenegro declare war on the Porte,1876-07-01,1876-06-30..1876-08-31,16.67,1.44,True
+Sultan Abduelaziz deposed (dead days later); Murad V installed,1876-05-30,1876-05-31..1876-07-31,-14.19,-1.42,True
+Plevna falls after five-month siege,1877-12-10,1877-11-30..1878-01-31,-10.00,-0.98,True
+Treaty of San Stefano dictated,1878-03-03,1878-02-28..1878-04-30,-9.78,-0.96,True
+Eastern Rumelia unites with Bulgaria,1885-09-18,1885-09-30..1885-11-30,6.12,0.55,False
+Adrianople armistice: Russians within sight of Constantinople,1878-01-31,1878-01-31..1878-03-31,-5.88,-0.56,True
+Vienna crash begins the world credit contraction that shuts new lending,1873-05-09,1873-04-30..1873-06-30,1.38,0.13,False

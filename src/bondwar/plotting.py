@@ -143,8 +143,16 @@ def annotated_series(ax, series_map: dict[str, pd.Series],
     return ax
 
 
-def year_ticks(ax, step: int = 1):
-    """Clean year-only ticks for multi-year monthly series."""
+def year_ticks(ax, step: int | None = None):
+    """Clean year-only ticks for multi-year monthly series.
+
+    Without `step`, picks 1/2/5/10-year spacing so long spans (the
+    60-year Ottoman panel) don't collide.
+    """
+    if step is None:
+        lo, hi = ax.get_xlim()
+        span = (hi - lo) / 365.25
+        step = next((s for s in (1, 2, 5, 10) if span / s <= 15), 10)
     ax.xaxis.set_major_locator(matplotlib.dates.YearLocator(base=step))
     ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter("%Y"))
     return ax

@@ -1,0 +1,34 @@
+date,event,favors,category,major
+1884-08-23,Sino-French War: French destroy the Fujian fleet at Fuzhou,against,military,1
+1885-06-09,Treaty of Tientsin ends the Sino-French war,for,political,0
+1894-07-25,First Sino-Japanese War opens (Battle of Pungdo),against,military,1
+1894-09-17,Battle of the Yalu: Beiyang fleet mauled,against,military,1
+1894-11-21,Port Arthur falls to Japan,against,military,1
+1895-02-12,Weihaiwei falls; Beiyang fleet annihilated,against,military,1
+1895-04-17,Treaty of Shimonoseki: 230m tael indemnity forces massive foreign borrowing,against,political,1
+1896-03-23,Anglo-German indemnity loan (5% 1896) issued,for,financial,1
+1897-11-14,Germany seizes Kiaochow; scramble for concessions begins,against,political,1
+1898-03-01,4.5% Gold Loan 1898 (second Anglo-German indemnity loan) signed,for,financial,0
+1898-09-21,Coup ends the Hundred Days' Reform; Cixi resumes control,against,political,1
+1900-06-20,Boxer Rising: siege of the Peking legations begins; war declared on the powers,against,military,1
+1900-08-14,Eight-Nation Alliance relieves Peking,for,military,1
+1901-09-07,Boxer Protocol: 450m tael indemnity secured on customs and salt revenue,against,political,1
+1904-02-08,Russo-Japanese War fought largely on Chinese soil,against,military,0
+1908-11-15,Deaths of the Guangxu Emperor and Empress Dowager Cixi; child emperor Puyi,against,political,1
+1911-05-20,Hukuang Railways loan signed; railway-rights agitation in Sichuan,against,financial,1
+1911-10-10,Wuchang rising: the Xinhai Revolution begins,against,military,1
+1912-02-12,Abdication of Puyi: the Qing dynasty ends; Republic under Yuan Shikai,for,political,1
+1913-04-26,Reorganisation Loan (25m pounds) signed with the five-power consortium,for,financial,1
+1913-07-12,Second Revolution: KMT provinces rise against Yuan (crushed by September),against,military,1
+1915-01-18,Japan presents the Twenty-One Demands,against,political,1
+1916-06-06,Yuan Shikai dies; central authority dissolves into warlordism,against,political,1
+1917-08-14,China declares war on Germany; customs revenues strained,neutral,political,0
+1920-07-14,Zhili-Anhui war opens the warlord-war decade in the north,against,military,1
+1921-01-01,Defaults spread across unsecured Chinese sterling obligations,against,financial,1
+1922-04-28,First Zhili-Fengtian war around Peking,against,military,0
+1924-09-15,Second Zhili-Fengtian war,against,military,1
+1925-05-30,May Thirtieth movement: anti-foreign strikes and boycotts,against,political,1
+1926-07-09,Northern Expedition launched from Canton,against,military,1
+1927-03-24,Nanking Incident: foreign consulates attacked; KMT-CCP split follows,against,political,1
+1928-06-08,Nationalists take Peking; nominal reunification under Nanking,for,political,1
+1929-01-01,Nanking begins rehabilitating foreign-debt service (customs autonomy),for,financial,0

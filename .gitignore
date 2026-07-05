@@ -6,3 +6,4 @@ __pycache__/
 data/raw/Stocks_new.csv
 data/raw/imm_stocks.csv.zip
 data/raw/mitchell1908_full.txt
+data/raw/economist_scans/

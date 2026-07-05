@@ -45,7 +45,7 @@ printed — where it is large, only *changes* in π are interpretable, not
 levels. None of this makes the exercise causal in the potential-outcomes
 sense: with one price path per war there is no counterfactual, and the design
 is an *event study on archival data*, i.e. descriptive evidence that markets
-aggregated war news, subject to the selection caveats in §9.
+aggregated war news, subject to the selection caveats in §13.
 
 ## 2. US Civil War, 1861–65 (full treatment)
 
@@ -216,7 +216,128 @@ for LDC bank loans carried no regular Iran/Iraq quotes during the war.
 War-sensitive prices that *did* exist (tanker war-risk insurance premia, oil
 futures) price supply disruption, not either side's victory probability.
 
-## 8. Cross-war conclusions
+## 8. Denmark and the war of 1864 (hand-collected London bargains)
+
+`analysis/07_schleswig_1864.py`; data hand-read from page scans of *The
+Economist*'s Bankers' Price Current (`data/manual/danish_london_1862_1865.csv`,
+method in `scripts/fetch_danish_pages.py` and PROVENANCE.md), predating the
+IMM's 1869 start.
+
+Denmark's three London loans — the 3% of 1825, the 4% of 1863 and the 5%
+war loan Hambro floated for £1.2m in January 1864, *while the Austro-
+Prussian ultimatum was running* — price the crisis as fiscal damage, never
+as default risk. The 3% 1825 slid from 84 (mid-Dec 1863, federal execution
+imminent) to 81½–82 as the ultimatum expired, marked nothing at all through
+the invasion, reappeared at 78 while the London Conference sat, and
+bottomed at 74 in the days after the peace preliminaries ceded two-fifths
+of the monarchy — a peak-to-trough of ~12%, a yield spread over consols
+that only widened from 33bp to 68bp, and an implied P(full service) that
+never fell below ~2/3 under even a harsh 50%-recovery assumption. By March
+1865 it stood at 80½. The war loan itself tells the sharpest story: 93.4
+during the armistice, **95.5 on 17 June 1864 as the market bet the London
+Conference would hold, −5% to 90¾ xd once the war resumed and Als fell**,
+then a steady climb to 98 by March 1865 (and par by 1869 in the IMM).
+
+The methodological finding is as important: **in most crisis weeks London
+marked no Danish bargains at all** — of ~82 issues examined, only 23
+contain any Danish business, and none of the older bonds traded between
+23 Jan and 21 May 1864 (the invasion, the Dannevirke retreat, Dybbøl).
+Small-power debt in a great-power crisis went *illiquid before it went
+cheap*; a monthly "probability path" interpolated through that silence
+would be an artifact. This is why the Danish study reports levels,
+between-bargain moves and bounds instead of a π line.
+
+## 9. Franco-Prussian War, 1870–71 (both sides' debt survived)
+
+`analysis/08_franco_prussian.py`, IMM monthly quotes from 1869.
+
+France serviced the rentes through defeat, siege, Commune and the 5bn-franc
+indemnity, so the priced event is the *burden of losing*, not repudiation.
+The 3% rente fell from 74.6 (May 1870) to 53 by November — −27%, with the
+three largest monthly moves stacked on the outbreak (−8.8%), Gravelotte/
+Metz (−8.2%) and Sedan/the siege (−9.5%); the war-outbreak event window
+carries a CAR of −24% (z ≈ −11). London then marked no rente bargains at
+all from January to March 1871 (siege and Commune — the same illiquidity
+signature as Copenhagen's bonds in 1864). Recovery came not with Frankfurt
+but with the *fiscal* resolution: +3.4% when the Commune fell, +4.3%
+around the first oversubscribed Thiers rente, back to pre-war-minus-a-
+quarter by the time the indemnity was prepaid in Sept 1873.
+
+The German side is a control experiment. The North German Confederation's
+5% war loan of 1870 — floated in London mid-war — never traded below 98,
+and the NBER German bond-yield series peaks at 4.71% in July 1870 and
+*falls* through the war to 4.48%. London also absorbed the French 6%
+"Morgan" loan of Oct 1870 (a belligerent borrowing abroad mid-war, like
+Denmark 1864 and the Confederacy 1863): issued into the siege at ~84, it
+reached par within a year. Asymmetric warfare, symmetric conclusion: the
+market read this war correctly and almost immediately — Sedan is the
+regime break, everything after is fiscal arithmetic.
+
+## 10. China, 1885–1929 (the pledge outlives the dynasty)
+
+`analysis/09_china.py`. China's sterling loans were secured on specific
+revenues (Imperial Maritime Customs; salt) collected under foreign
+supervision, so the priced event is the survival of that *revenue
+machinery*, not of the Qing. The market's rankings bear this out:
+
+- **The Boxer summer of 1900 is the largest Qing-era shock**: the
+  customs-secured 5% 1896 fell 95 → 78.5 (−12.8% in July alone, the
+  biggest monthly move of the dynasty's sample) — precisely because the
+  legation siege threatened the foreign-run customs itself — and
+  recovered half the loss within two months of the relief.
+- **The 1911 revolution barely registered**: 104 (Sept 1911) → 101.5
+  (Dec) → 101 (June 1912). The dynasty fell; the customs kept collecting;
+  the bonds shrugged. The market correctly treated Shimonoseki (1895),
+  which forced the indemnity borrowing, as worse news than Wuchang.
+- **The Republic priced as a slow institutional decay**: the salt-secured
+  5% Reorganisation Loan of 1913 traded ~90 at issue, 79 when Yuan Shikai
+  died, 72 through the second Zhili–Fengtian war, 69 after May Thirtieth,
+  and 55 at the Northern Expedition's height (Dec 1926), recovering to
+  ~62–64 as Nanking consolidated and began rehabilitating foreign-debt
+  service. No single battle dominates: the warlord decade shows up as a
+  drift with 7–9% monthly swings at the chance-match baseline, i.e. the
+  market priced cumulative institutional erosion, not campaigns.
+- **The unsecured tier shows what security was worth**: the 8% sterling
+  Treasury notes of 1919-20 went 99 → 14 and stayed there (default),
+  while the secured loans of the same government never broke 46.
+
+## 11. The Ottoman decline, 1869–1929 (sixty years, one narrative)
+
+`analysis/10_ottoman.py`. Five series spanning three regimes: the
+unsecured 5% General Debt of 1865, the customs-secured 6% of 1858, the
+Anglo-French-guaranteed 4% of 1855, the post-restructuring Converted
+(Muharrem) series, and the 4% Unified Debt.
+
+- **The market called the 1875 default years ahead.** The unsecured
+  General Debt yielded ~9–10% already in 1869–73 (implied P(full service)
+  never above ~35% under a 15%-recovery assumption), lurched −28% when
+  the Franco-Prussian war removed Paris as the Porte's lender of last
+  resort, and drifted from 54 (1872) to 35 before the Ramazan decree
+  (−26% in Oct 1875) made it official.
+- **The collateral decomposition identifies what was feared**: from calm
+  (June 1872) to the war's depth (Dec 1877), unsecured 54→8.5, customs-
+  secured 71→9, guaranteed 102→103. Bondholders feared Ottoman fiscal
+  collapse, not the geopolitical extinction the guarantee insured
+  against; when the Russians reached San Stefano, the guaranteed 4%
+  still traded above par.
+- **War moves are huge but second to debt-regime moves**: Russia's
+  declaration (−39%, Apr 1877) and the deposition summer of 1876 (−21%,
+  +24%) are the largest war-driven swings; the Congress of Berlin
+  (+15.5 → 28 on the customs bond within a month) and the Muharrem decree
+  restored more value than any battle destroyed. After Muharrem the OPDA
+  series traded on administration, not armies: the 1897 Greek war, won
+  handily, is barely visible.
+- **The Unified Debt's last two decades read as an obituary**: 96 before
+  the Young Turk revolution, −4 on the revolution itself, 88 through the
+  Libyan war, 85 through the First Balkan War (Çatalca held), 78 on the
+  entry into WWI, 52 at the last free London quote (July 1916), a
+  Mudros/armistice bounce to 66 (creditors preferred a partitioned debtor
+  under Allied control), then 20 at Lausanne — apportionment among
+  successor states with service suspended — and only 24.5 even on the
+  1928 Paris agreement. The empire's debt outlived the empire by a
+  decade, at a fifth of face.
+
+## 12. Cross-war conclusions
 
 1. **The mechanism works where its preconditions hold** (traded debt on a
    neutral exchange, outcome-contingent repayment): the Civil War, WW1,
@@ -240,8 +361,30 @@ futures) price supply disruption, not either side's victory probability.
    financed 1980s wars (Iran–Iraq). For post-1990 wars it works again via
    secondary bond markets and CDS (e.g. Ukraine 2022 bond pricing), which is
    the natural extension of this project.
+5. **What exactly is priced is identified by the debt's structure, not by
+   the analyst.** The extension cases make this observable directly:
+   Ottoman collateral tiers (guaranteed flat above par, secured −87%,
+   unsecured −85% with lower recovery) show 1875–78 was priced as fiscal
+   collapse, not state extinction; China's customs-secured loans sailing
+   through the 1911 revolution while unsecured Treasury notes went to 14
+   show the market pricing *revenue machinery*, not dynasties; France
+   1870–73 and Denmark 1864 show defeat priced as a burden (a level shift
+   in yield) where repudiation was never in question.
+6. **Illiquidity is a war signal in its own right.** The two hand-collected
+   panics — London's Danish book in Feb–Apr 1864 and its rente book in
+   Jan–Mar 1871 — both show the market going *silent* precisely at maximum
+   uncertainty. Thin-market silence bounds what any probability path can
+   claim at exactly the moments a naive reading would call most
+   informative.
+7. **Belligerents could borrow *into* the crisis, and the price of the new
+   paper is a clean prediction-market read.** Denmark's January 1864 war
+   loan (issued at 93 under an active ultimatum, 95.5 while the peace
+   conference sat, 98 within months of losing) and France's October 1870
+   Morgan loan (issued into the siege at ~84, par within a year) both
+   measure the market's estimate of the *post-war state's* solvency, free
+   of legacy-coupon complications.
 
-## 9. Limitations
+## 13. Limitations
 
 - Monthly frequency (data-limited) smears event timing by up to a month;
   the "candidate event" matching is suggestive, not causal identification.

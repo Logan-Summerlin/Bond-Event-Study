@@ -1,10 +1,13 @@
 # Research Plan: Bond Markets as War-Outcome Prediction Markets
 
-**Goal.** For six wars — the US Civil War, World War I, the Russian Civil War,
-World War II, the Vietnam War, and the Iran–Iraq War — use the market pricing of
+**Goal.** For ten conflicts — the US Civil War, World War I, the Russian Civil
+War, World War II, the Vietnam War, the Iran–Iraq War, and four extension
+cases (Denmark's war of 1864, the Franco-Prussian War, Chinese debt under the
+Qing and the Republic, and the Ottoman decline) — use the market pricing of
 the belligerents' sovereign debt (traded, wherever possible, on *neutral*
 exchanges) to (a) estimate the market-implied probability that each side would
-win, and (b) where a full probability model is not defensible, run event studies
+win — or, where the debt survived defeat, that it would be serviced in full —
+and (b) where a full probability model is not defensible, run event studies
 identifying the battles, campaigns, and political shocks that most moved market
 opinion about the war's outcome.
 
@@ -120,8 +123,8 @@ are tiered by data quality.
 - Yale ICF *Investor's Monthly Manual* (London Stock Exchange, monthly,
   1869–1930, free CSV): Russian 4%/5% state bonds, French rentes, Japanese,
   Italian, and (pre-war and where quoted) German/Austrian issues.
-- NBER Macrohistory: UK consol yields (m13041c), French security yields
-  (m13028a), German bond yields (m13028b pre-war benchmark).
+- NBER Macrohistory: UK consol yields (m13041b/c, spliced 1852–1938),
+  German bond yields (m13028a, 1870–1913).
 - Focus case per the user's example: **Russian Imperial bonds through 1914–17**
   (Tannenberg, Gorlice–Tarnów, the Brusilov Offensive June–Sept 1916, the
   February and October Revolutions), measuring how much each campaign moved
@@ -158,6 +161,61 @@ are tiered by data quality.
   (US-guaranteed financing, aid-driven solvency, thin markets), which is
   itself a research finding.
 
+### Extension cases (added after the first six wars)
+
+**(G) Denmark and the Schleswig-Holstein crisis, 1863–65**
+- Pre-dates the IMM (1869), so no machine-readable London series exists.
+  Primary source: *The Economist*'s weekly "Bankers' Price Current —
+  Prices of Foreign Stocks" table, public-domain page scans on archive.org
+  (Serials-in-Microfilm). Table OCR is unusable; the pipeline
+  (`scripts/fetch_danish_pages.py` + `..._hocr.py`) locates the price-
+  current leaf per issue via hOCR word coordinates and saves cropped
+  strips, from which every Danish bargain 1862–65 was read by eye into
+  `data/manual/danish_london_1862_1865.csv`.
+- Instruments: Danish 3% 1825, 4% 1863, and the 5% war loan Hambro
+  floated in London in January 1864. Benchmark: UK 3% consols (NBER
+  m13041b, monthly from 1852).
+- Design constraint discovered in the source: quotes are *marked
+  bargains*, absent in most weeks (including the whole invasion phase),
+  so the analysis reports levels, between-bargain moves and probability
+  bounds — not an interpolated monthly π line.
+
+**(H) Franco-Prussian War, 1870–71**
+- IMM London quotes from 1869 cover the war: French 3% rentes
+  (continuous, with a documented quote suspension Jan–Mar 1871), the
+  French 6% "Morgan" sterling loan of Oct 1870, and the North German
+  Confederation's 5% war loan of 1870; NBER m13028a supplies German
+  bond yields monthly from Jan 1870.
+- Both sides' debt survived (France serviced the rentes throughout), so
+  π is read as P(full service) and interpreted as a *war-burden
+  discount*; the event study on rente changes is the primary output.
+
+**(I) China under the Qing and the Republic, 1877–1929**
+- IMM London quotes: early loans (8% 1874–6, 8% 1877, 7% Series A), the
+  indemnity loans of 1895/1896/1898, railway loans (incl. Hukuang 1911),
+  the 5% Reorganisation Loan 1913, and the (defaulted) 8% sterling
+  Treasury notes of 1919–20.
+- Chinese external debt was secured on foreign-supervised revenues
+  (Maritime Customs, salt), so the priced event is the survival of the
+  revenue machinery: the design compares secured vs unsecured issues and
+  reads π as P(full service) with recovery bands reflecting security.
+- Chronology: Sino-French and Sino-Japanese wars, Shimonoseki indemnity,
+  concession scramble, Boxer summer 1900 and Protocol, the 1911
+  revolution, the Reorganisation Loan, the Twenty-One Demands, the
+  warlord wars, May Thirtieth, the Northern Expedition, Nanking.
+
+**(J) The Ottoman decline, 1869–1929**
+- IMM London quotes across three debt regimes: pre-default issues
+  spliced as the unsecured 5% General Debt 1865, the customs-secured 6%
+  1858 and the Anglo-French-guaranteed 4% 1855 (a built-in placebo:
+  guaranteed paper should not move on Ottoman news); the post-Muharrem
+  Converted Series A/B (OPDA); the 4% Unified Debt 1904–29.
+- Chronology: the 1875 Ramazan default and 1876 suspension, the Great
+  Eastern Crisis and Russo-Turkish war, San Stefano vs Berlin, the 1881
+  Muharrem decree/OPDA, the 1897 Greek war, the Young Turk revolution,
+  Libya, the Balkan wars, WWI (London quotation ceases mid-1916),
+  Mudros, Sèvres, Lausanne, and the 1928 Paris service agreement.
+
 ### Tier 3 — mechanism likely infeasible; document why + best proxy
 
 **(F) Iran–Iraq War, 1980–88**
@@ -193,7 +251,7 @@ Bond-Event-Study/
 │   ├── event_study.py        # returns, largest moves, breaks, event windows
 │   └── plotting.py
 ├── analysis/                 # one runnable script per war → output/
-│   ├── 01_us_civil_war.py … 06_iran_iraq.py
+│   ├── 01_us_civil_war.py … 10_ottoman.py
 └── output/                   # figures (png) + tables (csv/md)
 ```
 

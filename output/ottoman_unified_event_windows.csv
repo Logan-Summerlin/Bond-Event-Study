@@ -1,0 +1,16 @@
+event,event_date,window,car_pct,z,overlaps
+Secret alliance with Germany; Goeben and Breslau reach the Straits,1914-08-02,1914-07-31..1915-02-28,-25.93,-2.28,True
+Ottoman fleet bombards Russian ports; Entente declares war in early November,1914-10-29,1915-01-31..1915-03-31,-24.04,-2.09,True
+Kemalists take Smyrna; Ottoman sultanate abolished 1 Nov,1922-09-09,1922-08-31..1922-10-31,-16.59,-1.38,False
+Armistice of Mudros: capitulation,1918-10-30,1918-10-31..1918-12-31,15.35,1.09,False
+Treaty of Lausanne: republic recognised; debt to be apportioned among successor states,1923-07-24,1923-07-31..1923-09-30,-12.87,-1.05,False
+Paris agreement: Turkey undertakes to resume service on its share of the debt,1928-06-13,1928-05-31..1928-07-31,-12.00,-0.97,False
+Bulgarian army halted at Chatalja lines before Constantinople,1912-11-17,1912-11-30..1913-01-31,7.50,0.55,True
+First Balkan War begins,1912-10-08,1912-09-30..1912-11-30,-7.10,-0.56,True
+Italy declares war and invades Libya,1911-09-29,1911-09-30..1911-11-30,-4.30,-0.33,False
+Young Turk revolution: constitution restored,1908-07-24,1908-07-31..1908-09-30,-3.65,-0.28,False
+Treaty of Sevres partitions the empire (never ratified),1920-08-10,1920-07-31..1920-09-30,2.94,0.22,False
+Edirne retaken in the Second Balkan War,1913-07-21,1913-07-31..1913-09-30,2.38,0.18,False
+Allied naval attack on the Dardanelles repulsed,1915-03-18,1915-03-31..1915-05-31,-1.25,-0.10,True
+Adrianople falls to the Bulgarians,1913-03-26,1913-03-31..1913-05-31,-1.15,-0.09,True
+Raid on the Sublime Porte: CUP coup; war resumes,1913-01-23,1913-01-31..1913-03-31,0.58,0.04,True

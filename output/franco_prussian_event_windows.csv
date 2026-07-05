@@ -1,0 +1,21 @@
+event,event_date,window,car_pct,z,overlaps
+Wissembourg: first German victory on French soil,1870-08-04,1870-07-31..1870-09-30,-24.21,-10.87,True
+France declares war on Prussia,1870-07-19,1870-07-31..1870-09-30,-24.21,-10.87,True
+Woerth and Spicheren: French driven from Alsace,1870-08-06,1870-07-31..1870-09-30,-24.21,-10.87,True
+Gravelotte-St Privat; Bazaine shut up in Metz,1870-08-18,1870-08-31..1870-10-31,-19.18,-8.35,True
+Sedan: MacMahon's army surrenders; Napoleon III captured,1870-09-02,1870-08-31..1870-10-31,-19.18,-8.35,True
+Republic proclaimed in Paris; Government of National Defence,1870-09-04,1870-08-31..1870-10-31,-19.18,-8.35,True
+Hohenzollern candidature for the Spanish throne becomes public,1870-07-02,1870-06-30..1870-08-31,-18.59,-8.07,True
+Ems telegram published; war fever in Paris and Berlin,1870-07-13,1870-06-30..1870-08-31,-18.59,-8.07,True
+Siege of Paris begins,1870-09-19,1870-09-30..1870-11-30,-12.76,-5.35,True
+Bloody Week ends: Commune crushed,1871-05-28,1871-05-31..1871-07-31,7.32,2.77,True
+First Thiers rente (2bn francs) heavily oversubscribed,1871-06-27,1871-06-30..1871-08-31,4.47,1.72,True
+German Empire proclaimed at Versailles,1871-01-18,1871-04-30..1871-06-30,-2.31,-0.92,True
+Treaty of Frankfurt signed,1871-05-10,1871-04-30..1871-06-30,-2.31,-0.92,True
+Paris Commune seizes power,1871-03-18,1871-04-30..1871-06-30,-2.31,-0.92,True
+Paris capitulates; general armistice,1871-01-28,1871-04-30..1871-06-30,-2.31,-0.92,True
+Versailles preliminaries: 5bn franc indemnity and Alsace-Lorraine cession,1871-02-26,1871-04-30..1871-06-30,-2.31,-0.92,True
+Metz capitulates: Bazaine surrenders 180000 men,1870-10-27,1870-10-31..1870-12-31,-1.82,-0.72,True
+French 6% Morgan loan for 10m pounds floated in London,1870-10-25,1870-10-31..1870-12-31,-1.82,-0.72,True
+Last German occupation troops leave France after early payment of the indemnity,1873-09-16,1873-09-30..1873-11-30,1.32,0.51,False
+Second Thiers loan (3.5bn francs) oversubscribed roughly twelvefold,1872-07-15,1872-06-30..1872-08-31,-0.92,-0.36,False

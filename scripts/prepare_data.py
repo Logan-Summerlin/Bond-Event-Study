@@ -5,9 +5,12 @@ Run scripts/fetch_data.sh first (downloads the raw files); then:
     python scripts/prepare_data.py
 
 Outputs (all monthly unless noted):
-    processed/nber_yields.csv          UK consols, French & German yields, US
-    processed/imm_sovereign_prices.csv London prices: Russia, France, Germany,
-                                       Austria, Italy, Japan (1869-1929)
+    processed/nber_yields.csv          UK consols 1852-1938 (m13041b+c
+                                       spliced), German yields 1870-1913, US
+    processed/imm_sovereign_prices.csv London prices 1869-1929: Russia,
+                                       France, Germany, Austria, Italy,
+                                       Japan, Turkey, China, Denmark, the
+                                       North German Confederation
     processed/ww2_bond_prices.csv      Zurich/Stockholm indices 1933-48
     processed/greenback_monthly.csv    Specie value of $100 greenbacks 1862-65
 """
@@ -28,10 +31,13 @@ PROCESSED.mkdir(parents=True, exist_ok=True)
 
 def main():
     # ---- NBER macrohistory yields (percent p.a.) ----
+    # NB: per the NBER chapter-13 catalog, m13028a is *Germany* bond yields
+    # 1870-1913 (an earlier revision here mislabeled it as France) and
+    # m13028b (Berlin 1924-31) is entirely missing values, so it is dropped.
     series = {
-        "uk_consols": "nber_m13041c.dat",       # England, yield of consols
-        "france_yields": "nber_m13028a.dat",    # France, security yields
-        "germany_yields": "nber_m13028b.dat",   # Germany, bond yields (pre-1914)
+        "uk_consols": "nber_m13041c.dat",       # England, consols 1888-1938
+        "uk_consols_3pct": "nber_m13041b.dat",  # England, 3% consols 1852-88
+        "germany_yields": "nber_m13028a.dat",   # Germany, bond yields 1870-1913
         "us_longterm": "nber_m13033a.dat",      # US long-term bonds 1919-44
     }
     frames = []
@@ -41,7 +47,13 @@ def main():
             frames.append(dl.load_nber_dat(p, name))
         else:
             print(f"  ! missing {fname}, skipping")
-    nber = pd.concat(frames, axis=1)
+    nber = pd.concat(frames, axis=1, sort=True)
+    # splice the 3% consol yield (1852-88) onto the front of the consol
+    # series so one column covers 1852-1938
+    if "uk_consols_3pct" in nber:
+        early = nber["uk_consols_3pct"]
+        nber["uk_consols"] = nber["uk_consols"].fillna(early)
+        nber = nber.drop(columns=["uk_consols_3pct"])
     nber.to_csv(PROCESSED / "nber_yields.csv")
     print(f"nber_yields.csv: {nber.shape}")
 

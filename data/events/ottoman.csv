@@ -1,0 +1,39 @@
+date,event,favors,category,major
+1870-07-19,Franco-Prussian war removes France as the Porte's chief creditor-patron,against,political,0
+1873-05-09,Vienna crash begins the world credit contraction that shuts new lending,against,financial,1
+1875-07-09,Herzegovina uprising opens the Great Eastern Crisis,against,military,1
+1875-10-06,Ramazan decree: interest on the debt halved - partial default,against,financial,1
+1876-03-01,Full suspension of coupon payments,against,financial,1
+1876-05-06,Salonika murders; April Uprising massacres inflame European opinion,against,political,0
+1876-05-30,Sultan Abduelaziz deposed (dead days later); Murad V installed,against,political,1
+1876-07-01,Serbia and Montenegro declare war on the Porte,against,military,1
+1876-08-31,Abduelhamid II replaces Murad V; constitution proclaimed 23 Dec,neutral,political,0
+1877-04-24,Russia declares war,against,military,1
+1877-07-19,Shipka pass taken; Plevna resists first assaults,neutral,military,0
+1877-12-10,Plevna falls after five-month siege,against,military,1
+1878-01-31,Adrianople armistice: Russians within sight of Constantinople,against,military,1
+1878-03-03,Treaty of San Stefano dictated,against,political,1
+1878-07-13,Congress of Berlin revises San Stefano; empire survives,for,political,1
+1881-12-20,Decree of Muharrem: debt written down ~50%; Ottoman Public Debt Administration created,for,financial,1
+1882-09-13,Britain occupies Egypt (Tel el-Kebir); Egyptian tribute charge continues,neutral,political,0
+1885-09-18,Eastern Rumelia unites with Bulgaria,against,political,1
+1897-04-18,Greco-Turkish war: Ottoman victory in Thessaly,for,military,1
+1903-08-02,Ilinden uprising in Macedonia,against,military,0
+1908-07-24,Young Turk revolution: constitution restored,for,political,1
+1909-04-27,31 March counter-coup fails; Abduelhamid II deposed,neutral,political,0
+1911-09-29,Italy declares war and invades Libya,against,military,1
+1912-10-08,First Balkan War begins,against,military,1
+1912-11-17,Bulgarian army halted at Chatalja lines before Constantinople,for,military,1
+1913-01-23,Raid on the Sublime Porte: CUP coup; war resumes,against,political,1
+1913-03-26,Adrianople falls to the Bulgarians,against,military,1
+1913-07-21,Edirne retaken in the Second Balkan War,for,military,1
+1914-08-02,Secret alliance with Germany; Goeben and Breslau reach the Straits,against,political,1
+1914-10-29,Ottoman fleet bombards Russian ports; Entente declares war in early November,against,military,1
+1915-03-18,Allied naval attack on the Dardanelles repulsed,for,military,1
+1916-01-09,Gallipoli evacuation completed: Straits held,for,military,0
+1918-10-30,Armistice of Mudros: capitulation,against,political,1
+1920-08-10,Treaty of Sevres partitions the empire (never ratified),against,political,1
+1922-09-09,Kemalists take Smyrna; Ottoman sultanate abolished 1 Nov,against,political,1
+1923-07-24,Treaty of Lausanne: republic recognised; debt to be apportioned among successor states,for,political,1
+1928-06-13,Paris agreement: Turkey undertakes to resume service on its share of the debt,for,financial,1
+1929-01-01,Depression pressures make the 1928 schedule untenable,against,financial,0

@@ -451,10 +451,12 @@ date,issuer,series,price
 1917-05-31,Austria,4% Gold Rentes,45.5
 1917-06-30,Austria,4% Gold Rentes,46.75
 1917-07-31,Austria,4% Gold Rentes,46.25
+1917-08-31,Austria,4% Gold Rentes,46.25
 1918-03-31,Austria,4% Gold Rentes,47.0
 1918-04-30,Austria,4% Gold Rentes,47.0
 1918-05-31,Austria,4% Gold Rentes,55.0
 1918-06-30,Austria,4% Gold Rentes,55.0
+1918-07-31,Austria,4% Gold Rentes,55.0
 1918-09-30,Austria,4% Gold Rentes,44.0
 1918-10-31,Austria,4% Gold Rentes,44.0
 1918-11-30,Austria,4% Gold Rentes,52.0
@@ -476,6 +478,7 @@ date,issuer,series,price
 1920-03-31,Austria,4% Gold Rentes,37.5
 1920-04-30,Austria,4% Gold Rentes,37.5
 1926-08-31,Austria,4% Gold Rentes,14.5
+1926-09-30,Austria,4% Gold Rentes,14.5
 1927-04-30,Austria,4% Gold Rentes,22.5
 1927-05-31,Austria,4% Gold Rentes,23.5
 1927-06-30,Austria,4% Gold Rentes,23.5
@@ -493,6 +496,2225 @@ date,issuer,series,price
 1928-06-30,Austria,4% Gold Rentes,30.5
 1928-07-31,Austria,4% Gold Rentes,30.5
 1928-08-31,Austria,4% Gold Rentes,29.5
+1877-06-30,China,8% Loan 1874-6,104.0
+1877-07-31,China,8% Loan 1874-6,104.0
+1877-08-31,China,8% Loan 1874-6,102.0
+1877-09-30,China,8% Loan 1874-6,104.5
+1877-10-31,China,8% Loan 1874-6,103.0
+1877-11-30,China,8% Loan 1874-6,102.0
+1877-12-31,China,8% Loan 1874-6,102.0
+1878-01-31,China,8% Loan 1874-6,104.0
+1878-02-28,China,8% Loan 1874-6,102.0
+1878-02-28,China,8% Loan 1877,103.0
+1878-03-31,China,8% Loan 1874-6,102.0
+1878-03-31,China,8% Loan 1877,102.0
+1878-04-30,China,8% Loan 1874-6,100.0
+1878-04-30,China,8% Loan 1877,100.0
+1878-05-31,China,8% Loan 1874-6,101.0
+1878-05-31,China,8% Loan 1877,101.0
+1878-06-30,China,8% Loan 1874-6,104.0
+1878-06-30,China,8% Loan 1877,103.0
+1878-07-31,China,8% Loan 1874-6,104.0
+1878-07-31,China,8% Loan 1877,103.0
+1878-08-31,China,8% Loan 1874-6,100.0
+1878-08-31,China,8% Loan 1877,104.0
+1878-09-30,China,8% Loan 1874-6,102.0
+1878-09-30,China,8% Loan 1877,101.0
+1878-10-31,China,8% Loan 1874-6,101.0
+1878-10-31,China,8% Loan 1877,100.0
+1878-11-30,China,8% Loan 1874-6,102.0
+1878-11-30,China,8% Loan 1877,101.0
+1878-12-31,China,8% Loan 1874-6,102.0
+1878-12-31,China,8% Loan 1877,101.0
+1879-01-31,China,8% Loan 1874-6,105.0
+1879-01-31,China,8% Loan 1877,104.0
+1879-02-28,China,8% Loan 1874-6,101.0
+1879-02-28,China,8% Loan 1877,104.5
+1879-03-31,China,8% Loan 1874-6,102.0
+1879-03-31,China,8% Loan 1877,101.5
+1879-04-30,China,8% Loan 1874-6,105.0
+1879-04-30,China,8% Loan 1877,104.5
+1879-05-31,China,8% Loan 1874-6,106.0
+1879-05-31,China,8% Loan 1877,106.0
+1879-06-30,China,8% Loan 1874-6,107.0
+1879-06-30,China,8% Loan 1877,107.0
+1879-07-31,China,8% Loan 1874-6,108.0
+1879-07-31,China,8% Loan 1877,108.0
+1879-08-31,China,8% Loan 1874-6,104.0
+1879-08-31,China,8% Loan 1877,108.0
+1879-09-30,China,8% Loan 1874-6,106.0
+1879-09-30,China,8% Loan 1877,106.0
+1879-10-31,China,8% Loan 1874-6,104.0
+1879-10-31,China,8% Loan 1877,104.0
+1879-11-30,China,8% Loan 1874-6,106.0
+1879-11-30,China,8% Loan 1877,106.0
+1879-12-31,China,8% Loan 1874-6,106.0
+1879-12-31,China,8% Loan 1877,106.0
+1880-01-31,China,8% Loan 1874-6,108.0
+1880-01-31,China,8% Loan 1877,108.0
+1880-02-29,China,8% Loan 1874-6,105.0
+1880-02-29,China,8% Loan 1877,109.0
+1880-03-31,China,8% Loan 1874-6,104.0
+1880-03-31,China,8% Loan 1877,104.0
+1880-04-30,China,8% Loan 1874-6,104.0
+1880-04-30,China,8% Loan 1877,104.0
+1880-05-31,China,8% Loan 1874-6,103.0
+1880-05-31,China,8% Loan 1877,103.0
+1880-06-30,China,8% Loan 1874-6,104.0
+1880-06-30,China,8% Loan 1877,104.0
+1880-07-31,China,8% Loan 1874-6,109.0
+1880-07-31,China,8% Loan 1877,108.5
+1880-08-31,China,8% Loan 1874-6,105.0
+1880-08-31,China,8% Loan 1877,108.0
+1880-09-30,China,8% Loan 1874-6,107.0
+1880-09-30,China,8% Loan 1877,107.0
+1880-10-31,China,8% Loan 1874-6,106.0
+1880-10-31,China,8% Loan 1877,106.0
+1880-11-30,China,8% Loan 1874-6,107.0
+1880-11-30,China,8% Loan 1877,107.0
+1880-12-31,China,8% Loan 1874-6,107.0
+1880-12-31,China,8% Loan 1877,107.0
+1881-01-31,China,8% Loan 1874-6,109.0
+1881-01-31,China,8% Loan 1877,109.0
+1881-02-28,China,8% Loan 1874-6,107.0
+1881-02-28,China,8% Loan 1877,111.0
+1881-03-31,China,8% Loan 1874-6,108.0
+1881-03-31,China,8% Loan 1877,108.0
+1881-04-30,China,8% Loan 1874-6,108.0
+1881-04-30,China,8% Loan 1877,108.0
+1881-05-31,China,8% Loan 1874-6,108.0
+1881-05-31,China,8% Loan 1877,108.0
+1881-06-30,China,8% Loan 1874-6,108.0
+1881-06-30,China,8% Loan 1877,108.0
+1881-07-31,China,8% Loan 1874-6,111.0
+1881-07-31,China,8% Loan 1877,111.0
+1881-08-31,China,8% Loan 1874-6,107.0
+1881-08-31,China,8% Loan 1877,111.0
+1881-09-30,China,8% Loan 1874-6,107.0
+1881-09-30,China,8% Loan 1877,107.0
+1881-10-31,China,8% Loan 1874-6,106.0
+1881-10-31,China,8% Loan 1877,106.0
+1881-11-30,China,8% Loan 1874-6,107.0
+1881-11-30,China,8% Loan 1877,107.0
+1881-12-31,China,8% Loan 1874-6,107.0
+1881-12-31,China,8% Loan 1877,107.0
+1882-01-31,China,8% Loan 1874-6,108.0
+1882-01-31,China,8% Loan 1877,108.0
+1882-02-28,China,8% Loan 1874-6,104.0
+1882-02-28,China,8% Loan 1877,108.0
+1882-03-31,China,8% Loan 1874-6,105.0
+1882-03-31,China,8% Loan 1877,105.0
+1882-04-30,China,8% Loan 1874-6,105.0
+1882-04-30,China,8% Loan 1877,105.0
+1882-05-31,China,8% Loan 1874-6,106.0
+1882-05-31,China,8% Loan 1877,106.0
+1882-06-30,China,8% Loan 1874-6,106.5
+1882-06-30,China,8% Loan 1877,106.5
+1882-07-31,China,8% Loan 1874-6,108.0
+1882-07-31,China,8% Loan 1877,108.0
+1882-08-31,China,8% Loan 1874-6,105.0
+1882-08-31,China,8% Loan 1877,109.0
+1882-09-30,China,8% Loan 1874-6,105.0
+1882-09-30,China,8% Loan 1877,105.0
+1882-10-31,China,8% Loan 1874-6,105.0
+1882-10-31,China,8% Loan 1877,105.0
+1882-11-30,China,8% Loan 1874-6,105.0
+1882-11-30,China,8% Loan 1877,105.0
+1882-12-31,China,8% Loan 1874-6,105.5
+1882-12-31,China,8% Loan 1877,105.5
+1883-01-31,China,8% Loan 1874-6,108.0
+1883-01-31,China,8% Loan 1877,108.0
+1883-02-28,China,8% Loan 1874-6,104.0
+1883-02-28,China,8% Loan 1877,108.0
+1883-03-31,China,8% Loan 1874-6,104.0
+1883-03-31,China,8% Loan 1877,104.0
+1883-04-30,China,8% Loan 1874-6,104.0
+1883-04-30,China,8% Loan 1877,104.5
+1883-05-31,China,8% Loan 1874-6,105.0
+1883-05-31,China,8% Loan 1877,104.0
+1883-06-30,China,8% Loan 1874-6,105.0
+1883-06-30,China,8% Loan 1877,104.0
+1883-07-31,China,8% Loan 1874-6,106.0
+1883-07-31,China,8% Loan 1877,106.0
+1883-08-31,China,8% Loan 1874-6,102.0
+1883-08-31,China,8% Loan 1877,106.0
+1883-09-30,China,8% Loan 1874-6,103.0
+1883-09-30,China,8% Loan 1877,103.0
+1883-10-31,China,8% Loan 1874-6,104.0
+1883-10-31,China,8% Loan 1877,103.0
+1883-11-30,China,8% Loan 1874-6,103.0
+1883-11-30,China,8% Loan 1877,103.0
+1883-12-31,China,8% Loan 1874-6,105.0
+1883-12-31,China,8% Loan 1877,105.0
+1884-01-31,China,8% Loan 1874-6,105.0
+1884-01-31,China,8% Loan 1877,105.0
+1884-02-29,China,8% Loan 1874-6,101.0
+1884-02-29,China,8% Loan 1877,105.0
+1884-03-31,China,8% Loan 1874-6,103.0
+1884-03-31,China,8% Loan 1877,103.0
+1884-04-30,China,8% Loan 1874-6,103.0
+1884-04-30,China,8% Loan 1877,102.0
+1884-05-31,China,8% Loan 1874-6,104.0
+1884-05-31,China,8% Loan 1877,102.0
+1884-06-30,China,8% Loan 1874-6,104.0
+1884-06-30,China,8% Loan 1877,101.5
+1884-07-31,China,8% Loan 1874-6,105.0
+1884-08-31,China,8% Loan 1874-6,101.5
+1884-09-30,China,8% Loan 1874-6,102.5
+1884-10-31,China,8% Loan 1874-6,103.0
+1884-11-30,China,8% Loan 1874-6,102.5
+1884-12-31,China,8% Loan 1874-6,102.5
+1885-01-31,China,8% Loan 1874-6,103.5
+1885-02-28,China,8% Loan 1874-6,103.5
+1885-03-31,China,8% Loan 1874-6,103.5
+1885-09-30,China,7% Loan Series A,109.0
+1885-10-31,China,7% Loan Series A,110.75
+1885-11-30,China,7% Loan Series A,112.5
+1885-12-31,China,7% Loan Series A,112.25
+1886-01-31,China,7% Loan Series A,112.75
+1886-02-28,China,7% Loan Series A,113.75
+1886-03-31,China,7% Loan Series A,113.0
+1886-04-30,China,7% Loan Series A,113.0
+1886-05-31,China,7% Loan Series A,114.5
+1886-06-30,China,7% Loan Series A,115.0
+1886-07-31,China,7% Loan Series A,116.0
+1886-08-31,China,7% Loan Series A,114.5
+1886-09-30,China,7% Loan Series A,113.25
+1886-10-31,China,7% Loan Series A,113.5
+1886-11-30,China,7% Loan Series A,114.0
+1886-12-31,China,7% Loan Series A,112.5
+1887-01-31,China,7% Loan Series A,112.0
+1887-02-28,China,7% Loan Series A,110.5
+1887-03-31,China,7% Loan Series A,111.5
+1887-04-30,China,7% Loan Series A,113.5
+1887-05-31,China,7% Loan Series A,115.0
+1887-06-30,China,7% Loan Series A,113.0
+1887-07-31,China,7% Loan Series A,113.0
+1887-08-31,China,7% Loan Series A,111.5
+1887-09-30,China,7% Loan Series A,111.0
+1887-10-31,China,7% Loan Series A,110.0
+1887-11-30,China,7% Loan Series A,110.5
+1887-12-31,China,7% Loan Series A,110.0
+1888-01-31,China,7% Loan Series A,111.5
+1888-02-29,China,7% Loan Series A,110.5
+1888-03-31,China,7% Loan Series A,109.75
+1888-04-30,China,7% Loan Series A,109.25
+1888-05-31,China,7% Loan Series A,109.25
+1888-06-30,China,7% Loan Series A,108.5
+1888-07-31,China,7% Loan Series A,108.5
+1888-08-31,China,7% Loan Series A,108.25
+1888-09-30,China,7% Loan Series A,107.0
+1888-10-31,China,7% Loan Series A,107.0
+1888-11-30,China,7% Loan Series A,107.5
+1888-12-31,China,7% Loan Series A,107.0
+1889-01-31,China,7% Loan Series A,108.25
+1889-02-28,China,7% Loan Series A,108.5
+1889-03-31,China,7% Loan Series A,107.5
+1889-04-30,China,7% Loan Series A,107.5
+1889-05-31,China,7% Loan Series A,108.5
+1889-06-30,China,7% Loan Series A,108.0
+1889-07-31,China,7% Loan Series A,108.25
+1889-08-31,China,7% Loan Series A,107.5
+1889-09-30,China,7% Loan Series A,106.25
+1889-10-31,China,7% Loan Series A,107.25
+1889-11-30,China,7% Loan Series A,107.25
+1889-12-31,China,7% Loan Series A,106.0
+1890-01-31,China,7% Loan Series A,107.5
+1890-02-28,China,7% Loan Series A,105.0
+1890-03-31,China,7% Loan Series A,105.0
+1890-04-30,China,7% Loan Series A,106.5
+1890-05-31,China,7% Loan Series A,107.5
+1890-06-30,China,7% Loan Series A,106.5
+1890-07-31,China,7% Loan Series A,106.0
+1890-08-31,China,7% Loan Series A,103.5
+1890-09-30,China,7% Loan Series A,104.0
+1890-10-31,China,7% Loan Series A,104.0
+1890-11-30,China,7% Loan Series A,105.0
+1890-12-31,China,7% Loan Series A,104.0
+1891-01-31,China,7% Loan Series A,106.25
+1891-02-28,China,7% Loan Series A,105.5
+1891-03-31,China,7% Loan Series A,104.75
+1891-04-30,China,7% Loan Series A,105.0
+1891-05-31,China,7% Loan Series A,104.5
+1891-06-30,China,7% Loan Series A,104.5
+1891-07-31,China,7% Loan Series A,105.5
+1891-08-31,China,7% Loan Series A,103.0
+1891-09-30,China,7% Loan Series A,101.5
+1891-10-31,China,7% Loan Series A,102.5
+1891-11-30,China,7% Loan Series A,103.0
+1891-12-31,China,7% Loan Series A,103.5
+1892-01-31,China,7% Loan Series A,104.5
+1892-02-29,China,7% Loan Series A,103.0
+1892-03-31,China,7% Loan Series A,103.5
+1892-04-30,China,7% Loan Series A,104.5
+1892-05-31,China,7% Loan Series A,105.5
+1892-06-30,China,7% Loan Series A,104.5
+1892-07-31,China,7% Loan Series A,105.0
+1892-08-31,China,7% Loan Series A,103.0
+1892-09-30,China,7% Loan Series A,103.0
+1892-10-31,China,7% Loan Series A,103.0
+1892-11-30,China,7% Loan Series A,103.0
+1892-12-31,China,7% Loan Series A,103.5
+1893-01-31,China,7% Loan Series A,105.0
+1893-02-28,China,7% Loan Series A,104.0
+1893-03-31,China,7% Loan Series A,104.5
+1893-04-30,China,7% Loan Series A,104.5
+1893-05-31,China,7% Loan Series A,104.5
+1893-06-30,China,7% Loan Series A,104.0
+1893-07-31,China,7% Loan Series A,104.0
+1893-08-31,China,7% Loan Series A,102.0
+1893-09-30,China,7% Loan Series A,102.5
+1893-10-31,China,7% Loan Series A,103.0
+1893-11-30,China,7% Loan Series A,103.0
+1893-12-31,China,7% Loan Series A,103.0
+1894-01-31,China,7% Loan Series A,104.5
+1894-02-28,China,7% Loan Series A,103.0
+1894-03-31,China,7% Loan Series A,103.0
+1894-04-30,China,7% Loan Series A,104.0
+1894-05-31,China,7% Loan Series A,104.0
+1894-06-30,China,7% Loan Series A,105.0
+1894-07-31,China,7% Loan Series A,104.0
+1894-08-31,China,7% Loan Series A,102.0
+1894-09-30,China,7% Loan Series A,102.0
+1894-10-31,China,7% Loan Series A,101.0
+1894-11-30,China,7% Loan Series A,101.0
+1894-12-31,China,7% Loan Series A,102.0
+1895-01-31,China,7% Loan Series A,102.0
+1896-03-31,China,7% Silver Loan 1894,121.0
+1896-03-31,China,6% Gold Loan 1895,111.0
+1896-04-30,China,7% Silver Loan 1894,122.5
+1896-04-30,China,6% Gold Loan 1895,111.25
+1896-05-31,China,7% Silver Loan 1894,119.5
+1896-05-31,China,6% Gold Loan 1895,111.5
+1896-06-30,China,6% Gold Loan 1895,110.0
+1896-07-31,China,6% Gold Loan 1895,107.5
+1896-08-31,China,6% Gold Loan 1895,108.0
+1896-09-30,China,6% Gold Loan 1895,107.0
+1896-10-31,China,6% Gold Loan 1895,108.0
+1896-11-30,China,6% Gold Loan 1895,108.0
+1896-12-31,China,6% Gold Loan 1895,112.0
+1896-12-31,China,5% Gold Loan 1896,99.5
+1897-01-31,China,6% Gold Loan 1895,109.25
+1897-01-31,China,5% Gold Loan 1896,101.5
+1897-02-28,China,6% Gold Loan 1895,109.0
+1897-02-28,China,5% Gold Loan 1896,100.75
+1897-03-31,China,7% Silver Loan 1894,113.0
+1897-03-31,China,6% Gold Loan 1895,109.0
+1897-03-31,China,5% Gold Loan 1896,101.75
+1897-04-30,China,7% Silver Loan 1894,114.0
+1897-04-30,China,6% Gold Loan 1895,109.75
+1897-04-30,China,5% Gold Loan 1896,99.5
+1897-05-31,China,7% Silver Loan 1894,108.0
+1897-05-31,China,6% Gold Loan 1895,112.0
+1897-05-31,China,5% Gold Loan 1896,99.75
+1897-06-30,China,7% Silver Loan 1894,109.0
+1897-06-30,China,6% Gold Loan 1895,112.25
+1897-06-30,China,5% Gold Loan 1896,100.75
+1897-07-31,China,7% Silver Loan 1894,108.0
+1897-07-31,China,6% Gold Loan 1895,109.0
+1897-07-31,China,5% Gold Loan 1896,100.75
+1897-08-31,China,7% Silver Loan 1894,99.0
+1897-08-31,China,6% Gold Loan 1895,109.0
+1897-08-31,China,5% Gold Loan 1896,100.25
+1897-09-30,China,7% Silver Loan 1894,103.0
+1897-09-30,China,6% Gold Loan 1895,110.5
+1897-09-30,China,5% Gold Loan 1896,101.5
+1897-10-31,China,7% Silver Loan 1894,104.0
+1897-10-31,China,6% Gold Loan 1895,110.5
+1897-10-31,China,5% Gold Loan 1896,99.5
+1897-11-30,China,7% Silver Loan 1894,99.0
+1897-11-30,China,6% Gold Loan 1895,111.5
+1897-11-30,China,5% Gold Loan 1896,100.0
+1897-12-31,China,7% Silver Loan 1894,99.0
+1897-12-31,China,6% Gold Loan 1895,110.25
+1897-12-31,China,5% Gold Loan 1896,97.5
+1898-01-31,China,7% Silver Loan 1894,102.0
+1898-01-31,China,6% Gold Loan 1895,107.75
+1898-01-31,China,5% Gold Loan 1896,101.5
+1898-02-28,China,7% Silver Loan 1894,101.0
+1898-02-28,China,6% Gold Loan 1895,108.25
+1898-02-28,China,5% Gold Loan 1896,101.5
+1898-03-31,China,7% Silver Loan 1894,101.0
+1898-03-31,China,6% Gold Loan 1895,106.75
+1898-03-31,China,5% Gold Loan 1896,100.0
+1898-04-30,China,7% Silver Loan 1894,100.0
+1898-04-30,China,6% Gold Loan 1895,106.75
+1898-04-30,China,5% Gold Loan 1896,98.5
+1898-05-31,China,7% Silver Loan 1894,96.0
+1898-05-31,China,6% Gold Loan 1895,108.0
+1898-05-31,China,5% Gold Loan 1896,99.0
+1898-06-30,China,7% Silver Loan 1894,98.0
+1898-06-30,China,6% Gold Loan 1895,110.5
+1898-06-30,China,5% Gold Loan 1896,99.5
+1898-07-31,China,7% Silver Loan 1894,98.0
+1898-07-31,China,6% Gold Loan 1895,106.0
+1898-07-31,China,5% Gold Loan 1896,100.0
+1898-08-31,China,7% Silver Loan 1894,99.0
+1898-08-31,China,6% Gold Loan 1895,107.0
+1898-08-31,China,5% Gold Loan 1896,100.5
+1898-09-30,China,7% Silver Loan 1894,99.0
+1898-09-30,China,6% Gold Loan 1895,107.5
+1898-09-30,China,5% Gold Loan 1896,98.0
+1898-10-31,China,7% Silver Loan 1894,99.0
+1898-10-31,China,6% Gold Loan 1895,105.5
+1898-10-31,China,5% Gold Loan 1896,95.0
+1898-11-30,China,7% Silver Loan 1894,98.0
+1898-11-30,China,6% Gold Loan 1895,107.0
+1898-11-30,China,5% Gold Loan 1896,97.0
+1898-12-31,China,7% Silver Loan 1894,100.0
+1898-12-31,China,6% Gold Loan 1895,109.5
+1898-12-31,China,5% Gold Loan 1896,99.5
+1899-01-31,China,7% Silver Loan 1894,105.0
+1899-01-31,China,6% Gold Loan 1895,107.0
+1899-01-31,China,5% Gold Loan 1896,100.0
+1899-02-28,China,7% Silver Loan 1894,105.0
+1899-02-28,China,5% Gold Loan 1896,101.0
+1899-03-31,China,7% Silver Loan 1894,105.0
+1899-03-31,China,6% Gold Loan 1895,107.5
+1899-03-31,China,5% Gold Loan 1896,92.0
+1899-04-30,China,7% Silver Loan 1894,107.0
+1899-04-30,China,6% Gold Loan 1895,107.0
+1899-04-30,China,5% Gold Loan 1896,91.5
+1899-05-31,China,7% Silver Loan 1894,103.0
+1899-05-31,China,6% Gold Loan 1895,108.5
+1899-05-31,China,5% Gold Loan 1896,96.5
+1899-06-30,China,7% Silver Loan 1894,103.0
+1899-06-30,China,6% Gold Loan 1895,108.5
+1899-06-30,China,5% Gold Loan 1896,95.5
+1899-07-31,China,7% Silver Loan 1894,103.0
+1899-07-31,China,6% Gold Loan 1895,105.5
+1899-07-31,China,5% Gold Loan 1896,96.0
+1899-08-31,China,7% Silver Loan 1894,102.0
+1899-08-31,China,6% Gold Loan 1895,106.0
+1899-08-31,China,5% Gold Loan 1896,95.25
+1899-09-30,China,7% Silver Loan 1894,102.0
+1899-09-30,China,6% Gold Loan 1895,106.0
+1899-09-30,China,5% Gold Loan 1896,94.0
+1899-10-31,China,7% Silver Loan 1894,102.0
+1899-10-31,China,6% Gold Loan 1895,105.5
+1899-10-31,China,5% Gold Loan 1896,93.75
+1899-11-30,China,7% Silver Loan 1894,101.0
+1899-11-30,China,6% Gold Loan 1895,108.0
+1899-11-30,China,5% Gold Loan 1896,95.25
+1899-12-31,China,7% Silver Loan 1894,98.0
+1899-12-31,China,6% Gold Loan 1895,106.0
+1899-12-31,China,5% Gold Loan 1896,91.0
+1900-01-31,China,7% Silver Loan 1894,101.0
+1900-01-31,China,6% Gold Loan 1895,105.0
+1900-01-31,China,5% Gold Loan 1896,96.5
+1900-02-28,China,7% Silver Loan 1894,100.0
+1900-02-28,China,6% Gold Loan 1895,104.5
+1900-02-28,China,5% Gold Loan 1896,95.5
+1900-03-31,China,7% Silver Loan 1894,101.0
+1900-03-31,China,6% Gold Loan 1895,104.5
+1900-03-31,China,5% Gold Loan 1896,95.5
+1900-04-30,China,7% Silver Loan 1894,101.0
+1900-04-30,China,6% Gold Loan 1895,104.5
+1900-04-30,China,5% Gold Loan 1896,95.0
+1900-05-31,China,7% Silver Loan 1894,99.0
+1900-05-31,China,6% Gold Loan 1895,105.5
+1900-05-31,China,5% Gold Loan 1896,95.0
+1900-06-30,China,7% Silver Loan 1894,97.0
+1900-06-30,China,6% Gold Loan 1895,104.5
+1900-06-30,China,5% Gold Loan 1896,90.0
+1900-07-31,China,7% Silver Loan 1894,95.0
+1900-07-31,China,6% Gold Loan 1895,97.0
+1900-07-31,China,5% Gold Loan 1896,78.5
+1900-08-31,China,7% Silver Loan 1894,97.0
+1900-08-31,China,6% Gold Loan 1895,99.5
+1900-08-31,China,5% Gold Loan 1896,87.0
+1900-09-30,China,7% Silver Loan 1894,97.0
+1900-09-30,China,6% Gold Loan 1895,100.0
+1900-09-30,China,5% Gold Loan 1896,84.5
+1900-10-31,China,7% Silver Loan 1894,101.0
+1900-10-31,China,6% Gold Loan 1895,100.5
+1900-10-31,China,5% Gold Loan 1896,86.75
+1900-11-30,China,7% Silver Loan 1894,98.0
+1900-11-30,China,6% Gold Loan 1895,103.0
+1900-11-30,China,5% Gold Loan 1896,87.5
+1900-12-31,China,7% Silver Loan 1894,102.0
+1900-12-31,China,6% Gold Loan 1895,105.0
+1900-12-31,China,5% Gold Loan 1896,92.5
+1901-01-31,China,7% Silver Loan 1894,100.0
+1901-01-31,China,6% Gold Loan 1895,101.0
+1901-01-31,China,5% Gold Loan 1896,90.0
+1901-02-28,China,7% Silver Loan 1894,101.0
+1901-02-28,China,6% Gold Loan 1895,101.75
+1901-02-28,China,5% Gold Loan 1896,91.5
+1901-03-31,China,7% Silver Loan 1894,101.0
+1901-03-31,China,6% Gold Loan 1895,102.25
+1901-03-31,China,5% Gold Loan 1896,90.5
+1901-04-30,China,7% Silver Loan 1894,104.0
+1901-04-30,China,6% Gold Loan 1895,103.25
+1901-04-30,China,5% Gold Loan 1896,90.5
+1901-05-31,China,7% Silver Loan 1894,101.0
+1901-05-31,China,6% Gold Loan 1895,104.0
+1901-05-31,China,5% Gold Loan 1896,90.5
+1901-06-30,China,7% Silver Loan 1894,101.0
+1901-06-30,China,6% Gold Loan 1895,105.25
+1901-06-30,China,5% Gold Loan 1896,91.0
+1901-07-31,China,7% Silver Loan 1894,100.0
+1901-07-31,China,6% Gold Loan 1895,102.75
+1901-07-31,China,5% Gold Loan 1896,91.75
+1901-08-31,China,7% Silver Loan 1894,101.0
+1901-08-31,China,6% Gold Loan 1895,104.0
+1901-08-31,China,5% Gold Loan 1896,94.0
+1901-09-30,China,7% Silver Loan 1894,102.0
+1901-09-30,China,6% Gold Loan 1895,104.0
+1901-09-30,China,5% Gold Loan 1896,93.0
+1901-10-31,China,7% Silver Loan 1894,103.0
+1901-10-31,China,6% Gold Loan 1895,104.0
+1901-10-31,China,5% Gold Loan 1896,94.75
+1901-11-30,China,7% Silver Loan 1894,99.0
+1901-11-30,China,6% Gold Loan 1895,105.0
+1901-11-30,China,5% Gold Loan 1896,96.0
+1901-12-31,China,7% Silver Loan 1894,99.0
+1901-12-31,China,6% Gold Loan 1895,107.0
+1901-12-31,China,5% Gold Loan 1896,96.5
+1902-01-31,China,7% Silver Loan 1894,101.0
+1902-01-31,China,6% Gold Loan 1895,104.0
+1902-01-31,China,5% Gold Loan 1896,99.5
+1902-02-28,China,7% Silver Loan 1894,102.5
+1902-02-28,China,6% Gold Loan 1895,105.0
+1902-02-28,China,5% Gold Loan 1896,99.0
+1902-03-31,China,7% Silver Loan 1894,100.0
+1902-03-31,China,6% Gold Loan 1895,104.0
+1902-03-31,China,5% Gold Loan 1896,96.0
+1902-04-30,China,7% Silver Loan 1894,100.0
+1902-04-30,China,6% Gold Loan 1895,106.0
+1902-04-30,China,5% Gold Loan 1896,97.5
+1902-05-31,China,7% Silver Loan 1894,98.0
+1902-05-31,China,6% Gold Loan 1895,107.0
+1902-05-31,China,5% Gold Loan 1896,97.5
+1902-06-30,China,7% Silver Loan 1894,98.0
+1902-06-30,China,6% Gold Loan 1895,107.0
+1902-06-30,China,5% Gold Loan 1896,98.5
+1902-07-31,China,7% Silver Loan 1894,98.0
+1902-07-31,China,6% Gold Loan 1895,105.0
+1902-07-31,China,5% Gold Loan 1896,100.0
+1902-08-31,China,7% Silver Loan 1894,98.0
+1902-08-31,China,6% Gold Loan 1895,105.0
+1902-08-31,China,5% Gold Loan 1896,99.5
+1902-09-30,China,7% Silver Loan 1894,97.0
+1902-09-30,China,6% Gold Loan 1895,105.0
+1902-09-30,China,5% Gold Loan 1896,97.75
+1902-10-31,China,7% Silver Loan 1894,94.0
+1902-10-31,China,6% Gold Loan 1895,105.0
+1902-10-31,China,5% Gold Loan 1896,98.75
+1902-11-30,China,7% Silver Loan 1894,94.0
+1902-11-30,China,6% Gold Loan 1895,105.0
+1902-11-30,China,5% Gold Loan 1896,96.75
+1902-12-31,China,7% Silver Loan 1894,89.0
+1902-12-31,China,6% Gold Loan 1895,107.0
+1902-12-31,China,5% Gold Loan 1896,98.25
+1903-01-31,China,7% Silver Loan 1894,88.0
+1903-01-31,China,6% Gold Loan 1895,104.0
+1903-01-31,China,5% Gold Loan 1896,99.5
+1903-02-28,China,7% Silver Loan 1894,90.0
+1903-02-28,China,6% Gold Loan 1895,105.5
+1903-02-28,China,5% Gold Loan 1896,99.0
+1903-03-31,China,7% Silver Loan 1894,90.0
+1903-03-31,China,6% Gold Loan 1895,103.0
+1903-03-31,China,5% Gold Loan 1896,96.75
+1903-04-30,China,7% Silver Loan 1894,91.0
+1903-04-30,China,6% Gold Loan 1895,104.0
+1903-04-30,China,5% Gold Loan 1896,98.0
+1903-05-31,China,7% Silver Loan 1894,89.0
+1903-05-31,China,6% Gold Loan 1895,105.0
+1903-05-31,China,5% Gold Loan 1896,97.75
+1903-06-30,China,7% Silver Loan 1894,89.0
+1903-06-30,China,6% Gold Loan 1895,106.0
+1903-06-30,China,5% Gold Loan 1896,98.25
+1903-07-31,China,7% Silver Loan 1894,89.0
+1903-07-31,China,6% Gold Loan 1895,103.0
+1903-07-31,China,5% Gold Loan 1896,98.75
+1903-08-31,China,7% Silver Loan 1894,90.0
+1903-08-31,China,6% Gold Loan 1895,104.0
+1903-08-31,China,5% Gold Loan 1896,98.0
+1903-09-30,China,7% Silver Loan 1894,92.0
+1903-09-30,China,6% Gold Loan 1895,104.0
+1903-09-30,China,5% Gold Loan 1896,96.0
+1903-10-31,China,7% Silver Loan 1894,92.0
+1903-10-31,China,6% Gold Loan 1895,104.0
+1903-10-31,China,5% Gold Loan 1896,95.75
+1903-11-30,China,7% Silver Loan 1894,89.0
+1903-11-30,China,6% Gold Loan 1895,104.0
+1903-11-30,China,5% Gold Loan 1896,96.5
+1903-12-31,China,7% Silver Loan 1894,87.0
+1903-12-31,China,6% Gold Loan 1895,103.0
+1903-12-31,China,5% Gold Loan 1896,95.0
+1904-01-31,China,7% Silver Loan 1894,87.0
+1904-01-31,China,6% Gold Loan 1895,102.0
+1904-01-31,China,5% Gold Loan 1896,96.0
+1904-02-29,China,7% Silver Loan 1894,87.0
+1904-02-29,China,6% Gold Loan 1895,100.0
+1904-02-29,China,5% Gold Loan 1896,89.75
+1904-03-31,China,7% Silver Loan 1894,87.0
+1904-03-31,China,6% Gold Loan 1895,102.0
+1904-03-31,China,5% Gold Loan 1896,92.0
+1904-04-30,China,7% Silver Loan 1894,87.0
+1904-04-30,China,6% Gold Loan 1895,103.0
+1904-04-30,China,5% Gold Loan 1896,95.0
+1904-05-31,China,7% Silver Loan 1894,85.0
+1904-05-31,China,6% Gold Loan 1895,104.0
+1904-05-31,China,5% Gold Loan 1896,96.0
+1904-06-30,China,7% Silver Loan 1894,87.0
+1904-06-30,China,6% Gold Loan 1895,104.5
+1904-06-30,China,5% Gold Loan 1896,97.5
+1904-07-31,China,7% Silver Loan 1894,89.0
+1904-07-31,China,6% Gold Loan 1895,103.0
+1904-07-31,China,5% Gold Loan 1896,97.75
+1904-08-31,China,7% Silver Loan 1894,89.0
+1904-08-31,China,6% Gold Loan 1895,103.0
+1904-08-31,China,5% Gold Loan 1896,97.0
+1904-09-30,China,7% Silver Loan 1894,90.0
+1904-09-30,China,6% Gold Loan 1895,103.0
+1904-09-30,China,5% Gold Loan 1896,96.5
+1904-10-31,China,7% Silver Loan 1894,92.0
+1904-10-31,China,6% Gold Loan 1895,104.0
+1904-10-31,China,5% Gold Loan 1896,96.5
+1904-11-30,China,7% Silver Loan 1894,90.5
+1904-11-30,China,6% Gold Loan 1895,105.0
+1904-11-30,China,5% Gold Loan 1896,98.5
+1904-12-31,China,7% Silver Loan 1894,91.5
+1904-12-31,China,6% Gold Loan 1895,105.0
+1904-12-31,China,5% Gold Loan 1896,99.5
+1905-01-31,China,7% Silver Loan 1894,95.5
+1905-01-31,China,6% Gold Loan 1895,105.0
+1905-01-31,China,5% Gold Loan 1896,101.0
+1905-02-28,China,7% Silver Loan 1894,97.5
+1905-02-28,China,6% Gold Loan 1895,106.0
+1905-02-28,China,5% Gold Loan 1896,102.5
+1905-03-31,China,7% Silver Loan 1894,97.0
+1905-03-31,China,6% Gold Loan 1895,106.0
+1905-03-31,China,5% Gold Loan 1896,102.25
+1905-04-30,China,7% Silver Loan 1894,96.5
+1905-04-30,China,6% Gold Loan 1895,106.0
+1905-04-30,China,5% Gold Loan 1896,101.5
+1905-05-31,China,7% Silver Loan 1894,94.0
+1905-05-31,China,6% Gold Loan 1895,106.0
+1905-05-31,China,5% Gold Loan 1896,102.0
+1905-06-30,China,7% Silver Loan 1894,94.0
+1905-06-30,China,6% Gold Loan 1895,105.0
+1905-06-30,China,5% Gold Loan 1896,102.25
+1905-07-31,China,7% Silver Loan 1894,94.5
+1905-07-31,China,6% Gold Loan 1895,105.0
+1905-07-31,China,5% Gold Loan 1896,104.0
+1905-08-31,China,7% Silver Loan 1894,96.0
+1905-08-31,China,6% Gold Loan 1895,105.5
+1905-08-31,China,5% Gold Loan 1896,105.0
+1905-08-31,China,4.5% Gold Loan 1898,100.25
+1905-09-30,China,7% Silver Loan 1894,98.0
+1905-09-30,China,6% Gold Loan 1895,106.5
+1905-09-30,China,5% Gold Loan 1896,104.25
+1905-09-30,China,4.5% Gold Loan 1898,98.75
+1905-10-31,China,7% Silver Loan 1894,98.0
+1905-10-31,China,6% Gold Loan 1895,106.5
+1905-10-31,China,5% Gold Loan 1896,103.0
+1905-10-31,China,4.5% Gold Loan 1898,99.0
+1905-11-30,China,7% Silver Loan 1894,95.5
+1905-11-30,China,6% Gold Loan 1895,106.5
+1905-11-30,China,5% Gold Loan 1896,103.0
+1905-11-30,China,4.5% Gold Loan 1898,99.5
+1905-12-31,China,7% Silver Loan 1894,96.5
+1905-12-31,China,6% Gold Loan 1895,106.5
+1905-12-31,China,5% Gold Loan 1896,103.0
+1905-12-31,China,4.5% Gold Loan 1898,99.0
+1906-01-31,China,7% Silver Loan 1894,98.5
+1906-01-31,China,6% Gold Loan 1895,105.0
+1906-01-31,China,5% Gold Loan 1896,105.0
+1906-01-31,China,4.5% Gold Loan 1898,100.75
+1906-02-28,China,7% Silver Loan 1894,98.0
+1906-02-28,China,6% Gold Loan 1895,104.5
+1906-02-28,China,5% Gold Loan 1896,103.25
+1906-02-28,China,4.5% Gold Loan 1898,98.5
+1906-03-31,China,7% Silver Loan 1894,98.5
+1906-03-31,China,6% Gold Loan 1895,104.5
+1906-03-31,China,5% Gold Loan 1896,103.25
+1906-03-31,China,4.5% Gold Loan 1898,98.0
+1906-04-30,China,7% Silver Loan 1894,100.0
+1906-04-30,China,6% Gold Loan 1895,105.0
+1906-04-30,China,5% Gold Loan 1896,103.0
+1906-04-30,China,4.5% Gold Loan 1898,99.0
+1906-05-31,China,7% Silver Loan 1894,98.5
+1906-05-31,China,6% Gold Loan 1895,105.0
+1906-05-31,China,5% Gold Loan 1896,102.75
+1906-05-31,China,4.5% Gold Loan 1898,98.75
+1906-06-30,China,7% Silver Loan 1894,99.5
+1906-06-30,China,6% Gold Loan 1895,104.5
+1906-06-30,China,5% Gold Loan 1896,103.0
+1906-06-30,China,4.5% Gold Loan 1898,99.5
+1906-07-31,China,7% Silver Loan 1894,100.0
+1906-07-31,China,6% Gold Loan 1895,104.5
+1906-07-31,China,5% Gold Loan 1896,104.25
+1906-07-31,China,4.5% Gold Loan 1898,100.75
+1906-08-31,China,7% Silver Loan 1894,100.0
+1906-08-31,China,6% Gold Loan 1895,104.25
+1906-08-31,China,5% Gold Loan 1896,104.0
+1906-08-31,China,4.5% Gold Loan 1898,100.5
+1906-09-30,China,7% Silver Loan 1894,101.5
+1906-09-30,China,6% Gold Loan 1895,104.25
+1906-09-30,China,5% Gold Loan 1896,102.375
+1906-09-30,China,4.5% Gold Loan 1898,98.25
+1906-10-31,China,7% Silver Loan 1894,105.5
+1906-10-31,China,6% Gold Loan 1895,103.0
+1906-10-31,China,5% Gold Loan 1896,101.0
+1906-10-31,China,4.5% Gold Loan 1898,96.25
+1906-11-30,China,7% Silver Loan 1894,104.0
+1906-11-30,China,6% Gold Loan 1895,104.5
+1906-11-30,China,5% Gold Loan 1896,102.06
+1906-11-30,China,4.5% Gold Loan 1898,97.5
+1906-12-31,China,7% Silver Loan 1894,105.0
+1906-12-31,China,6% Gold Loan 1895,104.0
+1906-12-31,China,5% Gold Loan 1896,102.375
+1906-12-31,China,4.5% Gold Loan 1898,97.25
+1907-01-31,China,7% Silver Loan 1894,106.5
+1907-01-31,China,6% Gold Loan 1895,104.5
+1907-01-31,China,5% Gold Loan 1896,103.875
+1907-01-31,China,4.5% Gold Loan 1898,99.75
+1907-02-28,China,7% Silver Loan 1894,106.0
+1907-02-28,China,6% Gold Loan 1895,104.5
+1907-02-28,China,5% Gold Loan 1896,103.875
+1907-02-28,China,4.5% Gold Loan 1898,100.0
+1907-03-31,China,7% Silver Loan 1894,102.5
+1907-03-31,China,6% Gold Loan 1895,104.0
+1907-03-31,China,5% Gold Loan 1896,102.25
+1907-03-31,China,4.5% Gold Loan 1898,95.5
+1907-04-30,China,7% Silver Loan 1894,105.5
+1907-04-30,China,6% Gold Loan 1895,105.0
+1907-04-30,China,5% Gold Loan 1896,102.25
+1907-04-30,China,4.5% Gold Loan 1898,98.0
+1907-05-31,China,7% Silver Loan 1894,102.5
+1907-05-31,China,6% Gold Loan 1895,105.5
+1907-05-31,China,5% Gold Loan 1896,101.25
+1907-05-31,China,4.5% Gold Loan 1898,98.5
+1907-06-30,China,7% Silver Loan 1894,102.5
+1907-06-30,China,6% Gold Loan 1895,105.0
+1907-06-30,China,5% Gold Loan 1896,101.0
+1907-06-30,China,4.5% Gold Loan 1898,98.0
+1907-07-31,China,7% Silver Loan 1894,105.0
+1907-07-31,China,6% Gold Loan 1895,103.5
+1907-07-31,China,5% Gold Loan 1896,102.75
+1907-07-31,China,4.5% Gold Loan 1898,98.0
+1907-08-31,China,7% Silver Loan 1894,104.0
+1907-08-31,China,6% Gold Loan 1895,102.5
+1907-08-31,China,5% Gold Loan 1896,102.25
+1907-08-31,China,4.5% Gold Loan 1898,97.5
+1907-09-30,China,7% Silver Loan 1894,105.0
+1907-09-30,China,6% Gold Loan 1895,103.5
+1907-09-30,China,5% Gold Loan 1896,102.25
+1907-09-30,China,4.5% Gold Loan 1898,96.0
+1907-10-31,China,7% Silver Loan 1894,101.0
+1907-10-31,China,6% Gold Loan 1895,103.5
+1907-10-31,China,5% Gold Loan 1896,101.0
+1907-10-31,China,4.5% Gold Loan 1898,94.5
+1907-11-30,China,7% Silver Loan 1894,97.0
+1907-11-30,China,6% Gold Loan 1895,104.0
+1907-11-30,China,5% Gold Loan 1896,100.25
+1907-11-30,China,4.5% Gold Loan 1898,95.0
+1907-12-31,China,7% Silver Loan 1894,95.0
+1907-12-31,China,6% Gold Loan 1895,105.0
+1907-12-31,China,5% Gold Loan 1896,101.5
+1907-12-31,China,4.5% Gold Loan 1898,96.0
+1908-01-31,China,7% Silver Loan 1894,99.0
+1908-01-31,China,6% Gold Loan 1895,104.0
+1908-01-31,China,5% Gold Loan 1896,103.25
+1908-01-31,China,4.5% Gold Loan 1898,99.0
+1908-02-29,China,7% Silver Loan 1894,99.5
+1908-02-29,China,6% Gold Loan 1895,104.5
+1908-02-29,China,5% Gold Loan 1896,103.25
+1908-02-29,China,4.5% Gold Loan 1898,98.5
+1908-03-31,China,7% Silver Loan 1894,99.5
+1908-03-31,China,6% Gold Loan 1895,104.75
+1908-03-31,China,5% Gold Loan 1896,102.75
+1908-03-31,China,4.5% Gold Loan 1898,96.0
+1908-04-30,China,7% Silver Loan 1894,98.0
+1908-04-30,China,6% Gold Loan 1895,105.0
+1908-04-30,China,5% Gold Loan 1896,101.75
+1908-04-30,China,4.5% Gold Loan 1898,96.5
+1908-05-31,China,7% Silver Loan 1894,95.0
+1908-05-31,China,6% Gold Loan 1895,105.5
+1908-05-31,China,5% Gold Loan 1896,103.0
+1908-05-31,China,4.5% Gold Loan 1898,98.5
+1908-06-30,China,7% Silver Loan 1894,93.0
+1908-06-30,China,6% Gold Loan 1895,106.0
+1908-06-30,China,5% Gold Loan 1896,103.25
+1908-06-30,China,4.5% Gold Loan 1898,98.5
+1908-07-31,China,7% Silver Loan 1894,91.5
+1908-07-31,China,6% Gold Loan 1895,105.0
+1908-07-31,China,5% Gold Loan 1896,105.0
+1908-07-31,China,4.5% Gold Loan 1898,100.0
+1908-08-31,China,7% Silver Loan 1894,93.0
+1908-08-31,China,6% Gold Loan 1895,105.5
+1908-08-31,China,5% Gold Loan 1896,105.25
+1908-08-31,China,4.5% Gold Loan 1898,100.5
+1908-09-30,China,7% Silver Loan 1894,93.0
+1908-09-30,China,6% Gold Loan 1895,105.75
+1908-09-30,China,5% Gold Loan 1896,104.25
+1908-09-30,China,4.5% Gold Loan 1898,99.0
+1908-10-31,China,7% Silver Loan 1894,93.5
+1908-10-31,China,6% Gold Loan 1895,105.5
+1908-10-31,China,5% Gold Loan 1896,102.5
+1908-10-31,China,4.5% Gold Loan 1898,98.25
+1908-11-30,China,7% Silver Loan 1894,87.5
+1908-11-30,China,6% Gold Loan 1895,105.5
+1908-11-30,China,5% Gold Loan 1896,102.75
+1908-11-30,China,4.5% Gold Loan 1898,98.5
+1908-12-31,China,7% Silver Loan 1894,90.5
+1908-12-31,China,6% Gold Loan 1895,105.0
+1908-12-31,China,5% Gold Loan 1896,103.125
+1908-12-31,China,4.5% Gold Loan 1898,99.75
+1909-01-31,China,7% Silver Loan 1894,92.5
+1909-01-31,China,6% Gold Loan 1895,105.0
+1909-01-31,China,5% Gold Loan 1896,104.125
+1909-01-31,China,4.5% Gold Loan 1898,101.0
+1909-02-28,China,7% Silver Loan 1894,92.5
+1909-02-28,China,6% Gold Loan 1895,105.0
+1909-02-28,China,5% Gold Loan 1896,104.125
+1909-02-28,China,4.5% Gold Loan 1898,101.0
+1909-03-31,China,7% Silver Loan 1894,92.0
+1909-03-31,China,6% Gold Loan 1895,105.0
+1909-03-31,China,5% Gold Loan 1896,103.375
+1909-03-31,China,4.5% Gold Loan 1898,99.75
+1909-04-30,China,7% Silver Loan 1894,92.0
+1909-04-30,China,6% Gold Loan 1895,105.5
+1909-04-30,China,5% Gold Loan 1896,103.25
+1909-04-30,China,4.5% Gold Loan 1898,100.75
+1909-05-31,China,7% Silver Loan 1894,91.0
+1909-05-31,China,6% Gold Loan 1895,106.5
+1909-05-31,China,5% Gold Loan 1896,103.75
+1909-05-31,China,4.5% Gold Loan 1898,101.0
+1909-06-30,China,7% Silver Loan 1894,91.0
+1909-06-30,China,6% Gold Loan 1895,105.0
+1909-06-30,China,5% Gold Loan 1896,103.75
+1909-06-30,China,4.5% Gold Loan 1898,100.75
+1909-07-31,China,7% Silver Loan 1894,89.25
+1909-07-31,China,6% Gold Loan 1895,104.0
+1909-07-31,China,5% Gold Loan 1896,104.75
+1909-07-31,China,4.5% Gold Loan 1898,101.75
+1909-08-31,China,7% Silver Loan 1894,87.5
+1909-08-31,China,6% Gold Loan 1895,104.5
+1909-08-31,China,5% Gold Loan 1896,105.5
+1909-08-31,China,4.5% Gold Loan 1898,102.5
+1909-09-30,China,7% Silver Loan 1894,92.0
+1909-09-30,China,6% Gold Loan 1895,105.0
+1909-09-30,China,5% Gold Loan 1896,105.75
+1909-09-30,China,4.5% Gold Loan 1898,100.25
+1909-10-31,China,7% Silver Loan 1894,91.5
+1909-10-31,China,6% Gold Loan 1895,105.5
+1909-10-31,China,5% Gold Loan 1896,103.0
+1909-10-31,China,4.5% Gold Loan 1898,100.0
+1909-11-30,China,7% Silver Loan 1894,85.0
+1909-11-30,China,6% Gold Loan 1895,107.5
+1909-11-30,China,5% Gold Loan 1896,103.75
+1909-11-30,China,4.5% Gold Loan 1898,100.75
+1909-12-31,China,7% Silver Loan 1894,87.0
+1909-12-31,China,6% Gold Loan 1895,106.5
+1909-12-31,China,5% Gold Loan 1896,104.5
+1909-12-31,China,4.5% Gold Loan 1898,101.5
+1910-01-31,China,7% Silver Loan 1894,88.0
+1910-01-31,China,6% Gold Loan 1895,105.0
+1910-01-31,China,5% Gold Loan 1896,105.0
+1910-01-31,China,4.5% Gold Loan 1898,102.25
+1910-02-28,China,7% Silver Loan 1894,85.0
+1910-02-28,China,6% Gold Loan 1895,105.0
+1910-02-28,China,5% Gold Loan 1896,105.0
+1910-02-28,China,4.5% Gold Loan 1898,102.5
+1910-03-31,China,7% Silver Loan 1894,85.5
+1910-03-31,China,6% Gold Loan 1895,105.5
+1910-03-31,China,5% Gold Loan 1896,105.5
+1910-03-31,China,4.5% Gold Loan 1898,100.5
+1910-04-30,China,7% Silver Loan 1894,86.0
+1910-04-30,China,6% Gold Loan 1895,105.5
+1910-04-30,China,5% Gold Loan 1896,103.5
+1910-04-30,China,4.5% Gold Loan 1898,100.5
+1910-05-31,China,7% Silver Loan 1894,83.0
+1910-05-31,China,6% Gold Loan 1895,105.75
+1910-05-31,China,5% Gold Loan 1896,104.0
+1910-05-31,China,4.5% Gold Loan 1898,101.25
+1910-06-30,China,7% Silver Loan 1894,83.0
+1910-06-30,China,6% Gold Loan 1895,105.0
+1910-06-30,China,5% Gold Loan 1896,103.5
+1910-06-30,China,4.5% Gold Loan 1898,101.25
+1910-07-31,China,7% Silver Loan 1894,82.0
+1910-07-31,China,6% Gold Loan 1895,104.0
+1910-07-31,China,5% Gold Loan 1896,104.0
+1910-07-31,China,4.5% Gold Loan 1898,101.75
+1910-08-31,China,7% Silver Loan 1894,82.0
+1910-08-31,China,6% Gold Loan 1895,104.0
+1910-08-31,China,5% Gold Loan 1896,104.0
+1910-08-31,China,4.5% Gold Loan 1898,102.5
+1910-09-30,China,7% Silver Loan 1894,84.0
+1910-09-30,China,6% Gold Loan 1895,104.75
+1910-09-30,China,5% Gold Loan 1896,105.0
+1910-09-30,China,4.5% Gold Loan 1898,100.75
+1910-10-31,China,7% Silver Loan 1894,87.0
+1910-10-31,China,6% Gold Loan 1895,105.25
+1910-10-31,China,5% Gold Loan 1896,102.75
+1910-10-31,China,4.5% Gold Loan 1898,100.5
+1910-11-30,China,7% Silver Loan 1894,84.0
+1910-11-30,China,6% Gold Loan 1895,106.5
+1910-11-30,China,5% Gold Loan 1896,103.25
+1910-11-30,China,4.5% Gold Loan 1898,100.25
+1910-12-31,China,7% Silver Loan 1894,84.0
+1910-12-31,China,6% Gold Loan 1895,106.5
+1910-12-31,China,5% Gold Loan 1896,104.75
+1910-12-31,China,4.5% Gold Loan 1898,101.25
+1911-01-31,China,7% Silver Loan 1894,85.0
+1911-01-31,China,6% Gold Loan 1895,105.125
+1911-01-31,China,5% Gold Loan 1896,104.75
+1911-01-31,China,4.5% Gold Loan 1898,102.5
+1911-02-28,China,7% Silver Loan 1894,85.0
+1911-02-28,China,6% Gold Loan 1895,104.5
+1911-02-28,China,5% Gold Loan 1896,105.0
+1911-02-28,China,4.5% Gold Loan 1898,102.0
+1911-03-31,China,7% Silver Loan 1894,85.5
+1911-03-31,China,6% Gold Loan 1895,104.5
+1911-03-31,China,5% Gold Loan 1896,105.75
+1911-03-31,China,4.5% Gold Loan 1898,100.75
+1911-04-30,China,7% Silver Loan 1894,85.5
+1911-04-30,China,6% Gold Loan 1895,104.5
+1911-04-30,China,5% Gold Loan 1896,103.5
+1911-04-30,China,4.5% Gold Loan 1898,101.0
+1911-05-31,China,7% Silver Loan 1894,83.5
+1911-05-31,China,6% Gold Loan 1895,105.5
+1911-05-31,China,5% Gold Loan 1896,103.0
+1911-05-31,China,4.5% Gold Loan 1898,101.25
+1911-06-30,China,7% Silver Loan 1894,83.5
+1911-06-30,China,6% Gold Loan 1895,104.5
+1911-06-30,China,5% Gold Loan 1896,103.5
+1911-06-30,China,4.5% Gold Loan 1898,101.25
+1911-07-31,China,7% Silver Loan 1894,85.0
+1911-07-31,China,6% Gold Loan 1895,103.5
+1911-07-31,China,5% Gold Loan 1896,103.5
+1911-07-31,China,4.5% Gold Loan 1898,102.0
+1911-08-31,China,7% Silver Loan 1894,85.0
+1911-08-31,China,6% Gold Loan 1895,104.0
+1911-08-31,China,5% Gold Loan 1896,105.0
+1911-08-31,China,4.5% Gold Loan 1898,102.5
+1911-09-30,China,7% Silver Loan 1894,85.0
+1911-09-30,China,6% Gold Loan 1895,104.0
+1911-09-30,China,5% Gold Loan 1896,104.0
+1911-09-30,China,4.5% Gold Loan 1898,100.0
+1911-10-31,China,7% Silver Loan 1894,86.0
+1911-10-31,China,6% Gold Loan 1895,103.5
+1911-10-31,China,5% Gold Loan 1896,101.5
+1911-10-31,China,4.5% Gold Loan 1898,97.5
+1911-10-31,China,5% Hukuang Railways 1911,101.5
+1911-11-30,China,7% Silver Loan 1894,84.0
+1911-11-30,China,6% Gold Loan 1895,103.5
+1911-11-30,China,5% Gold Loan 1896,100.5
+1911-11-30,China,4.5% Gold Loan 1898,95.0
+1911-11-30,China,5% Hukuang Railways 1911,101.0
+1911-12-31,China,7% Silver Loan 1894,83.0
+1911-12-31,China,6% Gold Loan 1895,104.5
+1911-12-31,China,5% Gold Loan 1896,101.5
+1911-12-31,China,4.5% Gold Loan 1898,95.5
+1911-12-31,China,5% Hukuang Railways 1911,98.5
+1912-01-31,China,7% Silver Loan 1894,83.0
+1912-01-31,China,6% Gold Loan 1895,101.0
+1912-01-31,China,5% Gold Loan 1896,100.0
+1912-01-31,China,4.5% Gold Loan 1898,96.0
+1912-01-31,China,5% Hukuang Railways 1911,99.0
+1912-02-29,China,7% Silver Loan 1894,88.0
+1912-02-29,China,6% Gold Loan 1895,103.0
+1912-02-29,China,5% Gold Loan 1896,102.5
+1912-02-29,China,4.5% Gold Loan 1898,98.0
+1912-02-29,China,5% Hukuang Railways 1911,101.0
+1912-03-31,China,7% Silver Loan 1894,87.5
+1912-03-31,China,6% Gold Loan 1895,103.0
+1912-03-31,China,5% Gold Loan 1896,103.0
+1912-03-31,China,4.5% Gold Loan 1898,95.5
+1912-03-31,China,5% Hukuang Railways 1911,100.0
+1912-04-30,China,7% Silver Loan 1894,90.5
+1912-04-30,China,6% Gold Loan 1895,103.5
+1912-04-30,China,5% Gold Loan 1896,101.5
+1912-04-30,China,4.5% Gold Loan 1898,95.5
+1912-04-30,China,5% Hukuang Railways 1911,100.0
+1912-05-31,China,7% Silver Loan 1894,88.0
+1912-05-31,China,6% Gold Loan 1895,103.5
+1912-05-31,China,5% Gold Loan 1896,101.0
+1912-05-31,China,4.5% Gold Loan 1898,95.0
+1912-05-31,China,5% Hukuang Railways 1911,99.5
+1912-06-30,China,7% Silver Loan 1894,93.0
+1912-06-30,China,6% Gold Loan 1895,104.0
+1912-06-30,China,5% Gold Loan 1896,101.0
+1912-06-30,China,4.5% Gold Loan 1898,95.0
+1912-06-30,China,5% Hukuang Railways 1911,96.0
+1912-07-31,China,7% Silver Loan 1894,92.0
+1912-07-31,China,6% Gold Loan 1895,102.0
+1912-07-31,China,5% Gold Loan 1896,101.0
+1912-07-31,China,4.5% Gold Loan 1898,95.0
+1912-07-31,China,5% Hukuang Railways 1911,97.0
+1912-08-31,China,7% Silver Loan 1894,92.0
+1912-08-31,China,6% Gold Loan 1895,102.5
+1912-08-31,China,5% Gold Loan 1896,102.5
+1912-08-31,China,4.5% Gold Loan 1898,97.5
+1912-08-31,China,5% Hukuang Railways 1911,98.5
+1912-09-30,China,7% Silver Loan 1894,96.0
+1912-09-30,China,6% Gold Loan 1895,102.5
+1912-09-30,China,5% Gold Loan 1896,102.5
+1912-09-30,China,4.5% Gold Loan 1898,95.0
+1912-09-30,China,5% Hukuang Railways 1911,97.0
+1912-10-31,China,7% Silver Loan 1894,97.0
+1912-10-31,China,6% Gold Loan 1895,102.5
+1912-10-31,China,5% Gold Loan 1896,100.5
+1912-10-31,China,4.5% Gold Loan 1898,93.5
+1912-10-31,China,5% Hukuang Railways 1911,97.0
+1912-11-30,China,7% Silver Loan 1894,96.0
+1912-11-30,China,6% Gold Loan 1895,103.5
+1912-11-30,China,5% Gold Loan 1896,101.0
+1912-11-30,China,4.5% Gold Loan 1898,94.0
+1912-11-30,China,5% Hukuang Railways 1911,99.0
+1912-12-31,China,7% Silver Loan 1894,96.0
+1912-12-31,China,6% Gold Loan 1895,103.0
+1912-12-31,China,5% Gold Loan 1896,101.0
+1912-12-31,China,4.5% Gold Loan 1898,95.0
+1912-12-31,China,5% Hukuang Railways 1911,97.0
+1913-01-31,China,7% Silver Loan 1894,95.0
+1913-01-31,China,6% Gold Loan 1895,102.0
+1913-01-31,China,5% Gold Loan 1896,100.5
+1913-01-31,China,4.5% Gold Loan 1898,94.0
+1913-01-31,China,5% Hukuang Railways 1911,95.0
+1913-02-28,China,7% Silver Loan 1894,95.0
+1913-02-28,China,6% Gold Loan 1895,102.0
+1913-02-28,China,5% Gold Loan 1896,100.5
+1913-02-28,China,4.5% Gold Loan 1898,94.5
+1913-02-28,China,5% Hukuang Railways 1911,96.0
+1913-03-31,China,7% Silver Loan 1894,93.0
+1913-03-31,China,6% Gold Loan 1895,102.0
+1913-03-31,China,5% Gold Loan 1896,102.0
+1913-03-31,China,4.5% Gold Loan 1898,92.5
+1913-03-31,China,5% Hukuang Railways 1911,96.0
+1913-04-30,China,7% Silver Loan 1894,94.0
+1913-04-30,China,6% Gold Loan 1895,102.5
+1913-04-30,China,5% Gold Loan 1896,99.0
+1913-04-30,China,4.5% Gold Loan 1898,91.0
+1913-04-30,China,5% Hukuang Railways 1911,96.0
+1913-05-31,China,7% Silver Loan 1894,91.0
+1913-05-31,China,6% Gold Loan 1895,102.5
+1913-05-31,China,5% Gold Loan 1896,98.5
+1913-05-31,China,4.5% Gold Loan 1898,91.5
+1913-05-31,China,5% Hukuang Railways 1911,95.0
+1913-06-30,China,7% Silver Loan 1894,91.0
+1913-06-30,China,6% Gold Loan 1895,102.0
+1913-06-30,China,5% Gold Loan 1896,99.0
+1913-06-30,China,4.5% Gold Loan 1898,92.0
+1913-06-30,China,5% Hukuang Railways 1911,92.0
+1913-07-31,China,6% Gold Loan 1895,101.0
+1913-07-31,China,5% Gold Loan 1896,100.5
+1913-07-31,China,4.5% Gold Loan 1898,93.5
+1913-07-31,China,5% Hukuang Railways 1911,92.0
+1913-08-31,China,6% Gold Loan 1895,101.5
+1913-08-31,China,5% Gold Loan 1896,101.0
+1913-08-31,China,4.5% Gold Loan 1898,95.0
+1913-08-31,China,5% Hukuang Railways 1911,93.0
+1913-08-31,China,5% Reorganisation Loan 1913,90.0
+1913-09-30,China,6% Gold Loan 1895,101.5
+1913-09-30,China,5% Gold Loan 1896,101.5
+1913-09-30,China,4.5% Gold Loan 1898,91.0
+1913-09-30,China,5% Hukuang Railways 1911,93.0
+1913-09-30,China,5% Reorganisation Loan 1913,90.0
+1913-10-31,China,6% Gold Loan 1895,101.5
+1913-10-31,China,5% Gold Loan 1896,97.5
+1913-10-31,China,4.5% Gold Loan 1898,90.0
+1913-10-31,China,5% Hukuang Railways 1911,92.0
+1913-10-31,China,5% Reorganisation Loan 1913,89.5
+1913-11-30,China,6% Gold Loan 1895,103.5
+1913-11-30,China,5% Gold Loan 1896,99.0
+1913-11-30,China,4.5% Gold Loan 1898,91.5
+1913-11-30,China,5% Hukuang Railways 1911,94.0
+1913-11-30,China,5% Reorganisation Loan 1913,91.75
+1913-12-31,China,6% Gold Loan 1895,105.0
+1913-12-31,China,5% Gold Loan 1896,99.0
+1913-12-31,China,4.5% Gold Loan 1898,93.0
+1913-12-31,China,5% Hukuang Railways 1911,92.0
+1913-12-31,China,5% Reorganisation Loan 1913,92.0
+1914-01-31,China,6% Gold Loan 1895,102.0
+1914-01-31,China,5% Gold Loan 1896,101.5
+1914-01-31,China,4.5% Gold Loan 1898,94.0
+1914-01-31,China,5% Hukuang Railways 1911,92.0
+1914-01-31,China,5% Reorganisation Loan 1913,90.5
+1914-02-28,China,6% Gold Loan 1895,102.0
+1914-02-28,China,5% Gold Loan 1896,102.0
+1914-02-28,China,4.5% Gold Loan 1898,94.5
+1914-02-28,China,5% Hukuang Railways 1911,93.0
+1914-02-28,China,5% Reorganisation Loan 1913,89.5
+1914-03-31,China,6% Gold Loan 1895,103.0
+1914-03-31,China,5% Gold Loan 1896,102.5
+1914-03-31,China,4.5% Gold Loan 1898,91.5
+1914-03-31,China,5% Hukuang Railways 1911,93.0
+1914-03-31,China,5% Reorganisation Loan 1913,89.5
+1914-04-30,China,6% Gold Loan 1895,103.0
+1914-04-30,China,5% Gold Loan 1896,100.5
+1914-04-30,China,4.5% Gold Loan 1898,91.0
+1914-04-30,China,5% Hukuang Railways 1911,92.0
+1914-04-30,China,5% Reorganisation Loan 1913,89.5
+1914-05-31,China,6% Gold Loan 1895,103.0
+1914-05-31,China,5% Gold Loan 1896,101.0
+1914-05-31,China,4.5% Gold Loan 1898,91.0
+1914-05-31,China,5% Hukuang Railways 1911,94.0
+1914-05-31,China,5% Reorganisation Loan 1913,90.5
+1914-06-30,China,6% Gold Loan 1895,103.0
+1914-06-30,China,5% Gold Loan 1896,101.5
+1914-06-30,China,4.5% Gold Loan 1898,92.0
+1914-06-30,China,5% Hukuang Railways 1911,92.0
+1914-06-30,China,5% Reorganisation Loan 1913,92.0
+1914-07-31,China,6% Gold Loan 1895,100.0
+1914-07-31,China,5% Gold Loan 1896,98.0
+1914-07-31,China,4.5% Gold Loan 1898,89.0
+1914-07-31,China,5% Hukuang Railways 1911,92.0
+1914-07-31,China,5% Reorganisation Loan 1913,85.0
+1915-01-31,China,6% Gold Loan 1895,101.0
+1915-01-31,China,5% Gold Loan 1896,99.0
+1915-01-31,China,4.5% Gold Loan 1898,89.75
+1915-01-31,China,5% Hukuang Railways 1911,82.25
+1915-01-31,China,5% Reorganisation Loan 1913,84.0
+1915-02-28,China,6% Gold Loan 1895,100.0
+1915-02-28,China,5% Gold Loan 1896,98.87
+1915-02-28,China,4.5% Gold Loan 1898,90.0
+1915-02-28,China,5% Hukuang Railways 1911,82.62
+1915-02-28,China,5% Reorganisation Loan 1913,82.0
+1915-03-31,China,6% Gold Loan 1895,100.25
+1915-03-31,China,5% Gold Loan 1896,100.0
+1915-03-31,China,4.5% Gold Loan 1898,89.0
+1915-03-31,China,5% Hukuang Railways 1911,81.5
+1915-03-31,China,5% Reorganisation Loan 1913,82.0
+1915-04-30,China,6% Gold Loan 1895,100.75
+1915-04-30,China,5% Gold Loan 1896,99.25
+1915-04-30,China,4.5% Gold Loan 1898,90.0
+1915-04-30,China,5% Hukuang Railways 1911,81.25
+1915-04-30,China,5% Reorganisation Loan 1913,84.87
+1915-05-31,China,5% Gold Loan 1896,98.0
+1915-05-31,China,4.5% Gold Loan 1898,88.25
+1915-05-31,China,5% Hukuang Railways 1911,81.25
+1915-05-31,China,5% Reorganisation Loan 1913,83.25
+1915-06-30,China,5% Gold Loan 1896,96.5
+1915-06-30,China,4.5% Gold Loan 1898,86.0
+1915-06-30,China,5% Hukuang Railways 1911,81.25
+1915-06-30,China,5% Reorganisation Loan 1913,82.12
+1915-07-31,China,5% Gold Loan 1896,94.12
+1915-07-31,China,4.5% Gold Loan 1898,85.0
+1915-07-31,China,5% Hukuang Railways 1911,81.12
+1915-07-31,China,5% Reorganisation Loan 1913,82.0
+1915-08-31,China,5% Gold Loan 1896,94.06
+1915-08-31,China,4.5% Gold Loan 1898,84.75
+1915-08-31,China,5% Hukuang Railways 1911,81.12
+1915-08-31,China,5% Reorganisation Loan 1913,82.0
+1915-09-30,China,5% Gold Loan 1896,94.0
+1915-09-30,China,4.5% Gold Loan 1898,84.75
+1915-09-30,China,5% Hukuang Railways 1911,81.12
+1915-09-30,China,5% Reorganisation Loan 1913,82.0
+1915-10-31,China,5% Gold Loan 1896,94.12
+1915-10-31,China,4.5% Gold Loan 1898,85.0
+1915-10-31,China,5% Hukuang Railways 1911,81.12
+1915-10-31,China,5% Reorganisation Loan 1913,82.5
+1915-11-30,China,5% Gold Loan 1896,94.75
+1915-11-30,China,4.5% Gold Loan 1898,85.5
+1915-11-30,China,5% Hukuang Railways 1911,79.25
+1915-11-30,China,5% Reorganisation Loan 1913,78.5
+1915-12-31,China,5% Gold Loan 1896,92.25
+1915-12-31,China,4.5% Gold Loan 1898,82.12
+1915-12-31,China,5% Hukuang Railways 1911,77.0
+1915-12-31,China,5% Reorganisation Loan 1913,77.5
+1916-01-31,China,5% Gold Loan 1896,92.0
+1916-01-31,China,4.5% Gold Loan 1898,81.75
+1916-01-31,China,5% Hukuang Railways 1911,77.0
+1916-01-31,China,5% Reorganisation Loan 1913,74.25
+1916-02-29,China,5% Gold Loan 1896,92.62
+1916-02-29,China,4.5% Gold Loan 1898,80.75
+1916-02-29,China,5% Hukuang Railways 1911,77.0
+1916-02-29,China,5% Reorganisation Loan 1913,73.5
+1916-03-31,China,5% Gold Loan 1896,94.0
+1916-03-31,China,4.5% Gold Loan 1898,78.75
+1916-03-31,China,5% Hukuang Railways 1911,77.37
+1916-03-31,China,5% Reorganisation Loan 1913,73.5
+1916-04-30,China,5% Gold Loan 1896,91.5
+1916-04-30,China,4.5% Gold Loan 1898,75.75
+1916-04-30,China,5% Hukuang Railways 1911,77.5
+1916-04-30,China,5% Reorganisation Loan 1913,73.0
+1916-05-31,China,5% Gold Loan 1896,90.75
+1916-05-31,China,4.5% Gold Loan 1898,76.87
+1916-05-31,China,5% Hukuang Railways 1911,75.0
+1916-05-31,China,5% Reorganisation Loan 1913,73.25
+1916-06-30,China,5% Gold Loan 1896,94.75
+1916-06-30,China,4.5% Gold Loan 1898,82.5
+1916-06-30,China,5% Hukuang Railways 1911,76.12
+1916-06-30,China,5% Reorganisation Loan 1913,78.87
+1916-07-31,China,5% Gold Loan 1896,93.0
+1916-07-31,China,4.5% Gold Loan 1898,82.62
+1916-07-31,China,5% Hukuang Railways 1911,76.0
+1916-07-31,China,5% Reorganisation Loan 1913,77.5
+1916-08-31,China,5% Gold Loan 1896,93.5
+1916-08-31,China,4.5% Gold Loan 1898,82.5
+1916-08-31,China,5% Hukuang Railways 1911,76.0
+1916-08-31,China,5% Reorganisation Loan 1913,78.0
+1916-09-30,China,5% Gold Loan 1896,92.5
+1916-09-30,China,4.5% Gold Loan 1898,80.5
+1916-09-30,China,5% Hukuang Railways 1911,76.0
+1916-09-30,China,5% Reorganisation Loan 1913,77.5
+1916-10-31,China,5% Gold Loan 1896,89.0
+1916-10-31,China,4.5% Gold Loan 1898,77.0
+1916-10-31,China,5% Hukuang Railways 1911,75.0
+1916-10-31,China,5% Reorganisation Loan 1913,74.5
+1916-11-30,China,5% Gold Loan 1896,89.0
+1916-11-30,China,4.5% Gold Loan 1898,76.0
+1916-11-30,China,5% Hukuang Railways 1911,78.0
+1916-11-30,China,5% Reorganisation Loan 1913,72.0
+1916-12-31,China,5% Gold Loan 1896,91.0
+1916-12-31,China,4.5% Gold Loan 1898,78.0
+1916-12-31,China,5% Hukuang Railways 1911,75.0
+1916-12-31,China,5% Reorganisation Loan 1913,75.5
+1917-01-31,China,5% Gold Loan 1896,91.0
+1917-01-31,China,4.5% Gold Loan 1898,80.0
+1917-01-31,China,5% Hukuang Railways 1911,75.0
+1917-01-31,China,5% Reorganisation Loan 1913,74.0
+1917-02-28,China,5% Gold Loan 1896,91.0
+1917-02-28,China,4.5% Gold Loan 1898,77.0
+1917-02-28,China,5% Hukuang Railways 1911,74.0
+1917-02-28,China,5% Reorganisation Loan 1913,75.0
+1917-03-31,China,5% Gold Loan 1896,91.0
+1917-03-31,China,4.5% Gold Loan 1898,77.0
+1917-03-31,China,5% Hukuang Railways 1911,76.0
+1917-03-31,China,5% Reorganisation Loan 1913,77.0
+1917-04-30,China,5% Gold Loan 1896,93.0
+1917-04-30,China,4.5% Gold Loan 1898,82.0
+1917-04-30,China,5% Hukuang Railways 1911,77.0
+1917-04-30,China,5% Reorganisation Loan 1913,81.0
+1917-05-31,China,5% Gold Loan 1896,93.0
+1917-05-31,China,4.5% Gold Loan 1898,84.0
+1917-05-31,China,5% Hukuang Railways 1911,80.0
+1917-05-31,China,5% Reorganisation Loan 1913,80.0
+1917-06-30,China,5% Gold Loan 1896,93.0
+1917-06-30,China,4.5% Gold Loan 1898,83.0
+1917-06-30,China,5% Hukuang Railways 1911,78.0
+1917-06-30,China,5% Reorganisation Loan 1913,79.5
+1917-07-31,China,5% Gold Loan 1896,93.0
+1917-07-31,China,4.5% Gold Loan 1898,82.0
+1917-07-31,China,5% Hukuang Railways 1911,78.0
+1917-07-31,China,5% Reorganisation Loan 1913,80.0
+1917-08-31,China,5% Gold Loan 1896,94.0
+1917-08-31,China,4.5% Gold Loan 1898,83.0
+1917-08-31,China,5% Hukuang Railways 1911,78.0
+1917-08-31,China,5% Reorganisation Loan 1913,80.0
+1917-09-30,China,5% Gold Loan 1896,94.0
+1917-09-30,China,4.5% Gold Loan 1898,81.0
+1917-09-30,China,5% Hukuang Railways 1911,79.0
+1917-09-30,China,5% Reorganisation Loan 1913,82.5
+1917-10-31,China,5% Gold Loan 1896,93.0
+1917-10-31,China,4.5% Gold Loan 1898,83.0
+1917-10-31,China,5% Hukuang Railways 1911,80.0
+1917-10-31,China,5% Reorganisation Loan 1913,85.0
+1917-11-30,China,5% Gold Loan 1896,93.0
+1917-11-30,China,4.5% Gold Loan 1898,84.0
+1917-11-30,China,5% Hukuang Railways 1911,80.0
+1917-11-30,China,5% Reorganisation Loan 1913,85.0
+1917-12-31,China,5% Gold Loan 1896,93.0
+1917-12-31,China,4.5% Gold Loan 1898,85.0
+1917-12-31,China,5% Hukuang Railways 1911,80.0
+1917-12-31,China,5% Reorganisation Loan 1913,85.0
+1918-01-31,China,5% Gold Loan 1896,94.0
+1918-01-31,China,4.5% Gold Loan 1898,85.0
+1918-01-31,China,5% Hukuang Railways 1911,80.0
+1918-01-31,China,5% Reorganisation Loan 1913,82.5
+1918-02-28,China,5% Gold Loan 1896,94.0
+1918-02-28,China,4.5% Gold Loan 1898,85.0
+1918-02-28,China,5% Hukuang Railways 1911,80.0
+1918-02-28,China,5% Reorganisation Loan 1913,81.5
+1918-03-31,China,5% Gold Loan 1896,89.0
+1918-03-31,China,4.5% Gold Loan 1898,77.0
+1918-03-31,China,5% Hukuang Railways 1911,77.0
+1918-03-31,China,5% Reorganisation Loan 1913,75.0
+1918-04-30,China,5% Gold Loan 1896,88.0
+1918-04-30,China,4.5% Gold Loan 1898,77.0
+1918-04-30,China,5% Hukuang Railways 1911,77.0
+1918-04-30,China,5% Reorganisation Loan 1913,76.0
+1918-05-31,China,5% Gold Loan 1896,94.0
+1918-05-31,China,4.5% Gold Loan 1898,82.0
+1918-05-31,China,5% Hukuang Railways 1911,78.0
+1918-05-31,China,5% Reorganisation Loan 1913,81.0
+1918-06-30,China,5% Gold Loan 1896,92.0
+1918-06-30,China,4.5% Gold Loan 1898,81.0
+1918-06-30,China,5% Hukuang Railways 1911,76.0
+1918-06-30,China,5% Reorganisation Loan 1913,82.0
+1918-07-31,China,5% Gold Loan 1896,92.0
+1918-07-31,China,4.5% Gold Loan 1898,81.0
+1918-07-31,China,5% Hukuang Railways 1911,77.0
+1918-07-31,China,5% Reorganisation Loan 1913,81.0
+1918-08-31,China,5% Gold Loan 1896,93.0
+1918-08-31,China,4.5% Gold Loan 1898,81.0
+1918-08-31,China,5% Hukuang Railways 1911,80.0
+1918-08-31,China,5% Reorganisation Loan 1913,84.0
+1918-09-30,China,5% Gold Loan 1896,94.0
+1918-09-30,China,4.5% Gold Loan 1898,81.0
+1918-09-30,China,5% Hukuang Railways 1911,81.0
+1918-09-30,China,5% Reorganisation Loan 1913,85.0
+1918-10-31,China,5% Gold Loan 1896,93.0
+1918-10-31,China,4.5% Gold Loan 1898,85.0
+1918-10-31,China,5% Hukuang Railways 1911,82.0
+1918-10-31,China,5% Reorganisation Loan 1913,87.0
+1918-11-30,China,5% Gold Loan 1896,94.0
+1918-11-30,China,4.5% Gold Loan 1898,85.0
+1918-11-30,China,5% Hukuang Railways 1911,83.0
+1918-11-30,China,5% Reorganisation Loan 1913,85.0
+1918-12-31,China,5% Gold Loan 1896,94.0
+1918-12-31,China,4.5% Gold Loan 1898,84.0
+1918-12-31,China,5% Hukuang Railways 1911,81.0
+1918-12-31,China,5% Reorganisation Loan 1913,84.0
+1919-01-31,China,5% Gold Loan 1896,95.0
+1919-01-31,China,4.5% Gold Loan 1898,86.0
+1919-01-31,China,5% Hukuang Railways 1911,82.0
+1919-01-31,China,5% Reorganisation Loan 1913,85.0
+1919-02-28,China,5% Gold Loan 1896,95.0
+1919-02-28,China,4.5% Gold Loan 1898,86.0
+1919-02-28,China,5% Hukuang Railways 1911,82.0
+1919-02-28,China,5% Reorganisation Loan 1913,85.0
+1919-03-31,China,5% Gold Loan 1896,95.0
+1919-03-31,China,4.5% Gold Loan 1898,87.0
+1919-03-31,China,5% Hukuang Railways 1911,83.0
+1919-03-31,China,5% Reorganisation Loan 1913,86.0
+1919-04-30,China,5% Gold Loan 1896,95.0
+1919-04-30,China,4.5% Gold Loan 1898,87.0
+1919-04-30,China,5% Hukuang Railways 1911,83.0
+1919-04-30,China,5% Reorganisation Loan 1913,84.0
+1919-05-31,China,5% Gold Loan 1896,94.0
+1919-05-31,China,4.5% Gold Loan 1898,84.0
+1919-05-31,China,5% Hukuang Railways 1911,83.0
+1919-05-31,China,5% Reorganisation Loan 1913,82.0
+1919-06-30,China,5% Gold Loan 1896,91.0
+1919-06-30,China,4.5% Gold Loan 1898,81.0
+1919-06-30,China,5% Hukuang Railways 1911,81.0
+1919-06-30,China,5% Reorganisation Loan 1913,78.0
+1919-07-31,China,5% Gold Loan 1896,90.0
+1919-07-31,China,4.5% Gold Loan 1898,81.0
+1919-07-31,China,5% Hukuang Railways 1911,80.0
+1919-07-31,China,5% Reorganisation Loan 1913,77.0
+1919-08-31,China,5% Gold Loan 1896,90.0
+1919-08-31,China,4.5% Gold Loan 1898,80.0
+1919-08-31,China,5% Hukuang Railways 1911,79.0
+1919-08-31,China,5% Reorganisation Loan 1913,76.0
+1919-09-30,China,5% Gold Loan 1896,90.0
+1919-09-30,China,4.5% Gold Loan 1898,77.0
+1919-09-30,China,5% Hukuang Railways 1911,69.5
+1919-09-30,China,5% Reorganisation Loan 1913,76.0
+1919-10-31,China,5% Gold Loan 1896,88.0
+1919-10-31,China,4.5% Gold Loan 1898,75.0
+1919-10-31,China,5% Hukuang Railways 1911,74.0
+1919-10-31,China,5% Reorganisation Loan 1913,79.0
+1919-11-30,China,5% Gold Loan 1896,85.0
+1919-11-30,China,4.5% Gold Loan 1898,73.0
+1919-11-30,China,5% Hukuang Railways 1911,71.5
+1919-11-30,China,5% Reorganisation Loan 1913,76.0
+1919-12-31,China,5% Gold Loan 1896,86.0
+1919-12-31,China,4.5% Gold Loan 1898,73.0
+1919-12-31,China,5% Hukuang Railways 1911,62.0
+1919-12-31,China,5% Reorganisation Loan 1913,69.5
+1920-01-31,China,5% Gold Loan 1896,85.0
+1920-01-31,China,4.5% Gold Loan 1898,68.0
+1920-01-31,China,5% Hukuang Railways 1911,64.5
+1920-01-31,China,5% Reorganisation Loan 1913,73.0
+1920-01-31,China,8% Sterling Treasury 1920s,99.0
+1920-02-29,China,5% Gold Loan 1896,83.0
+1920-02-29,China,4.5% Gold Loan 1898,65.0
+1920-02-29,China,5% Hukuang Railways 1911,61.5
+1920-02-29,China,5% Reorganisation Loan 1913,72.0
+1920-02-29,China,8% Sterling Treasury 1920s,98.0
+1920-03-31,China,5% Gold Loan 1896,76.0
+1920-03-31,China,4.5% Gold Loan 1898,59.0
+1920-03-31,China,5% Hukuang Railways 1911,55.5
+1920-03-31,China,5% Reorganisation Loan 1913,67.0
+1920-03-31,China,8% Sterling Treasury 1920s,96.0
+1920-04-30,China,5% Gold Loan 1896,77.0
+1920-04-30,China,4.5% Gold Loan 1898,60.0
+1920-04-30,China,5% Hukuang Railways 1911,57.5
+1920-04-30,China,5% Reorganisation Loan 1913,66.0
+1920-04-30,China,8% Sterling Treasury 1920s,92.5
+1920-05-31,China,5% Gold Loan 1896,74.0
+1920-05-31,China,4.5% Gold Loan 1898,56.0
+1920-05-31,China,8% Sterling Treasury 1920s,90.0
+1920-06-30,China,5% Gold Loan 1896,72.0
+1920-06-30,China,4.5% Gold Loan 1898,58.0
+1920-06-30,China,8% Sterling Treasury 1920s,88.5
+1920-07-31,China,5% Gold Loan 1896,71.0
+1920-07-31,China,4.5% Gold Loan 1898,56.0
+1920-07-31,China,5% Reorganisation Loan 1913,62.0
+1920-07-31,China,8% Sterling Treasury 1920s,85.5
+1920-08-31,China,5% Gold Loan 1896,68.0
+1920-08-31,China,4.5% Gold Loan 1898,55.0
+1920-08-31,China,5% Reorganisation Loan 1913,67.0
+1920-08-31,China,8% Sterling Treasury 1920s,85.5
+1920-09-30,China,5% Gold Loan 1896,70.0
+1920-09-30,China,4.5% Gold Loan 1898,54.0
+1920-09-30,China,5% Reorganisation Loan 1913,69.5
+1920-09-30,China,8% Sterling Treasury 1920s,88.5
+1920-10-31,China,5% Gold Loan 1896,75.0
+1920-10-31,China,4.5% Gold Loan 1898,61.0
+1920-10-31,China,5% Reorganisation Loan 1913,68.0
+1920-10-31,China,8% Sterling Treasury 1920s,86.5
+1920-11-30,China,5% Gold Loan 1896,76.5
+1920-11-30,China,4.5% Gold Loan 1898,60.0
+1920-11-30,China,5% Reorganisation Loan 1913,64.5
+1920-11-30,China,8% Sterling Treasury 1920s,89.0
+1920-12-31,China,5% Gold Loan 1896,77.5
+1920-12-31,China,4.5% Gold Loan 1898,59.5
+1920-12-31,China,5% Reorganisation Loan 1913,64.0
+1920-12-31,China,8% Sterling Treasury 1920s,89.0
+1921-01-31,China,5% Gold Loan 1896,81.0
+1921-01-31,China,4.5% Gold Loan 1898,63.5
+1921-01-31,China,5% Reorganisation Loan 1913,62.0
+1921-01-31,China,8% Sterling Treasury 1920s,90.0
+1921-02-28,China,5% Gold Loan 1896,82.5
+1921-02-28,China,4.5% Gold Loan 1898,67.0
+1921-02-28,China,5% Reorganisation Loan 1913,63.0
+1921-02-28,China,8% Sterling Treasury 1920s,90.0
+1921-03-31,China,5% Gold Loan 1896,85.0
+1921-03-31,China,4.5% Gold Loan 1898,67.0
+1921-03-31,China,5% Reorganisation Loan 1913,63.0
+1921-03-31,China,8% Sterling Treasury 1920s,89.0
+1921-04-30,China,5% Gold Loan 1896,82.5
+1921-04-30,China,4.5% Gold Loan 1898,68.0
+1921-04-30,China,5% Reorganisation Loan 1913,68.0
+1921-04-30,China,8% Sterling Treasury 1920s,88.0
+1921-05-31,China,5% Gold Loan 1896,85.0
+1921-05-31,China,4.5% Gold Loan 1898,69.5
+1921-05-31,China,5% Reorganisation Loan 1913,70.0
+1921-05-31,China,8% Sterling Treasury 1920s,93.5
+1921-06-30,China,5% Gold Loan 1896,85.5
+1921-06-30,China,4.5% Gold Loan 1898,70.5
+1921-06-30,China,5% Reorganisation Loan 1913,71.5
+1921-06-30,China,8% Sterling Treasury 1920s,93.5
+1921-07-31,China,5% Gold Loan 1896,85.5
+1921-07-31,China,4.5% Gold Loan 1898,73.5
+1921-07-31,China,5% Reorganisation Loan 1913,72.0
+1921-07-31,China,8% Sterling Treasury 1920s,95.5
+1921-08-31,China,5% Gold Loan 1896,85.5
+1921-08-31,China,4.5% Gold Loan 1898,75.0
+1921-08-31,China,5% Reorganisation Loan 1913,76.0
+1921-08-31,China,8% Sterling Treasury 1920s,94.5
+1921-09-30,China,5% Gold Loan 1896,85.0
+1921-09-30,China,4.5% Gold Loan 1898,70.0
+1921-09-30,China,5% Reorganisation Loan 1913,75.0
+1921-09-30,China,8% Sterling Treasury 1920s,84.0
+1921-10-31,China,5% Gold Loan 1896,84.0
+1921-10-31,China,4.5% Gold Loan 1898,69.0
+1921-10-31,China,5% Reorganisation Loan 1913,69.0
+1921-10-31,China,8% Sterling Treasury 1920s,83.5
+1921-11-30,China,5% Gold Loan 1896,81.5
+1921-11-30,China,4.5% Gold Loan 1898,64.0
+1921-11-30,China,5% Reorganisation Loan 1913,66.0
+1921-11-30,China,8% Sterling Treasury 1920s,67.5
+1921-12-31,China,5% Gold Loan 1896,88.0
+1921-12-31,China,4.5% Gold Loan 1898,73.0
+1921-12-31,China,5% Reorganisation Loan 1913,72.0
+1921-12-31,China,8% Sterling Treasury 1920s,81.25
+1922-01-31,China,5% Gold Loan 1896,88.0
+1922-01-31,China,4.5% Gold Loan 1898,71.0
+1922-01-31,China,5% Reorganisation Loan 1913,67.0
+1922-01-31,China,8% Sterling Treasury 1920s,77.5
+1922-02-28,China,5% Gold Loan 1896,91.37
+1922-02-28,China,4.5% Gold Loan 1898,78.0
+1922-02-28,China,5% Reorganisation Loan 1913,77.0
+1922-02-28,China,8% Sterling Treasury 1920s,83.75
+1922-03-31,China,5% Gold Loan 1896,93.0
+1922-03-31,China,4.5% Gold Loan 1898,76.0
+1922-03-31,China,5% Reorganisation Loan 1913,74.0
+1922-03-31,China,8% Sterling Treasury 1920s,73.75
+1922-04-30,China,5% Gold Loan 1896,91.0
+1922-04-30,China,4.5% Gold Loan 1898,80.0
+1922-04-30,China,5% Reorganisation Loan 1913,74.0
+1922-04-30,China,8% Sterling Treasury 1920s,77.5
+1922-05-31,China,5% Gold Loan 1896,92.0
+1922-05-31,China,4.5% Gold Loan 1898,79.0
+1922-05-31,China,5% Reorganisation Loan 1913,76.0
+1922-05-31,China,8% Sterling Treasury 1920s,76.5
+1922-06-30,China,5% Gold Loan 1896,93.0
+1922-06-30,China,4.5% Gold Loan 1898,80.0
+1922-06-30,China,5% Reorganisation Loan 1913,77.0
+1922-06-30,China,8% Sterling Treasury 1920s,66.5
+1922-07-31,China,5% Gold Loan 1896,95.0
+1922-07-31,China,4.5% Gold Loan 1898,84.0
+1922-07-31,China,5% Reorganisation Loan 1913,78.0
+1922-07-31,China,8% Sterling Treasury 1920s,74.5
+1922-08-31,China,5% Gold Loan 1896,94.0
+1922-08-31,China,4.5% Gold Loan 1898,85.0
+1922-08-31,China,5% Reorganisation Loan 1913,77.0
+1922-08-31,China,8% Sterling Treasury 1920s,66.5
+1922-09-30,China,5% Gold Loan 1896,93.0
+1922-09-30,China,4.5% Gold Loan 1898,80.0
+1922-09-30,China,5% Reorganisation Loan 1913,75.0
+1922-09-30,China,8% Sterling Treasury 1920s,72.5
+1922-10-31,China,5% Gold Loan 1896,92.0
+1922-10-31,China,4.5% Gold Loan 1898,80.0
+1922-10-31,China,5% Reorganisation Loan 1913,75.0
+1922-10-31,China,8% Sterling Treasury 1920s,67.5
+1922-11-30,China,5% Gold Loan 1896,94.0
+1922-11-30,China,4.5% Gold Loan 1898,84.0
+1922-11-30,China,5% Reorganisation Loan 1913,76.0
+1922-11-30,China,8% Sterling Treasury 1920s,68.0
+1922-12-31,China,5% Gold Loan 1896,94.0
+1922-12-31,China,4.5% Gold Loan 1898,83.0
+1922-12-31,China,5% Reorganisation Loan 1913,79.0
+1922-12-31,China,8% Sterling Treasury 1920s,70.5
+1923-01-31,China,5% Gold Loan 1896,94.0
+1923-01-31,China,4.5% Gold Loan 1898,83.0
+1923-01-31,China,5% Reorganisation Loan 1913,78.0
+1923-01-31,China,8% Sterling Treasury 1920s,68.5
+1923-02-28,China,5% Gold Loan 1896,94.0
+1923-02-28,China,4.5% Gold Loan 1898,84.0
+1923-02-28,China,5% Reorganisation Loan 1913,77.0
+1923-02-28,China,8% Sterling Treasury 1920s,62.5
+1923-03-31,China,5% Gold Loan 1896,96.0
+1923-03-31,China,4.5% Gold Loan 1898,80.0
+1923-03-31,China,5% Reorganisation Loan 1913,77.0
+1923-03-31,China,8% Sterling Treasury 1920s,60.25
+1923-04-30,China,5% Gold Loan 1896,95.0
+1923-04-30,China,4.5% Gold Loan 1898,84.0
+1923-04-30,China,5% Reorganisation Loan 1913,77.0
+1923-04-30,China,8% Sterling Treasury 1920s,59.0
+1923-05-31,China,5% Gold Loan 1896,95.0
+1923-05-31,China,4.5% Gold Loan 1898,85.0
+1923-05-31,China,5% Reorganisation Loan 1913,77.0
+1923-05-31,China,8% Sterling Treasury 1920s,57.5
+1923-06-30,China,5% Gold Loan 1896,94.0
+1923-06-30,China,4.5% Gold Loan 1898,83.0
+1923-06-30,China,5% Reorganisation Loan 1913,77.0
+1923-06-30,China,8% Sterling Treasury 1920s,55.5
+1923-07-31,China,5% Gold Loan 1896,90.0
+1923-07-31,China,4.5% Gold Loan 1898,79.0
+1923-07-31,China,5% Reorganisation Loan 1913,70.0
+1923-07-31,China,8% Sterling Treasury 1920s,47.5
+1923-08-31,China,5% Gold Loan 1896,94.0
+1923-08-31,China,4.5% Gold Loan 1898,80.0
+1923-08-31,China,5% Reorganisation Loan 1913,71.0
+1923-08-31,China,8% Sterling Treasury 1920s,45.0
+1923-09-30,China,5% Gold Loan 1896,93.0
+1923-09-30,China,4.5% Gold Loan 1898,78.0
+1923-09-30,China,5% Reorganisation Loan 1913,70.0
+1923-09-30,China,8% Sterling Treasury 1920s,40.0
+1923-10-31,China,5% Gold Loan 1896,92.0
+1923-10-31,China,4.5% Gold Loan 1898,80.0
+1923-10-31,China,5% Reorganisation Loan 1913,74.0
+1923-10-31,China,8% Sterling Treasury 1920s,47.5
+1923-11-30,China,5% Gold Loan 1896,94.0
+1923-11-30,China,4.5% Gold Loan 1898,81.0
+1923-11-30,China,5% Reorganisation Loan 1913,75.0
+1923-11-30,China,8% Sterling Treasury 1920s,47.5
+1923-12-31,China,5% Gold Loan 1896,93.0
+1923-12-31,China,4.5% Gold Loan 1898,79.0
+1923-12-31,China,5% Reorganisation Loan 1913,74.0
+1923-12-31,China,8% Sterling Treasury 1920s,40.0
+1924-01-31,China,5% Gold Loan 1896,93.0
+1924-01-31,China,4.5% Gold Loan 1898,79.0
+1924-01-31,China,5% Reorganisation Loan 1913,72.0
+1924-01-31,China,8% Sterling Treasury 1920s,37.5
+1924-02-29,China,5% Gold Loan 1896,93.0
+1924-02-29,China,4.5% Gold Loan 1898,81.0
+1924-02-29,China,5% Reorganisation Loan 1913,73.0
+1924-02-29,China,8% Sterling Treasury 1920s,34.75
+1924-03-31,China,5% Gold Loan 1896,95.0
+1924-03-31,China,4.5% Gold Loan 1898,78.0
+1924-03-31,China,5% Reorganisation Loan 1913,71.0
+1924-03-31,China,8% Sterling Treasury 1920s,39.0
+1924-04-30,China,5% Gold Loan 1896,91.0
+1924-04-30,China,4.5% Gold Loan 1898,76.0
+1924-04-30,China,5% Reorganisation Loan 1913,70.0
+1924-04-30,China,8% Sterling Treasury 1920s,36.25
+1924-05-31,China,5% Gold Loan 1896,93.75
+1924-05-31,China,4.5% Gold Loan 1898,79.0
+1924-05-31,China,5% Reorganisation Loan 1913,73.0
+1924-05-31,China,8% Sterling Treasury 1920s,43.5
+1924-06-30,China,5% Gold Loan 1896,94.0
+1924-06-30,China,4.5% Gold Loan 1898,80.0
+1924-06-30,China,5% Reorganisation Loan 1913,75.0
+1924-06-30,China,8% Sterling Treasury 1920s,45.5
+1924-07-31,China,5% Gold Loan 1896,93.5
+1924-07-31,China,4.5% Gold Loan 1898,79.5
+1924-07-31,China,5% Reorganisation Loan 1913,72.0
+1924-07-31,China,8% Sterling Treasury 1920s,41.25
+1924-08-31,China,5% Gold Loan 1896,93.0
+1924-08-31,China,4.5% Gold Loan 1898,81.0
+1924-08-31,China,5% Reorganisation Loan 1913,73.0
+1924-08-31,China,8% Sterling Treasury 1920s,40.25
+1924-09-30,China,5% Gold Loan 1896,92.0
+1924-09-30,China,4.5% Gold Loan 1898,76.0
+1924-09-30,China,5% Reorganisation Loan 1913,69.0
+1924-09-30,China,8% Sterling Treasury 1920s,39.5
+1924-10-31,China,5% Gold Loan 1896,93.0
+1924-10-31,China,4.5% Gold Loan 1898,80.0
+1924-10-31,China,5% Reorganisation Loan 1913,72.0
+1924-10-31,China,8% Sterling Treasury 1920s,41.0
+1924-11-30,China,5% Gold Loan 1896,93.0
+1924-11-30,China,4.5% Gold Loan 1898,80.0
+1924-11-30,China,5% Reorganisation Loan 1913,73.0
+1924-11-30,China,8% Sterling Treasury 1920s,41.0
+1924-12-31,China,5% Gold Loan 1896,93.0
+1924-12-31,China,4.5% Gold Loan 1898,80.0
+1924-12-31,China,5% Reorganisation Loan 1913,73.0
+1924-12-31,China,8% Sterling Treasury 1920s,40.5
+1925-01-31,China,5% Gold Loan 1896,95.0
+1925-01-31,China,4.5% Gold Loan 1898,81.0
+1925-01-31,China,5% Reorganisation Loan 1913,73.0
+1925-01-31,China,8% Sterling Treasury 1920s,40.5
+1925-02-28,China,5% Gold Loan 1896,95.0
+1925-02-28,China,4.5% Gold Loan 1898,84.0
+1925-02-28,China,5% Reorganisation Loan 1913,76.0
+1925-02-28,China,8% Sterling Treasury 1920s,50.5
+1925-03-31,China,5% Gold Loan 1896,97.0
+1925-03-31,China,4.5% Gold Loan 1898,83.0
+1925-03-31,China,5% Reorganisation Loan 1913,75.0
+1925-03-31,China,8% Sterling Treasury 1920s,47.5
+1925-04-30,China,5% Gold Loan 1896,96.0
+1925-04-30,China,4.5% Gold Loan 1898,84.0
+1925-04-30,China,5% Reorganisation Loan 1913,76.0
+1925-04-30,China,8% Sterling Treasury 1920s,42.5
+1925-05-31,China,5% Gold Loan 1896,95.0
+1925-05-31,China,4.5% Gold Loan 1898,84.0
+1925-05-31,China,5% Reorganisation Loan 1913,77.0
+1925-05-31,China,8% Sterling Treasury 1920s,45.5
+1925-06-30,China,5% Gold Loan 1896,89.0
+1925-06-30,China,4.5% Gold Loan 1898,77.0
+1925-06-30,China,5% Reorganisation Loan 1913,69.0
+1925-06-30,China,8% Sterling Treasury 1920s,35.25
+1925-07-31,China,5% Gold Loan 1896,90.0
+1925-07-31,China,4.5% Gold Loan 1898,78.0
+1925-07-31,China,5% Reorganisation Loan 1913,72.0
+1925-07-31,China,8% Sterling Treasury 1920s,37.5
+1925-08-31,China,5% Gold Loan 1896,89.0
+1925-08-31,China,4.5% Gold Loan 1898,75.0
+1925-08-31,China,5% Reorganisation Loan 1913,68.0
+1925-08-31,China,8% Sterling Treasury 1920s,39.0
+1925-09-30,China,5% Gold Loan 1896,92.0
+1925-09-30,China,4.5% Gold Loan 1898,76.0
+1925-09-30,China,5% Reorganisation Loan 1913,72.0
+1925-09-30,China,8% Sterling Treasury 1920s,47.5
+1925-10-31,China,5% Gold Loan 1896,89.0
+1925-10-31,China,4.5% Gold Loan 1898,77.0
+1925-10-31,China,5% Reorganisation Loan 1913,70.0
+1925-10-31,China,8% Sterling Treasury 1920s,45.0
+1925-11-30,China,5% Gold Loan 1896,88.0
+1925-11-30,China,4.5% Gold Loan 1898,75.0
+1925-11-30,China,5% Reorganisation Loan 1913,70.0
+1925-11-30,China,8% Sterling Treasury 1920s,46.0
+1925-12-31,China,5% Gold Loan 1896,87.0
+1925-12-31,China,4.5% Gold Loan 1898,72.0
+1925-12-31,China,5% Reorganisation Loan 1913,70.0
+1925-12-31,China,8% Sterling Treasury 1920s,44.0
+1926-01-31,China,5% Gold Loan 1896,93.0
+1926-01-31,China,4.5% Gold Loan 1898,74.0
+1926-01-31,China,5% Reorganisation Loan 1913,70.0
+1926-01-31,China,8% Sterling Treasury 1920s,41.5
+1926-02-28,China,5% Gold Loan 1896,93.0
+1926-02-28,China,4.5% Gold Loan 1898,75.0
+1926-02-28,China,5% Reorganisation Loan 1913,69.0
+1926-02-28,China,8% Sterling Treasury 1920s,41.5
+1926-03-31,China,5% Gold Loan 1896,93.0
+1926-03-31,China,4.5% Gold Loan 1898,73.0
+1926-03-31,China,5% Reorganisation Loan 1913,67.0
+1926-03-31,China,8% Sterling Treasury 1920s,41.75
+1926-04-30,China,5% Gold Loan 1896,94.0
+1926-04-30,China,4.5% Gold Loan 1898,77.0
+1926-04-30,China,5% Reorganisation Loan 1913,70.0
+1926-04-30,China,8% Sterling Treasury 1920s,44.75
+1926-05-31,China,5% Gold Loan 1896,93.0
+1926-05-31,China,4.5% Gold Loan 1898,76.0
+1926-05-31,China,5% Reorganisation Loan 1913,69.0
+1926-05-31,China,8% Sterling Treasury 1920s,43.75
+1926-06-30,China,5% Gold Loan 1896,90.0
+1926-06-30,China,4.5% Gold Loan 1898,74.0
+1926-06-30,China,5% Reorganisation Loan 1913,67.5
+1926-06-30,China,8% Sterling Treasury 1920s,37.5
+1926-07-31,China,5% Gold Loan 1896,90.0
+1926-07-31,China,4.5% Gold Loan 1898,74.0
+1926-07-31,China,5% Reorganisation Loan 1913,67.5
+1926-07-31,China,8% Sterling Treasury 1920s,36.0
+1926-08-31,China,5% Gold Loan 1896,92.0
+1926-08-31,China,4.5% Gold Loan 1898,77.0
+1926-08-31,China,5% Reorganisation Loan 1913,66.5
+1926-08-31,China,8% Sterling Treasury 1920s,33.5
+1926-09-30,China,5% Gold Loan 1896,88.0
+1926-09-30,China,4.5% Gold Loan 1898,71.0
+1926-09-30,China,5% Reorganisation Loan 1913,62.0
+1926-09-30,China,8% Sterling Treasury 1920s,30.5
+1926-10-31,China,5% Gold Loan 1896,85.0
+1926-10-31,China,4.5% Gold Loan 1898,69.0
+1926-10-31,China,8% Sterling Treasury 1920s,26.5
+1926-11-30,China,5% Gold Loan 1896,82.5
+1926-11-30,China,4.5% Gold Loan 1898,61.0
+1926-11-30,China,8% Sterling Treasury 1920s,20.0
+1926-12-31,China,5% Gold Loan 1896,85.0
+1926-12-31,China,4.5% Gold Loan 1898,63.0
+1926-12-31,China,8% Sterling Treasury 1920s,24.5
+1927-01-31,China,5% Gold Loan 1896,85.0
+1927-01-31,China,4.5% Gold Loan 1898,58.0
+1927-01-31,China,8% Sterling Treasury 1920s,22.5
+1927-02-28,China,5% Gold Loan 1896,81.0
+1927-02-28,China,4.5% Gold Loan 1898,62.0
+1927-02-28,China,8% Sterling Treasury 1920s,22.5
+1927-03-31,China,5% Gold Loan 1896,75.0
+1927-03-31,China,4.5% Gold Loan 1898,54.5
+1927-03-31,China,8% Sterling Treasury 1920s,21.0
+1927-04-30,China,4.5% Gold Loan 1898,58.0
+1927-04-30,China,8% Sterling Treasury 1920s,23.5
+1927-05-31,China,4.5% Gold Loan 1898,60.0
+1927-05-31,China,8% Sterling Treasury 1920s,20.5
+1927-06-30,China,4.5% Gold Loan 1898,59.0
+1927-06-30,China,8% Sterling Treasury 1920s,20.5
+1927-07-31,China,4.5% Gold Loan 1898,59.0
+1927-07-31,China,8% Sterling Treasury 1920s,19.5
+1927-08-31,China,4.5% Gold Loan 1898,62.5
+1927-08-31,China,8% Sterling Treasury 1920s,19.5
+1927-09-30,China,4.5% Gold Loan 1898,64.0
+1927-09-30,China,8% Sterling Treasury 1920s,20.5
+1927-10-31,China,4.5% Gold Loan 1898,59.5
+1927-10-31,China,8% Sterling Treasury 1920s,17.5
+1927-11-30,China,4.5% Gold Loan 1898,63.0
+1927-11-30,China,8% Sterling Treasury 1920s,14.5
+1927-12-31,China,4.5% Gold Loan 1898,68.0
+1927-12-31,China,8% Sterling Treasury 1920s,15.5
+1928-01-31,China,4.5% Gold Loan 1898,72.0
+1928-01-31,China,5% Reorganisation Loan 1913,63.0
+1928-01-31,China,8% Sterling Treasury 1920s,30.5
+1928-02-29,China,4.5% Gold Loan 1898,75.0
+1928-02-29,China,5% Reorganisation Loan 1913,64.0
+1928-02-29,China,8% Sterling Treasury 1920s,33.0
+1928-03-31,China,4.5% Gold Loan 1898,72.5
+1928-03-31,China,5% Reorganisation Loan 1913,63.0
+1928-03-31,China,8% Sterling Treasury 1920s,34.0
+1928-04-30,China,4.5% Gold Loan 1898,70.0
+1928-04-30,China,5% Reorganisation Loan 1913,61.0
+1928-04-30,China,8% Sterling Treasury 1920s,25.0
+1928-05-31,China,4.5% Gold Loan 1898,72.0
+1928-05-31,China,5% Reorganisation Loan 1913,63.0
+1928-05-31,China,8% Sterling Treasury 1920s,26.5
+1928-06-30,China,4.5% Gold Loan 1898,74.0
+1928-06-30,China,5% Reorganisation Loan 1913,64.0
+1928-06-30,China,8% Sterling Treasury 1920s,28.25
+1928-07-31,China,4.5% Gold Loan 1898,76.0
+1928-07-31,China,5% Reorganisation Loan 1913,65.0
+1928-07-31,China,8% Sterling Treasury 1920s,32.0
+1928-08-31,China,4.5% Gold Loan 1898,77.5
+1928-08-31,China,5% Reorganisation Loan 1913,65.0
+1928-08-31,China,8% Sterling Treasury 1920s,29.5
+1928-09-30,China,4.5% Gold Loan 1898,75.0
+1928-09-30,China,5% Reorganisation Loan 1913,68.0
+1928-09-30,China,8% Sterling Treasury 1920s,28.5
+1928-10-31,China,5% Gold Loan 1896,94.5
+1928-10-31,China,4.5% Gold Loan 1898,77.0
+1928-10-31,China,5% Reorganisation Loan 1913,67.5
+1928-10-31,China,8% Sterling Treasury 1920s,28.5
+1928-11-30,China,5% Gold Loan 1896,94.5
+1928-11-30,China,4.5% Gold Loan 1898,79.0
+1928-11-30,China,5% Reorganisation Loan 1913,68.0
+1928-11-30,China,8% Sterling Treasury 1920s,28.5
+1928-12-31,China,5% Gold Loan 1896,96.0
+1928-12-31,China,4.5% Gold Loan 1898,81.0
+1928-12-31,China,5% Reorganisation Loan 1913,69.0
+1928-12-31,China,8% Sterling Treasury 1920s,28.0
+1929-01-31,China,5% Gold Loan 1896,97.0
+1929-01-31,China,4.5% Gold Loan 1898,79.0
+1929-01-31,China,5% Reorganisation Loan 1913,69.0
+1929-01-31,China,8% Sterling Treasury 1920s,25.5
+1929-02-28,China,5% Gold Loan 1896,96.0
+1929-02-28,China,4.5% Gold Loan 1898,80.0
+1929-02-28,China,5% Reorganisation Loan 1913,69.0
+1929-02-28,China,8% Sterling Treasury 1920s,27.0
+1929-03-31,China,5% Gold Loan 1896,96.5
+1929-03-31,China,4.5% Gold Loan 1898,77.0
+1929-03-31,China,5% Reorganisation Loan 1913,64.5
+1929-03-31,China,8% Sterling Treasury 1920s,25.5
+1929-04-30,China,5% Gold Loan 1896,96.0
+1929-04-30,China,4.5% Gold Loan 1898,76.0
+1929-04-30,China,5% Reorganisation Loan 1913,65.0
+1929-04-30,China,8% Sterling Treasury 1920s,24.0
+1929-05-31,China,5% Gold Loan 1896,97.0
+1929-05-31,China,4.5% Gold Loan 1898,76.0
+1929-05-31,China,5% Reorganisation Loan 1913,64.0
+1929-05-31,China,8% Sterling Treasury 1920s,21.5
+1929-06-30,China,5% Gold Loan 1896,97.0
+1929-06-30,China,4.5% Gold Loan 1898,76.5
+1929-06-30,China,5% Reorganisation Loan 1913,65.5
+1929-06-30,China,8% Sterling Treasury 1920s,21.0
+1929-07-31,China,5% Gold Loan 1896,97.0
+1929-07-31,China,4.5% Gold Loan 1898,78.0
+1929-07-31,China,5% Reorganisation Loan 1913,63.0
+1929-07-31,China,8% Sterling Treasury 1920s,22.0
+1929-08-31,China,5% Gold Loan 1896,97.0
+1929-08-31,China,4.5% Gold Loan 1898,78.5
+1929-08-31,China,5% Reorganisation Loan 1913,63.0
+1929-08-31,China,8% Sterling Treasury 1920s,18.25
+1929-09-30,China,5% Gold Loan 1896,98.0
+1929-09-30,China,4.5% Gold Loan 1898,79.0
+1929-09-30,China,5% Reorganisation Loan 1913,62.0
+1929-09-30,China,8% Sterling Treasury 1920s,19.5
+1929-10-31,China,5% Gold Loan 1896,95.0
+1929-10-31,China,4.5% Gold Loan 1898,78.0
+1929-10-31,China,5% Reorganisation Loan 1913,61.0
+1929-10-31,China,8% Sterling Treasury 1920s,16.5
+1929-11-30,China,5% Gold Loan 1896,95.5
+1929-11-30,China,4.5% Gold Loan 1898,76.5
+1929-11-30,China,5% Reorganisation Loan 1913,62.0
+1929-11-30,China,8% Sterling Treasury 1920s,14.25
+1929-12-31,China,5% Gold Loan 1896,96.5
+1929-12-31,China,4.5% Gold Loan 1898,78.5
+1929-12-31,China,5% Reorganisation Loan 1913,62.0
+1929-12-31,China,8% Sterling Treasury 1920s,14.5
+1869-01-31,Denmark,5% Loan 1864,99.125
+1869-02-28,Denmark,5% Loan 1864,99.125
+1869-03-31,Denmark,5% Loan 1864,99.125
+1869-04-30,Denmark,5% Loan 1864,99.125
+1869-05-31,Denmark,5% Loan 1864,99.125
+1869-06-30,Denmark,5% Loan 1864,99.125
+1869-07-31,Denmark,5% Loan 1864,99.125
+1869-08-31,Denmark,5% Loan 1864,99.125
+1869-09-30,Denmark,5% Loan 1864,99.125
+1869-10-31,Denmark,5% Loan 1864,99.125
+1869-11-30,Denmark,5% Loan 1864,99.125
+1869-12-31,Denmark,5% Loan 1864,99.125
+1870-01-31,Denmark,5% Loan 1864,99.125
+1870-02-28,Denmark,5% Loan 1864,99.125
+1870-03-31,Denmark,5% Loan 1864,99.625
+1870-04-30,Denmark,5% Loan 1864,100.0
+1870-05-31,Denmark,5% Loan 1864,99.625
+1870-06-30,Denmark,5% Loan 1864,99.625
+1870-07-31,Denmark,5% Loan 1864,99.625
+1870-08-31,Denmark,5% Loan 1864,99.625
+1870-09-30,Denmark,5% Loan 1864,99.625
+1870-10-31,Denmark,5% Loan 1864,99.625
+1870-11-30,Denmark,5% Loan 1864,99.625
+1870-12-31,Denmark,5% Loan 1864,99.625
+1871-01-31,Denmark,5% Loan 1864,99.25
+1871-02-28,Denmark,5% Loan 1864,99.25
+1871-03-31,Denmark,5% Loan 1864,99.25
+1871-04-30,Denmark,5% Loan 1864,99.25
+1871-05-31,Denmark,5% Loan 1864,99.25
+1871-06-30,Denmark,5% Loan 1864,99.25
+1871-07-31,Denmark,5% Loan 1864,99.25
+1871-08-31,Denmark,5% Loan 1864,99.25
+1871-09-30,Denmark,5% Loan 1864,100.0
+1871-10-31,Denmark,5% Loan 1864,100.0
+1871-11-30,Denmark,5% Loan 1864,101.0
+1871-12-31,Denmark,5% Loan 1864,101.0
+1872-01-31,Denmark,5% Loan 1864,101.0
+1872-02-29,Denmark,5% Loan 1864,101.0
+1872-03-31,Denmark,5% Loan 1864,101.0
+1872-04-30,Denmark,5% Loan 1864,101.0
+1872-05-31,Denmark,5% Loan 1864,101.0
+1872-06-30,Denmark,5% Loan 1864,101.0
+1872-07-31,Denmark,5% Loan 1864,101.0
+1872-08-31,Denmark,5% Loan 1864,101.0
+1872-09-30,Denmark,5% Loan 1864,101.0
+1872-10-31,Denmark,5% Loan 1864,101.0
+1872-11-30,Denmark,5% Loan 1864,101.375
+1872-12-31,Denmark,5% Loan 1864,101.375
+1873-01-31,Denmark,5% Loan 1864,101.375
+1873-02-28,Denmark,5% Loan 1864,101.435
+1873-03-31,Denmark,5% Loan 1864,101.435
+1873-04-30,Denmark,5% Loan 1864,101.435
+1873-05-31,Denmark,5% Loan 1864,101.435
+1873-06-30,Denmark,5% Loan 1864,99.935
+1873-07-31,Denmark,5% Loan 1864,99.435
+1873-08-31,Denmark,5% Loan 1864,99.435
+1873-09-30,Denmark,5% Loan 1864,99.435
+1873-10-31,Denmark,5% Loan 1864,99.435
+1873-11-30,Denmark,5% Loan 1864,99.435
+1873-12-31,Denmark,5% Loan 1864,99.435
+1874-01-31,Denmark,5% Loan 1864,99.435
+1874-02-28,Denmark,5% Loan 1864,99.435
+1874-03-31,Denmark,5% Loan 1864,99.435
+1874-04-30,Denmark,5% Loan 1864,99.435
+1874-05-31,Denmark,5% Loan 1864,99.435
+1874-06-30,Denmark,5% Loan 1864,99.435
+1874-07-31,Denmark,5% Loan 1864,99.435
+1874-08-31,Denmark,5% Loan 1864,99.435
+1874-09-30,Denmark,5% Loan 1864,99.435
+1874-10-31,Denmark,5% Loan 1864,99.435
+1874-11-30,Denmark,5% Loan 1864,99.435
+1874-12-31,Denmark,5% Loan 1864,99.435
+1875-01-31,Denmark,5% Loan 1864,99.435
+1875-02-28,Denmark,5% Loan 1864,99.435
+1875-03-31,Denmark,5% Loan 1864,101.87
+1875-04-30,Denmark,5% Loan 1864,101.87
+1875-05-31,Denmark,5% Loan 1864,101.87
+1875-06-30,Denmark,5% Loan 1864,101.87
+1875-07-31,Denmark,5% Loan 1864,101.87
+1875-08-31,Denmark,5% Loan 1864,101.87
+1875-09-30,Denmark,5% Loan 1864,101.87
+1875-10-31,Denmark,5% Loan 1864,101.87
+1875-11-30,Denmark,5% Loan 1864,101.87
+1875-12-31,Denmark,5% Loan 1864,101.87
+1876-01-31,Denmark,5% Loan 1864,101.87
+1876-02-29,Denmark,5% Loan 1864,101.87
+1876-03-31,Denmark,5% Loan 1864,101.87
+1876-04-30,Denmark,5% Loan 1864,101.87
+1876-05-31,Denmark,5% Loan 1864,101.87
+1876-06-30,Denmark,5% Loan 1864,101.87
+1876-07-31,Denmark,5% Loan 1864,101.87
+1876-08-31,Denmark,5% Loan 1864,101.87
+1876-09-30,Denmark,5% Loan 1864,101.87
+1876-10-31,Denmark,5% Loan 1864,101.87
+1876-11-30,Denmark,5% Loan 1864,101.87
+1876-12-31,Denmark,4% Loans 1850-61,90.0
+1876-12-31,Denmark,5% Loan 1864,101.87
+1877-01-31,Denmark,5% Loan 1864,101.87
+1877-02-28,Denmark,5% Loan 1864,101.87
+1877-03-31,Denmark,5% Loan 1864,101.87
+1877-04-30,Denmark,5% Loan 1864,101.87
+1877-05-31,Denmark,5% Loan 1864,101.87
+1877-06-30,Denmark,5% Loan 1864,101.87
+1877-07-31,Denmark,5% Loan 1864,101.87
+1877-08-31,Denmark,5% Loan 1864,101.87
+1877-09-30,Denmark,5% Loan 1864,101.87
+1882-05-31,Denmark,4% Loans 1850-61,98.5
+1882-06-30,Denmark,4% Loans 1850-61,99.0
+1882-07-31,Denmark,4% Loans 1850-61,99.0
+1882-08-31,Denmark,4% Loans 1850-61,100.0
+1882-09-30,Denmark,4% Loans 1850-61,99.0
+1882-10-31,Denmark,4% Loans 1850-61,99.5
+1882-11-30,Denmark,4% Loans 1850-61,99.0
+1882-12-31,Denmark,4% Loans 1850-61,99.0
+1883-01-31,Denmark,4% Loans 1850-61,99.0
+1883-09-30,Denmark,4% Loans 1850-61,99.5
+1883-10-31,Denmark,4% Loans 1850-61,99.5
+1883-11-30,Denmark,4% Loans 1850-61,99.0
+1883-12-31,Denmark,4% Loans 1850-61,99.0
+1884-01-31,Denmark,4% Loans 1850-61,99.0
+1884-02-29,Denmark,4% Loans 1850-61,99.5
+1884-03-31,Denmark,4% Loans 1850-61,99.0
+1884-04-30,Denmark,4% Loans 1850-61,99.0
+1884-05-31,Denmark,4% Loans 1850-61,99.0
+1884-06-30,Denmark,4% Loans 1850-61,99.5
+1884-07-31,Denmark,4% Loans 1850-61,100.0
+1884-08-31,Denmark,4% Loans 1850-61,100.0
+1884-09-30,Denmark,4% Loans 1850-61,100.0
+1884-10-31,Denmark,4% Loans 1850-61,100.0
+1884-11-30,Denmark,4% Loans 1850-61,100.0
+1884-12-31,Denmark,4% Loans 1850-61,100.0
+1885-01-31,Denmark,4% Loans 1850-61,100.0
+1885-02-28,Denmark,4% Loans 1850-61,100.0
+1885-03-31,Denmark,4% Loans 1850-61,100.0
+1885-04-30,Denmark,4% Loans 1850-61,100.0
+1885-05-31,Denmark,4% Loans 1850-61,100.0
+1885-06-30,Denmark,4% Loans 1850-61,100.0
+1885-07-31,Denmark,4% Loans 1850-61,100.0
+1885-08-31,Denmark,4% Loans 1850-61,100.0
+1885-09-30,Denmark,4% Loans 1850-61,100.0
+1885-10-31,Denmark,4% Loans 1850-61,100.0
+1885-11-30,Denmark,4% Loans 1850-61,100.0
+1885-12-31,Denmark,4% Loans 1850-61,100.0
+1886-08-31,Denmark,4% Loans 1850-61,104.0
+1886-09-30,Denmark,4% Loans 1850-61,104.0
+1886-10-31,Denmark,4% Loans 1850-61,104.0
+1888-01-31,Denmark,4% Loans 1850-61,99.75
+1888-02-29,Denmark,4% Loans 1850-61,90.75
+1888-03-31,Denmark,4% Loans 1850-61,99.75
+1869-01-31,France,3% Rentes,70.25
+1869-02-28,France,3% Rentes,71.42
+1869-03-31,France,3% Rentes,70.5
+1869-04-30,France,3% Rentes,71.67
+1869-05-31,France,3% Rentes,71.8
+1869-06-30,France,3% Rentes,71.4
+1869-07-31,France,3% Rentes,72.1
+1869-08-31,France,3% Rentes,73.2
+1869-09-30,France,3% Rentes,70.9
+1869-10-31,France,3% Rentes,71.6
+1869-11-30,France,3% Rentes,71.55
+1869-12-31,France,3% Rentes,72.85
+1870-01-31,France,3% Rentes,73.8
+1870-02-28,France,3% Rentes,74.05
+1870-03-31,France,3% Rentes,74.05
+1870-04-30,France,3% Rentes,74.35
+1870-05-31,France,3% Rentes,74.62
+1870-06-30,France,3% Rentes,72.57
+1870-07-31,France,3% Rentes,66.2
+1870-08-31,France,3% Rentes,60.75
+1870-09-30,France,3% Rentes,55.0
+1870-10-31,France,3% Rentes,53.5
+1870-11-30,France,3% Rentes,53.0
+1870-12-31,France,3% Rentes,54.0
+1870-12-31,France,6% Morgan Loan 1870,84.0
+1871-01-31,France,6% Morgan Loan 1870,83.0
+1871-02-28,France,6% Morgan Loan 1870,90.0
+1871-03-31,France,6% Morgan Loan 1870,93.5
+1871-04-30,France,3% Rentes,51.25
+1871-04-30,France,6% Morgan Loan 1870,92.5
+1871-05-31,France,3% Rentes,53.0
+1871-05-31,France,6% Morgan Loan 1870,95.5
+1871-06-30,France,3% Rentes,52.75
+1871-06-30,France,6% Morgan Loan 1870,96.0
+1871-07-31,France,3% Rentes,55.0
+1871-07-31,France,6% Morgan Loan 1870,98.0
+1871-08-31,France,3% Rentes,55.37
+1871-08-31,France,6% Morgan Loan 1870,99.5
+1871-09-30,France,3% Rentes,55.25
+1871-09-30,France,6% Morgan Loan 1870,100.25
+1871-10-31,France,3% Rentes,55.0
+1871-10-31,France,6% Morgan Loan 1870,96.75
+1871-11-30,France,3% Rentes,55.0
+1871-11-30,France,6% Morgan Loan 1870,98.5
+1871-12-31,France,3% Rentes,54.25
+1871-12-31,France,6% Morgan Loan 1870,97.5
+1872-01-31,France,3% Rentes,55.0
+1872-01-31,France,6% Morgan Loan 1870,98.75
+1872-02-29,France,3% Rentes,55.5
+1872-02-29,France,6% Morgan Loan 1870,99.25
+1872-03-31,France,3% Rentes,55.5
+1872-03-31,France,6% Morgan Loan 1870,101.0
+1872-04-30,France,3% Rentes,55.0
+1872-04-30,France,6% Morgan Loan 1870,97.5
+1872-05-31,France,3% Rentes,54.5
+1872-05-31,France,6% Morgan Loan 1870,97.5
+1872-06-30,France,3% Rentes,53.5
+1872-06-30,France,6% Morgan Loan 1870,98.0
+1872-07-31,France,3% Rentes,53.5
+1872-07-31,France,6% Morgan Loan 1870,98.0
+1872-08-31,France,3% Rentes,54.0
+1872-08-31,France,6% Morgan Loan 1870,100.0
+1872-08-31,France,5% National Loan 1871,84.0
+1872-09-30,France,3% Rentes,53.0
+1872-09-30,France,6% Morgan Loan 1870,99.75
+1872-09-30,France,5% National Loan 1871,83.0
+1872-10-31,France,3% Rentes,51.75
+1872-10-31,France,6% Morgan Loan 1870,96.0
+1872-10-31,France,5% National Loan 1871,82.5
+1872-11-30,France,3% Rentes,51.75
+1872-11-30,France,6% Morgan Loan 1870,96.0
+1872-11-30,France,5% National Loan 1871,81.0
+1872-12-31,France,3% Rentes,52.0
+1872-12-31,France,6% Morgan Loan 1870,97.5
+1872-12-31,France,5% National Loan 1871,82.5
+1873-01-31,France,3% Rentes,53.25
+1873-01-31,France,6% Morgan Loan 1870,98.75
+1873-01-31,France,5% National Loan 1871,85.0
+1873-02-28,France,3% Rentes,55.0
+1873-02-28,France,6% Morgan Loan 1870,100.75
+1873-02-28,France,5% National Loan 1871,86.5
+1873-03-31,France,3% Rentes,54.5
+1873-03-31,France,6% Morgan Loan 1870,101.0
+1873-03-31,France,5% National Loan 1871,87.5
+1873-04-30,France,3% Rentes,55.0
+1873-04-30,France,6% Morgan Loan 1870,98.25
+1873-04-30,France,5% National Loan 1871,88.5
+1873-05-31,France,3% Rentes,54.75
+1873-05-31,France,6% Morgan Loan 1870,98.25
+1873-05-31,France,5% National Loan 1871,86.5
+1873-06-30,France,3% Rentes,55.5
+1873-06-30,France,6% Morgan Loan 1870,98.75
+1873-06-30,France,5% National Loan 1871,88.0
+1873-07-31,France,3% Rentes,55.5
+1873-07-31,France,6% Morgan Loan 1870,101.0
+1873-07-31,France,5% National Loan 1871,89.0
+1873-08-31,France,3% Rentes,56.75
+1873-08-31,France,6% Morgan Loan 1870,102.5
+1873-08-31,France,5% National Loan 1871,90.0
+1873-09-30,France,3% Rentes,56.5
+1873-09-30,France,6% Morgan Loan 1870,103.25
+1873-09-30,France,5% National Loan 1871,90.5
+1873-10-31,France,3% Rentes,57.25
+1873-10-31,France,6% Morgan Loan 1870,100.0
+1873-10-31,France,5% National Loan 1871,92.0
+1873-11-30,France,3% Rentes,57.5
+1873-11-30,France,6% Morgan Loan 1870,100.25
+1873-11-30,France,5% National Loan 1871,91.25
+1873-12-31,France,3% Rentes,57.25
+1873-12-31,France,6% Morgan Loan 1870,101.5
+1873-12-31,France,5% National Loan 1871,92.0
+1874-01-31,France,3% Rentes,57.75
+1874-01-31,France,6% Morgan Loan 1870,103.0
+1874-01-31,France,5% National Loan 1871,93.0
+1874-02-28,France,3% Rentes,58.5
+1874-02-28,France,6% Morgan Loan 1870,104.0
+1874-02-28,France,5% National Loan 1871,92.5
+1874-03-31,France,3% Rentes,59.25
+1874-03-31,France,6% Morgan Loan 1870,103.75
+1874-03-31,France,5% National Loan 1871,93.75
+1874-04-30,France,3% Rentes,59.25
+1874-04-30,France,6% Morgan Loan 1870,101.5
+1874-04-30,France,5% National Loan 1871,94.5
+1874-05-31,France,3% Rentes,59.25
+1874-05-31,France,6% Morgan Loan 1870,101.75
+1874-05-31,France,5% National Loan 1871,93.75
+1874-06-30,France,3% Rentes,59.25
+1874-06-30,France,6% Morgan Loan 1870,102.75
+1874-06-30,France,5% National Loan 1871,94.5
+1874-07-31,France,3% Rentes,60.25
+1874-07-31,France,6% Morgan Loan 1870,103.0
+1874-07-31,France,5% National Loan 1871,97.25
+1874-08-31,France,3% Rentes,63.12
+1874-08-31,France,6% Morgan Loan 1870,104.5
+1874-08-31,France,5% National Loan 1871,98.75
+1874-09-30,France,3% Rentes,64.0
+1874-09-30,France,6% Morgan Loan 1870,105.0
+1874-09-30,France,5% National Loan 1871,99.25
+1874-10-31,France,3% Rentes,61.75
+1874-10-31,France,6% Morgan Loan 1870,101.5
+1874-10-31,France,5% National Loan 1871,99.25
+1874-11-30,France,3% Rentes,61.5
+1874-11-30,France,6% Morgan Loan 1870,103.0
+1874-11-30,France,5% National Loan 1871,97.62
+1874-12-31,France,3% Rentes,61.75
+1874-12-31,France,6% Morgan Loan 1870,102.5
+1874-12-31,France,5% National Loan 1871,98.5
+1875-01-31,France,3% Rentes,62.0
+1875-01-31,France,6% Morgan Loan 1870,104.0
+1875-01-31,France,5% National Loan 1871,100.0
+1875-02-28,France,3% Rentes,64.5
+1875-02-28,France,6% Morgan Loan 1870,104.5
+1875-02-28,France,5% National Loan 1871,101.5
+1875-03-31,France,3% Rentes,64.5
+1875-03-31,France,6% Morgan Loan 1870,103.5
+1875-03-31,France,5% National Loan 1871,101.75
+1875-04-30,France,3% Rentes,63.5
+1875-04-30,France,6% Morgan Loan 1870,101.0
+1875-04-30,France,5% National Loan 1871,102.25
+1875-05-31,France,3% Rentes,64.0
+1875-05-31,France,6% Morgan Loan 1870,102.0
+1875-05-31,France,5% National Loan 1871,102.25
+1875-06-30,France,3% Rentes,64.25
+1875-06-30,France,6% Morgan Loan 1870,102.5
+1875-06-30,France,5% National Loan 1871,102.75
+1875-07-31,France,3% Rentes,65.25
+1875-07-31,France,6% Morgan Loan 1870,102.5
+1875-07-31,France,5% National Loan 1871,105.0
+1875-08-31,France,3% Rentes,65.75
+1875-08-31,France,6% Morgan Loan 1870,102.5
+1875-08-31,France,5% National Loan 1871,103.75
+1875-09-30,France,3% Rentes,66.0
+1875-09-30,France,6% Morgan Loan 1870,103.0
+1875-09-30,France,5% National Loan 1871,103.5
+1875-10-31,France,3% Rentes,65.0
+1875-10-31,France,5% National Loan 1871,104.0
+1875-11-30,France,3% Rentes,65.75
+1875-11-30,France,5% National Loan 1871,103.5
+1875-12-31,France,3% Rentes,66.25
+1875-12-31,France,5% National Loan 1871,103.5
+1876-01-31,France,3% Rentes,66.0
+1876-01-31,France,5% National Loan 1871,104.75
+1876-02-29,France,3% Rentes,66.5
+1876-02-29,France,5% National Loan 1871,103.5
+1876-03-31,France,3% Rentes,66.75
+1876-03-31,France,5% National Loan 1871,104.0
+1876-04-30,France,3% Rentes,66.5
+1876-04-30,France,5% National Loan 1871,105.0
+1876-05-31,France,3% Rentes,67.12
+1876-05-31,France,5% National Loan 1871,104.25
+1876-06-30,France,3% Rentes,68.5
+1876-06-30,France,5% National Loan 1871,105.0
+1876-07-31,France,3% Rentes,69.0
+1876-07-31,France,5% National Loan 1871,105.75
+1876-08-31,France,3% Rentes,71.25
+1876-08-31,France,5% National Loan 1871,105.25
+1876-09-30,France,3% Rentes,72.5
+1876-09-30,France,5% National Loan 1871,106.0
+1876-10-31,France,3% Rentes,69.0
+1876-10-31,France,5% National Loan 1871,104.0
+1876-11-30,France,3% Rentes,70.25
+1876-11-30,France,5% National Loan 1871,104.0
+1876-12-31,France,3% Rentes,71.0
+1876-12-31,France,5% National Loan 1871,104.0
+1877-01-31,France,3% Rentes,71.5
+1877-01-31,France,5% National Loan 1871,106.25
+1877-02-28,France,3% Rentes,72.5
+1877-02-28,France,5% National Loan 1871,105.5
+1877-03-31,France,3% Rentes,72.75
+1877-03-31,France,5% National Loan 1871,107.5
+1877-04-30,France,3% Rentes,65.75
+1877-04-30,France,5% National Loan 1871,101.75
+1877-05-31,France,3% Rentes,68.25
+1877-05-31,France,5% National Loan 1871,103.0
+1877-06-30,France,3% Rentes,70.5
+1877-06-30,France,5% National Loan 1871,105.0
+1877-07-31,France,3% Rentes,70.0
+1877-07-31,France,5% National Loan 1871,107.0
+1877-08-31,France,3% Rentes,70.62
+1877-08-31,France,5% National Loan 1871,105.75
+1877-09-30,France,3% Rentes,69.5
+1877-09-30,France,5% National Loan 1871,104.5
+1877-10-31,France,3% Rentes,69.75
+1877-10-31,France,5% National Loan 1871,105.75
+1877-11-30,France,3% Rentes,71.0
+1877-11-30,France,5% National Loan 1871,106.0
+1877-12-31,France,3% Rentes,72.25
+1877-12-31,France,5% National Loan 1871,107.25
+1878-01-31,France,3% Rentes,72.5
+1878-01-31,France,5% National Loan 1871,108.25
+1878-02-28,France,3% Rentes,73.75
+1878-02-28,France,5% National Loan 1871,109.75
+1878-03-31,France,3% Rentes,72.75
+1878-03-31,France,5% National Loan 1871,108.5
+1878-04-30,France,3% Rentes,72.0
+1878-04-30,France,5% National Loan 1871,108.87
+1878-05-31,France,3% Rentes,74.0
+1878-05-31,France,5% National Loan 1871,109.5
+1878-06-30,France,3% Rentes,76.75
+1878-06-30,France,5% National Loan 1871,112.75
+1878-07-31,France,3% Rentes,77.25
+1878-07-31,France,5% National Loan 1871,114.0
+1878-08-31,France,3% Rentes,76.0
+1878-08-31,France,5% National Loan 1871,111.25
+1878-09-30,France,3% Rentes,76.25
+1878-09-30,France,5% National Loan 1871,112.5
+1878-10-31,France,3% Rentes,74.25
+1878-10-31,France,5% National Loan 1871,111.5
+1878-11-30,France,3% Rentes,75.5
+1878-11-30,France,5% National Loan 1871,111.0
+1878-12-31,France,3% Rentes,76.0
+1878-12-31,France,5% National Loan 1871,111.25
+1879-01-31,France,3% Rentes,76.25
+1879-01-31,France,5% National Loan 1871,112.75
+1879-02-28,France,3% Rentes,76.0
+1879-02-28,France,5% National Loan 1871,109.5
+1879-03-31,France,3% Rentes,78.25
+1879-03-31,France,5% National Loan 1871,112.25
+1879-04-30,France,3% Rentes,78.75
+1879-04-30,France,5% National Loan 1871,114.5
+1879-05-31,France,3% Rentes,80.5
+1879-05-31,France,5% National Loan 1871,114.5
+1879-06-30,France,3% Rentes,82.5
+1879-06-30,France,5% National Loan 1871,115.5
+1879-07-31,France,3% Rentes,81.5
+1879-07-31,France,5% National Loan 1871,116.5
+1879-08-31,France,3% Rentes,81.75
+1879-08-31,France,5% National Loan 1871,115.25
+1879-09-30,France,3% Rentes,83.0
+1879-09-30,France,5% National Loan 1871,116.75
+1879-10-31,France,3% Rentes,80.75
+1879-10-31,France,5% National Loan 1871,116.0
+1879-11-30,France,3% Rentes,80.75
+1879-11-30,France,5% National Loan 1871,114.0
+1879-12-31,France,3% Rentes,81.5
+1879-12-31,France,5% National Loan 1871,114.25
+1880-01-31,France,5% National Loan 1871,116.0
+1880-02-29,France,3% Rentes,81.5
+1880-02-29,France,5% National Loan 1871,115.25
+1880-03-31,France,3% Rentes,82.5
+1880-03-31,France,5% National Loan 1871,116.5
+1880-04-30,France,3% Rentes,82.25
+1880-04-30,France,5% National Loan 1871,117.75
+1880-05-31,France,3% Rentes,84.25
+1880-05-31,France,5% National Loan 1871,117.25
+1880-06-30,France,5% National Loan 1871,118.5
+1880-07-31,France,3% Rentes,83.5
+1880-07-31,France,5% National Loan 1871,117.5
+1880-08-31,France,3% Rentes,84.5
+1880-08-31,France,5% National Loan 1871,117.75
+1880-09-30,France,5% National Loan 1871,118.25
+1880-10-31,France,3% Rentes,84.75
+1880-10-31,France,5% National Loan 1871,119.0
+1880-11-30,France,3% Rentes,84.5
+1880-11-30,France,5% National Loan 1871,118.0
+1880-12-31,France,5% National Loan 1871,117.5
+1881-01-31,France,3% Rentes,82.75
+1881-01-31,France,5% National Loan 1871,118.25
+1881-02-28,France,3% Rentes,82.75
+1881-02-28,France,5% National Loan 1871,118.0
+1881-03-31,France,3% Rentes,84.25
+1881-03-31,France,5% National Loan 1871,119.5
+1881-04-30,France,3% Rentes,82.75
+1881-04-30,France,5% National Loan 1871,119.25
+1881-05-31,France,3% Rentes,85.5
+1881-05-31,France,5% National Loan 1871,118.75
+1881-06-30,France,3% Rentes,86.0
+1881-06-30,France,5% National Loan 1871,118.25
 1881-07-31,France,3% Rentes,84.5
 1881-08-31,France,3% Rentes,85.0
 1881-09-30,France,3% Rentes,84.25
@@ -511,14 +2733,18 @@ date,issuer,series,price
 1882-10-31,France,3% Rentes,80.25
 1882-11-30,France,3% Rentes,79.25
 1882-12-31,France,3% Rentes,79.5
+1883-01-31,France,3% Rentes,77.0
 1883-02-28,France,3% Rentes,79.5
 1883-03-31,France,3% Rentes,80.5
 1883-04-30,France,3% Rentes,79.25
 1883-05-31,France,3% Rentes,79.25
+1883-06-30,France,3% Rentes,78.87
 1883-07-31,France,3% Rentes,78.0
 1883-08-31,France,3% Rentes,78.5
+1883-09-30,France,3% Rentes,79.0
 1883-10-31,France,3% Rentes,77.25
 1883-11-30,France,3% Rentes,76.5
+1883-12-31,France,3% Rentes,76.0
 1884-01-31,France,3% Rentes,76.75
 1884-02-29,France,3% Rentes,75.25
 1884-03-31,France,3% Rentes,75.75
@@ -545,11 +2771,16 @@ date,issuer,series,price
 1885-12-31,France,3% Rentes,80.25
 1886-01-31,France,3% Rentes,81.0
 1886-02-28,France,3% Rentes,82.0
+1886-03-31,France,3% Rentes,80.5
 1886-04-30,France,3% Rentes,81.25
 1886-05-31,France,3% Rentes,81.25
+1886-06-30,France,3% Rentes,83.25
 1886-07-31,France,3% Rentes,82.25
 1886-08-31,France,3% Rentes,81.75
+1886-09-30,France,3% Rentes,82.25
+1886-10-31,France,3% Rentes,81.5
 1886-11-30,France,3% Rentes,82.0
+1886-12-31,France,3% Rentes,81.75
 1887-01-31,France,3% Rentes,79.0
 1887-02-28,France,3% Rentes,77.5
 1887-03-31,France,3% Rentes,80.25
@@ -574,10 +2805,18 @@ date,issuer,series,price
 1888-10-31,France,3% Rentes,81.5
 1888-11-30,France,3% Rentes,82.0
 1888-12-31,France,3% Rentes,82.25
+1889-01-31,France,3% Rentes,81.75
+1889-02-28,France,3% Rentes,84.0
+1889-03-31,France,3% Rentes,85.25
+1889-04-30,France,3% Rentes,86.25
+1889-05-31,France,3% Rentes,86.25
+1889-06-30,France,3% Rentes,84.5
 1889-07-31,France,3% Rentes,83.5
 1889-08-31,France,3% Rentes,84.75
+1889-09-30,France,3% Rentes,86.25
 1889-10-31,France,3% Rentes,86.5
 1889-11-30,France,3% Rentes,86.5
+1889-12-31,France,3% Rentes,88.0
 1890-01-31,France,3% Rentes,87.0
 1890-02-28,France,3% Rentes,87.0
 1890-03-31,France,3% Rentes,87.75
@@ -590,10 +2829,18 @@ date,issuer,series,price
 1890-10-31,France,3% Rentes,93.0
 1890-11-30,France,3% Rentes,93.75
 1890-12-31,France,3% Rentes,95.0
+1891-01-31,France,3% Rentes,94.5
+1891-02-28,France,3% Rentes,94.5
+1891-03-31,France,3% Rentes,95.0
+1891-04-30,France,3% Rentes,93.25
+1891-05-31,France,3% Rentes,93.0
+1891-06-30,France,3% Rentes,94.5
 1891-07-31,France,3% Rentes,94.0
 1891-08-31,France,3% Rentes,94.5
+1891-09-30,France,3% Rentes,96.0
 1891-10-31,France,3% Rentes,94.5
 1891-11-30,France,3% Rentes,94.5
+1891-12-31,France,3% Rentes,95.0
 1892-01-31,France,3% Rentes,95.0
 1892-02-29,France,3% Rentes,94.5
 1892-03-31,France,3% Rentes,96.5
@@ -606,9 +2853,18 @@ date,issuer,series,price
 1892-10-31,France,3% Rentes,99.0
 1892-11-30,France,3% Rentes,98.5
 1892-12-31,France,3% Rentes,96.0
+1893-01-31,France,3% Rentes,96.0
+1893-02-28,France,3% Rentes,97.5
+1893-03-31,France,3% Rentes,97.5
+1893-04-30,France,3% Rentes,95.5
+1893-05-31,France,3% Rentes,96.25
+1893-06-30,France,3% Rentes,98.0
 1893-07-31,France,3% Rentes,96.75
+1893-08-31,France,3% Rentes,97.75
+1893-09-30,France,3% Rentes,98.0
 1893-10-31,France,3% Rentes,97.5
 1893-11-30,France,3% Rentes,98.5
+1893-12-31,France,3% Rentes,98.0
 1894-01-31,France,3% Rentes,97.0
 1894-02-28,France,3% Rentes,98.0
 1894-03-31,France,3% Rentes,99.0
@@ -1034,6 +3290,196 @@ date,issuer,series,price
 1929-10-31,France,3% Rentes,15.5
 1929-11-30,France,3% Rentes,16.0
 1929-12-31,France,3% Rentes,17.0
+1891-08-31,Germany,Imperial 3% 1891-3,82.5
+1891-09-30,Germany,Imperial 3% 1891-3,82.5
+1891-10-31,Germany,Imperial 3% 1891-3,83.0
+1891-11-30,Germany,Imperial 3% 1891-3,82.0
+1891-12-31,Germany,Imperial 3% 1891-3,84.0
+1892-01-31,Germany,Imperial 3% 1891-3,85.0
+1892-02-29,Germany,Imperial 3% 1891-3,84.0
+1892-03-31,Germany,Imperial 3% 1891-3,85.0
+1892-04-30,Germany,Imperial 3% 1891-3,84.5
+1892-05-31,Germany,Imperial 3% 1891-3,86.5
+1892-06-30,Germany,Imperial 3% 1891-3,87.0
+1892-07-31,Germany,Imperial 3% 1891-3,87.5
+1892-08-31,Germany,Imperial 3% 1891-3,87.5
+1892-09-30,Germany,Imperial 3% 1891-3,87.5
+1892-10-31,Germany,Imperial 3% 1891-3,85.0
+1892-11-30,Germany,Imperial 3% 1891-3,85.0
+1892-12-31,Germany,Imperial 3% 1891-3,85.5
+1893-01-31,Germany,Imperial 3% 1891-3,86.0
+1893-02-28,Germany,Imperial 3% 1891-3,87.0
+1893-03-31,Germany,Imperial 3% 1891-3,87.5
+1893-04-30,Germany,Imperial 3% 1891-3,86.0
+1893-05-31,Germany,Imperial 3% 1891-3,85.5
+1893-06-30,Germany,Imperial 3% 1891-3,86.0
+1893-07-31,Germany,Imperial 3% 1891-3,86.0
+1893-08-31,Germany,Imperial 3% 1891-3,85.0
+1893-09-30,Germany,Imperial 3% 1891-3,85.5
+1893-10-31,Germany,Imperial 3% 1891-3,84.5
+1893-11-30,Germany,Imperial 3% 1891-3,84.5
+1893-12-31,Germany,Imperial 3% 1891-3,85.0
+1894-01-31,Germany,Imperial 3% 1891-3,86.0
+1894-02-28,Germany,Imperial 3% 1891-3,86.0
+1894-03-31,Germany,Imperial 3% 1891-3,88.0
+1894-04-30,Germany,Imperial 3% 1891-3,87.0
+1894-05-31,Germany,Imperial 3% 1891-3,89.0
+1894-06-30,Germany,Imperial 3% 1891-3,90.0
+1894-07-31,Germany,Imperial 3% 1891-3,91.0
+1894-08-31,Germany,Imperial 3% 1891-3,92.0
+1894-09-30,Germany,Imperial 3% 1891-3,94.75
+1894-10-31,Germany,Imperial 3% 1891-3,92.75
+1894-11-30,Germany,Imperial 3% 1891-3,94.75
+1894-12-31,Germany,Imperial 3% 1891-3,94.75
+1895-01-31,Germany,Imperial 3% 1891-3,96.125
+1895-02-28,Germany,Imperial 3% 1891-3,96.75
+1895-03-31,Germany,Imperial 3% 1891-3,97.0
+1895-04-30,Germany,Imperial 3% 1891-3,96.25
+1895-05-31,Germany,Imperial 3% 1891-3,97.25
+1895-06-30,Germany,Imperial 3% 1891-3,98.75
+1895-07-31,Germany,Imperial 3% 1891-3,98.25
+1895-08-31,Germany,Imperial 3% 1891-3,98.5
+1895-09-30,Germany,Imperial 3% 1891-3,98.5
+1895-10-31,Germany,Imperial 3% 1891-3,97.5
+1895-11-30,Germany,Imperial 3% 1891-3,97.5
+1895-12-31,Germany,Imperial 3% 1891-3,98.435
+1896-01-31,Germany,Imperial 3% 1891-3,97.5
+1896-02-29,Germany,Imperial 3% 1891-3,98.5
+1896-03-31,Germany,Imperial 3% 1891-3,98.75
+1896-04-30,Germany,Imperial 3% 1891-3,98.5
+1896-05-31,Germany,Imperial 3% 1891-3,98.25
+1896-06-30,Germany,Imperial 3% 1891-3,99.0
+1896-07-31,Germany,Imperial 3% 1891-3,98.5
+1896-08-31,Germany,Imperial 3% 1891-3,98.75
+1896-09-30,Germany,Imperial 3% 1891-3,98.5
+1896-10-31,Germany,Imperial 3% 1891-3,96.5
+1896-11-30,Germany,Imperial 3% 1891-3,97.0
+1896-12-31,Germany,Imperial 3% 1891-3,98.0
+1897-01-31,Germany,Imperial 3% 1891-3,97.25
+1897-02-28,Germany,Imperial 3% 1891-3,97.0
+1897-03-31,Germany,Imperial 3% 1891-3,96.5
+1897-04-30,Germany,Imperial 3% 1891-3,96.75
+1897-05-31,Germany,Imperial 3% 1891-3,97.0
+1897-06-30,Germany,Imperial 3% 1891-3,97.25
+1897-07-31,Germany,Imperial 3% 1891-3,96.75
+1897-08-31,Germany,Imperial 3% 1891-3,97.0
+1897-09-30,Germany,Imperial 3% 1891-3,96.75
+1897-10-31,Germany,Imperial 3% 1891-3,96.25
+1897-11-30,Germany,Imperial 3% 1891-3,96.25
+1897-12-31,Germany,Imperial 3% 1891-3,96.25
+1898-01-31,Germany,Imperial 3% 1891-3,96.5
+1898-02-28,Germany,Imperial 3% 1891-3,96.5
+1898-03-31,Germany,Imperial 3% 1891-3,96.25
+1898-04-30,Germany,Imperial 3% 1891-3,94.75
+1898-05-31,Germany,Imperial 3% 1891-3,95.5
+1898-06-30,Germany,Imperial 3% 1891-3,95.25
+1898-07-31,Germany,Imperial 3% 1891-3,94.25
+1898-08-31,Germany,Imperial 3% 1891-3,94.25
+1898-09-30,Germany,Imperial 3% 1891-3,93.5
+1898-10-31,Germany,Imperial 3% 1891-3,92.5
+1898-11-30,Germany,Imperial 3% 1891-3,93.0
+1898-12-31,Germany,Imperial 3% 1891-3,93.75
+1899-01-31,Germany,Imperial 3% 1891-3,92.5
+1899-02-28,Germany,Imperial 3% 1891-3,92.5
+1899-03-31,Germany,Imperial 3% 1891-3,91.5
+1899-04-30,Germany,Imperial 3% 1891-3,91.0
+1899-05-31,Germany,Imperial 3% 1891-3,91.0
+1899-06-30,Germany,Imperial 3% 1891-3,89.0
+1899-07-31,Germany,Imperial 3% 1891-3,89.5
+1899-08-31,Germany,Imperial 3% 1891-3,88.75
+1899-09-30,Germany,Imperial 3% 1891-3,88.5
+1899-10-31,Germany,Imperial 3% 1891-3,88.5
+1899-11-30,Germany,Imperial 3% 1891-3,89.0
+1899-12-31,Germany,Imperial 3% 1891-3,86.5
+1900-01-31,Germany,Imperial 3% 1891-3,88.25
+1900-02-28,Germany,Imperial 3% 1891-3,86.5
+1900-03-31,Germany,Imperial 3% 1891-3,86.25
+1900-04-30,Germany,Imperial 3% 1891-3,85.0
+1900-05-31,Germany,Imperial 3% 1891-3,85.0
+1900-06-30,Germany,Imperial 3% 1891-3,87.5
+1900-07-31,Germany,Imperial 3% 1891-3,85.25
+1900-08-31,Germany,Imperial 3% 1891-3,86.25
+1900-09-30,Germany,Imperial 3% 1891-3,85.25
+1900-10-31,Germany,Imperial 3% 1891-3,86.75
+1900-11-30,Germany,Imperial 3% 1891-3,86.5
+1900-12-31,Germany,Imperial 3% 1891-3,87.5
+1901-01-31,Germany,Imperial 3% 1891-3,87.25
+1901-02-28,Germany,Imperial 3% 1891-3,87.5
+1901-03-31,Germany,Imperial 3% 1891-3,88.25
+1901-04-30,Germany,Imperial 3% 1891-3,87.5
+1901-05-31,Germany,Imperial 3% 1891-3,87.5
+1901-06-30,Germany,Imperial 3% 1891-3,89.5
+1901-07-31,Germany,Imperial 3% 1891-3,89.5
+1901-08-31,Germany,Imperial 3% 1891-3,90.25
+1901-09-30,Germany,Imperial 3% 1891-3,90.25
+1901-10-31,Germany,Imperial 3% 1891-3,88.75
+1901-11-30,Germany,Imperial 3% 1891-3,88.75
+1901-12-31,Germany,Imperial 3% 1891-3,89.25
+1902-01-31,Germany,Imperial 3% 1891-3,89.5
+1902-02-28,Germany,Imperial 3% 1891-3,90.5
+1902-03-31,Germany,Imperial 3% 1891-3,91.5
+1902-04-30,Germany,Imperial 3% 1891-3,90.75
+1902-05-31,Germany,Imperial 3% 1891-3,91.0
+1902-06-30,Germany,Imperial 3% 1891-3,91.75
+1902-07-31,Germany,Imperial 3% 1891-3,91.75
+1902-08-31,Germany,Imperial 3% 1891-3,91.25
+1902-09-30,Germany,Imperial 3% 1891-3,93.0
+1902-10-31,Germany,Imperial 3% 1891-3,90.5
+1902-11-30,Germany,Imperial 3% 1891-3,89.75
+1902-12-31,Germany,Imperial 3% 1891-3,90.75
+1903-01-31,Germany,Imperial 3% 1891-3,91.25
+1903-02-28,Germany,Imperial 3% 1891-3,91.5
+1903-03-31,Germany,Imperial 3% 1891-3,91.25
+1903-04-30,Germany,Imperial 3% 1891-3,90.75
+1903-05-31,Germany,Imperial 3% 1891-3,91.0
+1903-06-30,Germany,Imperial 3% 1891-3,90.75
+1903-07-31,Germany,Imperial 3% 1891-3,90.0
+1903-08-31,Germany,Imperial 3% 1891-3,89.25
+1903-09-30,Germany,Imperial 3% 1891-3,89.25
+1903-10-31,Germany,Imperial 3% 1891-3,89.5
+1903-11-30,Germany,Imperial 3% 1891-3,89.75
+1903-12-31,Germany,Imperial 3% 1891-3,90.75
+1904-01-31,Germany,Imperial 3% 1891-3,90.5
+1904-02-29,Germany,Imperial 3% 1891-3,88.25
+1904-03-31,Germany,Imperial 3% 1891-3,89.25
+1904-04-30,Germany,Imperial 3% 1891-3,88.5
+1904-05-31,Germany,Imperial 3% 1891-3,88.5
+1904-06-30,Germany,Imperial 3% 1891-3,89.75
+1904-07-31,Germany,Imperial 3% 1891-3,88.5
+1904-08-31,Germany,Imperial 3% 1891-3,88.5
+1904-09-30,Germany,Imperial 3% 1891-3,89.25
+1904-10-31,Germany,Imperial 3% 1891-3,88.5
+1904-11-30,Germany,Imperial 3% 1891-3,89.5
+1904-12-31,Germany,Imperial 3% 1891-3,89.5
+1905-01-31,Germany,Imperial 3% 1891-3,88.5
+1905-02-28,Germany,Imperial 3% 1891-3,90.625
+1905-03-31,Germany,Imperial 3% 1891-3,90.25
+1905-04-30,Germany,Imperial 3% 1891-3,88.75
+1905-05-31,Germany,Imperial 3% 1891-3,89.5
+1905-06-30,Germany,Imperial 3% 1891-3,89.25
+1905-07-31,Germany,Imperial 3% 1891-3,88.5
+1905-08-31,Germany,Imperial 3% 1891-3,88.5
+1905-09-30,Germany,Imperial 3% 1891-3,89.0
+1905-10-31,Germany,Imperial 3% 1891-3,87.0
+1905-11-30,Germany,Imperial 3% 1891-3,88.5
+1905-12-31,Germany,Imperial 3% 1891-3,88.5
+1906-01-31,Germany,Imperial 3% 1891-3,87.5
+1906-02-28,Germany,Imperial 3% 1891-3,88.0
+1906-03-31,Germany,Imperial 3% 1891-3,88.25
+1906-04-30,Germany,Imperial 3% 1891-3,87.25
+1906-05-31,Germany,Imperial 3% 1891-3,86.5
+1906-06-30,Germany,Imperial 3% 1891-3,87.25
+1906-07-31,Germany,Imperial 3% 1891-3,86.25
+1906-08-31,Germany,Imperial 3% 1891-3,86.25
+1906-09-30,Germany,Imperial 3% 1891-3,85.75
+1906-10-31,Germany,Imperial 3% 1891-3,84.75
+1906-11-30,Germany,Imperial 3% 1891-3,85.5
+1906-12-31,Germany,Imperial 3% 1891-3,86.5
+1907-01-31,Germany,Imperial 3% 1891-3,85.5
+1907-02-28,Germany,Imperial 3% 1891-3,85.0
+1907-03-31,Germany,Imperial 3% 1891-3,84.25
+1907-04-30,Germany,Imperial 3% 1891-3,83.25
+1907-05-31,Germany,Imperial 3% 1891-3,82.5
 1907-06-30,Germany,Imperial 3% 1891-3,83.0
 1907-07-31,Germany,Imperial 3% 1891-3,82.25
 1907-08-31,Germany,Imperial 3% 1891-3,81.25
@@ -1251,15 +3697,15 @@ date,issuer,series,price
 1925-10-31,Germany,Imperial 3% 1891-3,0.5
 1871-01-31,Italy,Rentes (London),70.75
 1871-02-28,Italy,Rentes (London),70.25
-1871-03-31,Italy,Rentes (London),70.0
-1871-04-30,Italy,Rentes (London),71.0
-1871-05-31,Italy,Rentes (London),71.75
-1871-06-30,Italy,Rentes (London),72.5
-1871-07-31,Italy,Rentes (London),72.75
-1871-08-31,Italy,Rentes (London),74.75
-1871-09-30,Italy,Rentes (London),75.0
-1871-10-31,Italy,Rentes (London),75.0
-1871-11-30,Italy,Rentes (London),76.75
+1871-03-31,Italy,Rentes (London),86.0
+1871-04-30,Italy,Rentes (London),86.0
+1871-05-31,Italy,Rentes (London),86.0
+1871-06-30,Italy,Rentes (London),86.0
+1871-07-31,Italy,Rentes (London),86.0
+1871-08-31,Italy,Rentes (London),86.0
+1871-09-30,Italy,Rentes (London),86.0
+1871-10-31,Italy,Rentes (London),86.0
+1871-11-30,Italy,Rentes (London),86.0
 1871-12-31,Italy,Rentes (London),80.5
 1872-01-31,Italy,Rentes (London),79.5
 1872-02-29,Italy,Rentes (London),77.5
@@ -1361,14 +3807,14 @@ date,issuer,series,price
 1880-02-29,Italy,Rentes (London),86.0
 1880-03-31,Italy,Rentes (London),87.0
 1880-04-30,Italy,Rentes (London),90.0
-1880-05-31,Italy,Rentes (London),87.25
-1880-06-30,Italy,Rentes (London),89.5
-1880-07-31,Italy,Rentes (London),84.75
-1880-08-31,Italy,Rentes (London),86.625
-1880-09-30,Italy,Rentes (London),87.0
-1880-10-31,Italy,Rentes (London),88.875
-1880-11-30,Italy,Rentes (London),88.0
-1880-12-31,Italy,Rentes (London),87.875
+1880-05-31,Italy,Rentes (London),90.0
+1880-06-30,Italy,Rentes (London),92.0
+1880-07-31,Italy,Rentes (London),87.5
+1880-08-31,Italy,Rentes (London),89.0
+1880-09-30,Italy,Rentes (London),89.0
+1880-10-31,Italy,Rentes (London),91.0
+1880-11-30,Italy,Rentes (London),89.0
+1880-12-31,Italy,Rentes (London),89.0
 1881-01-31,Italy,Rentes (London),87.0
 1881-02-28,Italy,Rentes (London),88.625
 1881-03-31,Italy,Rentes (London),90.5
@@ -1675,7 +4121,7 @@ date,issuer,series,price
 1906-04-30,Italy,Rentes (London),102.75
 1906-05-31,Italy,Rentes (London),103.0
 1906-06-30,Italy,Rentes (London),103.0
-1906-07-31,Italy,Rentes (London),100.0
+1906-07-31,Italy,Rentes (London),102.5
 1906-08-31,Italy,Rentes (London),100.0
 1906-09-30,Italy,Rentes (London),101.0
 1906-10-31,Italy,Rentes (London),100.75
@@ -1952,13 +4398,26 @@ date,issuer,series,price
 1929-10-31,Italy,Rentes (London),42.0
 1929-11-30,Italy,Rentes (London),42.0
 1929-12-31,Italy,Rentes (London),42.0
-1906-07-31,Russia,5% State Loan 1906,0.75
-1906-08-31,Russia,5% State Loan 1906,11.0
-1906-09-30,Russia,5% State Loan 1906,9.25
-1906-10-31,Russia,5% State Loan 1906,4.0
-1906-11-30,Russia,5% State Loan 1906,4.75
-1906-12-31,Russia,5% State Loan 1906,3.5
-1907-01-31,Russia,5% State Loan 1906,2.5
+1871-01-31,North German Confederation,5% Loan 1870,98.0
+1871-02-28,North German Confederation,5% Loan 1870,100.5
+1871-03-31,North German Confederation,5% Loan 1870,101.37
+1871-04-30,North German Confederation,5% Loan 1870,102.5
+1871-05-31,North German Confederation,5% Loan 1870,101.0
+1871-06-30,North German Confederation,5% Loan 1870,101.37
+1871-07-31,North German Confederation,5% Loan 1870,102.75
+1871-08-31,North German Confederation,5% Loan 1870,103.25
+1871-09-30,North German Confederation,5% Loan 1870,104.0
+1871-10-31,North German Confederation,5% Loan 1870,103.0
+1871-11-30,North German Confederation,5% Loan 1870,101.0
+1871-12-31,North German Confederation,5% Loan 1870,101.25
+1872-01-31,North German Confederation,5% Loan 1870,101.5
+1906-07-31,Russia,5% State Loan 1906,8.185
+1906-08-31,Russia,5% State Loan 1906,9.875
+1906-09-30,Russia,5% State Loan 1906,10.375
+1906-10-31,Russia,5% State Loan 1906,7.31
+1906-11-30,Russia,5% State Loan 1906,5.6850000000000005
+1906-12-31,Russia,5% State Loan 1906,4.6850000000000005
+1907-01-31,Russia,5% State Loan 1906,3.375
 1907-02-28,Russia,5% State Loan 1906,86.75
 1907-03-31,Russia,5% State Loan 1906,83.5
 1907-04-30,Russia,5% State Loan 1906,85.75
@@ -2447,3 +4906,1707 @@ date,issuer,series,price
 1928-12-31,Russia,4.5% Loan 1909,5.0
 1929-01-31,Russia,5% State Loan 1906,5.0
 1929-01-31,Russia,4.5% Loan 1909,5.0
+1869-01-31,Turkey,5% General Debt 1865,38.25
+1869-01-31,Turkey,6% Loan 1858 (Customs),63.5
+1869-01-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1869-02-28,Turkey,5% General Debt 1865,42.0
+1869-02-28,Turkey,6% Loan 1858 (Customs),68.0
+1869-02-28,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1869-03-31,Turkey,5% General Debt 1865,41.25
+1869-03-31,Turkey,6% Loan 1858 (Customs),63.5
+1869-03-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1869-04-30,Turkey,5% General Debt 1865,42.87
+1869-04-30,Turkey,6% Loan 1858 (Customs),64.0
+1869-04-30,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1869-05-31,Turkey,5% General Debt 1865,43.25
+1869-05-31,Turkey,6% Loan 1858 (Customs),63.75
+1869-05-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1869-06-30,Turkey,5% General Debt 1865,44.25
+1869-06-30,Turkey,6% Loan 1858 (Customs),66.5
+1869-06-30,Turkey,4% 1855 (Anglo-French guarantee),101.5
+1869-07-31,Turkey,5% General Debt 1865,44.5
+1869-07-31,Turkey,6% Loan 1858 (Customs),69.0
+1869-07-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1869-08-31,Turkey,5% General Debt 1865,44.25
+1869-08-31,Turkey,6% Loan 1858 (Customs),69.0
+1869-08-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1869-09-30,Turkey,5% General Debt 1865,41.75
+1869-09-30,Turkey,6% Loan 1858 (Customs),65.0
+1869-09-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1869-10-31,Turkey,5% General Debt 1865,42.5
+1869-10-31,Turkey,6% Loan 1858 (Customs),67.0
+1869-10-31,Turkey,4% 1855 (Anglo-French guarantee),101.75
+1869-11-30,Turkey,5% General Debt 1865,43.5
+1869-11-30,Turkey,6% Loan 1858 (Customs),66.5
+1869-11-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1869-12-31,Turkey,5% General Debt 1865,45.25
+1869-12-31,Turkey,6% Loan 1858 (Customs),66.0
+1869-12-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1870-01-31,Turkey,5% General Debt 1865,43.5
+1870-01-31,Turkey,6% Loan 1858 (Customs),68.75
+1870-01-31,Turkey,4% 1855 (Anglo-French guarantee),103.25
+1870-02-28,Turkey,5% General Debt 1865,45.0
+1870-02-28,Turkey,6% Loan 1858 (Customs),69.0
+1870-02-28,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1870-03-31,Turkey,5% General Debt 1865,46.0
+1870-03-31,Turkey,6% Loan 1858 (Customs),66.5
+1870-03-31,Turkey,4% 1855 (Anglo-French guarantee),101.5
+1870-04-30,Turkey,5% General Debt 1865,48.0
+1870-04-30,Turkey,6% Loan 1858 (Customs),68.5
+1870-04-30,Turkey,4% 1855 (Anglo-French guarantee),101.5
+1870-05-31,Turkey,5% General Debt 1865,50.75
+1870-05-31,Turkey,6% Loan 1858 (Customs),70.5
+1870-05-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1870-06-30,Turkey,5% General Debt 1865,53.0
+1870-06-30,Turkey,6% Loan 1858 (Customs),71.0
+1870-06-30,Turkey,4% 1855 (Anglo-French guarantee),101.5
+1870-07-31,Turkey,5% General Debt 1865,38.0
+1870-07-31,Turkey,6% Loan 1858 (Customs),59.0
+1870-08-31,Turkey,5% General Debt 1865,42.75
+1870-08-31,Turkey,6% Loan 1858 (Customs),66.0
+1870-08-31,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1870-09-30,Turkey,5% General Debt 1865,41.75
+1870-09-30,Turkey,6% Loan 1858 (Customs),61.0
+1870-09-30,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1870-10-31,Turkey,5% General Debt 1865,44.0
+1870-10-31,Turkey,6% Loan 1858 (Customs),63.0
+1870-10-31,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1870-11-30,Turkey,5% General Debt 1865,42.0
+1870-11-30,Turkey,6% Loan 1858 (Customs),60.0
+1870-11-30,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1870-12-31,Turkey,5% General Debt 1865,43.75
+1870-12-31,Turkey,6% Loan 1858 (Customs),62.0
+1870-12-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1871-01-31,Turkey,5% General Debt 1865,42.5
+1871-01-31,Turkey,6% Loan 1858 (Customs),63.75
+1871-01-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1871-02-28,Turkey,5% General Debt 1865,41.75
+1871-02-28,Turkey,6% Loan 1858 (Customs),64.5
+1871-02-28,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1871-03-31,Turkey,5% General Debt 1865,43.25
+1871-03-31,Turkey,6% Loan 1858 (Customs),60.5
+1871-03-31,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1871-04-30,Turkey,5% General Debt 1865,44.75
+1871-04-30,Turkey,6% Loan 1858 (Customs),62.0
+1871-04-30,Turkey,4% 1855 (Anglo-French guarantee),100.5
+1871-05-31,Turkey,5% General Debt 1865,45.5
+1871-05-31,Turkey,6% Loan 1858 (Customs),62.75
+1871-05-31,Turkey,4% 1855 (Anglo-French guarantee),100.5
+1871-06-30,Turkey,5% General Debt 1865,46.5
+1871-06-30,Turkey,6% Loan 1858 (Customs),63.5
+1871-06-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1871-07-31,Turkey,5% General Debt 1865,45.75
+1871-07-31,Turkey,6% Loan 1858 (Customs),67.0
+1871-07-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1871-08-31,Turkey,5% General Debt 1865,46.12
+1871-08-31,Turkey,6% Loan 1858 (Customs),67.5
+1871-08-31,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1871-09-30,Turkey,5% General Debt 1865,45.5
+1871-09-30,Turkey,6% Loan 1858 (Customs),64.0
+1871-09-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1871-10-31,Turkey,5% General Debt 1865,46.37
+1871-10-31,Turkey,6% Loan 1858 (Customs),66.25
+1871-10-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1871-11-30,Turkey,5% General Debt 1865,48.0
+1871-11-30,Turkey,6% Loan 1858 (Customs),68.25
+1871-11-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1871-12-31,Turkey,5% General Debt 1865,49.5
+1871-12-31,Turkey,6% Loan 1858 (Customs),68.5
+1871-12-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1872-01-31,Turkey,5% General Debt 1865,51.0
+1872-01-31,Turkey,6% Loan 1858 (Customs),71.0
+1872-01-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1872-02-29,Turkey,5% General Debt 1865,49.0
+1872-02-29,Turkey,6% Loan 1858 (Customs),70.5
+1872-02-29,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1872-03-31,Turkey,5% General Debt 1865,52.5
+1872-03-31,Turkey,6% Loan 1858 (Customs),70.0
+1872-03-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1872-04-30,Turkey,5% General Debt 1865,53.0
+1872-04-30,Turkey,6% Loan 1858 (Customs),69.75
+1872-04-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1872-05-31,Turkey,5% General Debt 1865,53.25
+1872-05-31,Turkey,6% Loan 1858 (Customs),70.75
+1872-05-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1872-06-30,Turkey,5% General Debt 1865,54.25
+1872-06-30,Turkey,6% Loan 1858 (Customs),71.0
+1872-06-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1872-07-31,Turkey,5% General Debt 1865,51.25
+1872-07-31,Turkey,6% Loan 1858 (Customs),71.0
+1872-07-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1872-08-31,Turkey,5% General Debt 1865,52.62
+1872-08-31,Turkey,6% Loan 1858 (Customs),74.75
+1872-08-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1872-09-30,Turkey,5% General Debt 1865,52.0
+1872-09-30,Turkey,6% Loan 1858 (Customs),72.25
+1872-09-30,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1872-10-31,Turkey,5% General Debt 1865,52.87
+1872-10-31,Turkey,6% Loan 1858 (Customs),72.75
+1872-10-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1872-11-30,Turkey,5% General Debt 1865,53.75
+1872-11-30,Turkey,6% Loan 1858 (Customs),74.25
+1872-11-30,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1872-12-31,Turkey,5% General Debt 1865,54.5
+1872-12-31,Turkey,6% Loan 1858 (Customs),74.25
+1872-12-31,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1873-01-31,Turkey,5% General Debt 1865,52.25
+1873-01-31,Turkey,6% Loan 1858 (Customs),74.0
+1873-01-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1873-02-28,Turkey,5% General Debt 1865,53.5
+1873-02-28,Turkey,6% Loan 1858 (Customs),74.0
+1873-02-28,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1873-03-31,Turkey,5% General Debt 1865,54.25
+1873-03-31,Turkey,6% Loan 1858 (Customs),69.5
+1873-03-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1873-04-30,Turkey,5% General Debt 1865,54.25
+1873-04-30,Turkey,6% Loan 1858 (Customs),70.0
+1873-04-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1873-05-31,Turkey,5% General Debt 1865,52.0
+1873-05-31,Turkey,6% Loan 1858 (Customs),68.5
+1873-05-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1873-06-30,Turkey,5% General Debt 1865,55.0
+1873-06-30,Turkey,6% Loan 1858 (Customs),69.5
+1873-06-30,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1873-07-31,Turkey,5% General Debt 1865,52.0
+1873-07-31,Turkey,6% Loan 1858 (Customs),69.5
+1873-07-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1873-08-31,Turkey,5% General Debt 1865,51.25
+1873-08-31,Turkey,6% Loan 1858 (Customs),69.0
+1873-08-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1873-09-30,Turkey,5% General Debt 1865,50.75
+1873-09-30,Turkey,6% Loan 1858 (Customs),66.0
+1873-09-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1873-10-31,Turkey,5% General Debt 1865,49.0
+1873-10-31,Turkey,6% Loan 1858 (Customs),64.0
+1873-10-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1873-11-30,Turkey,5% General Debt 1865,47.5
+1873-11-30,Turkey,6% Loan 1858 (Customs),65.0
+1873-11-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1873-12-31,Turkey,5% General Debt 1865,46.75
+1873-12-31,Turkey,6% Loan 1858 (Customs),60.0
+1873-12-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-01-31,Turkey,5% General Debt 1865,40.75
+1874-01-31,Turkey,6% Loan 1858 (Customs),60.0
+1874-01-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1874-02-28,Turkey,5% General Debt 1865,39.25
+1874-02-28,Turkey,6% Loan 1858 (Customs),60.0
+1874-02-28,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-03-31,Turkey,5% General Debt 1865,40.25
+1874-03-31,Turkey,6% Loan 1858 (Customs),56.0
+1874-03-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-04-30,Turkey,5% General Debt 1865,41.25
+1874-04-30,Turkey,6% Loan 1858 (Customs),58.0
+1874-04-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-05-31,Turkey,5% General Debt 1865,47.25
+1874-05-31,Turkey,6% Loan 1858 (Customs),65.0
+1874-05-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-06-30,Turkey,5% General Debt 1865,45.75
+1874-06-30,Turkey,6% Loan 1858 (Customs),62.0
+1874-06-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1874-07-31,Turkey,5% General Debt 1865,43.75
+1874-07-31,Turkey,6% Loan 1858 (Customs),63.0
+1874-07-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1874-08-31,Turkey,5% General Debt 1865,44.75
+1874-08-31,Turkey,6% Loan 1858 (Customs),66.0
+1874-08-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-09-30,Turkey,5% General Debt 1865,47.0
+1874-09-30,Turkey,6% Loan 1858 (Customs),67.5
+1874-09-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-10-31,Turkey,5% General Debt 1865,45.75
+1874-10-31,Turkey,6% Loan 1858 (Customs),68.0
+1874-10-31,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1874-11-30,Turkey,5% General Debt 1865,44.5
+1874-11-30,Turkey,6% Loan 1858 (Customs),68.0
+1874-11-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1874-12-31,Turkey,5% General Debt 1865,44.62
+1874-12-31,Turkey,6% Loan 1858 (Customs),65.0
+1874-12-31,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1875-01-31,Turkey,5% General Debt 1865,41.25
+1875-01-31,Turkey,6% Loan 1858 (Customs),65.5
+1875-01-31,Turkey,4% 1855 (Anglo-French guarantee),103.5
+1875-02-28,Turkey,5% General Debt 1865,42.75
+1875-02-28,Turkey,6% Loan 1858 (Customs),67.0
+1875-02-28,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1875-03-31,Turkey,5% General Debt 1865,43.37
+1875-03-31,Turkey,6% Loan 1858 (Customs),64.0
+1875-03-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1875-04-30,Turkey,5% General Debt 1865,43.75
+1875-04-30,Turkey,6% Loan 1858 (Customs),64.0
+1875-04-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1875-05-31,Turkey,5% General Debt 1865,43.5
+1875-05-31,Turkey,6% Loan 1858 (Customs),64.0
+1875-05-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1875-06-30,Turkey,5% General Debt 1865,42.5
+1875-06-30,Turkey,6% Loan 1858 (Customs),60.0
+1875-06-30,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1875-07-31,Turkey,5% General Debt 1865,39.5
+1875-07-31,Turkey,6% Loan 1858 (Customs),62.0
+1875-07-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1875-08-31,Turkey,5% General Debt 1865,36.0
+1875-08-31,Turkey,6% Loan 1858 (Customs),60.0
+1875-08-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1875-09-30,Turkey,5% General Debt 1865,35.25
+1875-09-30,Turkey,6% Loan 1858 (Customs),56.5
+1875-09-30,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1875-10-31,Turkey,5% General Debt 1865,26.0
+1875-10-31,Turkey,6% Loan 1858 (Customs),35.0
+1875-10-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1875-11-30,Turkey,5% General Debt 1865,23.75
+1875-11-30,Turkey,6% Loan 1858 (Customs),30.0
+1875-11-30,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1875-12-31,Turkey,5% General Debt 1865,24.0
+1875-12-31,Turkey,6% Loan 1858 (Customs),29.0
+1875-12-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1876-01-31,Turkey,5% General Debt 1865,20.75
+1876-01-31,Turkey,6% Loan 1858 (Customs),27.0
+1876-01-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1876-02-29,Turkey,5% General Debt 1865,20.0
+1876-02-29,Turkey,6% Loan 1858 (Customs),28.0
+1876-02-29,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1876-03-31,Turkey,5% General Debt 1865,17.0
+1876-03-31,Turkey,6% Loan 1858 (Customs),24.0
+1876-03-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1876-04-30,Turkey,5% General Debt 1865,13.25
+1876-04-30,Turkey,6% Loan 1858 (Customs),15.0
+1876-04-30,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1876-05-31,Turkey,5% General Debt 1865,10.5
+1876-05-31,Turkey,6% Loan 1858 (Customs),12.0
+1876-05-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1876-06-30,Turkey,5% General Debt 1865,13.0
+1876-06-30,Turkey,6% Loan 1858 (Customs),15.0
+1876-06-30,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1876-07-31,Turkey,5% General Debt 1865,11.37
+1876-07-31,Turkey,6% Loan 1858 (Customs),12.0
+1876-07-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1876-08-31,Turkey,5% General Debt 1865,12.25
+1876-08-31,Turkey,6% Loan 1858 (Customs),13.0
+1876-08-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1876-09-30,Turkey,5% General Debt 1865,13.25
+1876-09-30,Turkey,6% Loan 1858 (Customs),15.0
+1876-09-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1876-10-31,Turkey,5% General Debt 1865,11.25
+1876-10-31,Turkey,6% Loan 1858 (Customs),12.0
+1876-10-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1876-11-30,Turkey,5% General Debt 1865,11.0
+1876-11-30,Turkey,6% Loan 1858 (Customs),13.0
+1876-11-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1876-12-31,Turkey,5% General Debt 1865,11.5
+1876-12-31,Turkey,6% Loan 1858 (Customs),15.0
+1876-12-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1877-01-31,Turkey,5% General Debt 1865,11.75
+1877-01-31,Turkey,6% Loan 1858 (Customs),16.0
+1877-01-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1877-02-28,Turkey,5% General Debt 1865,11.75
+1877-02-28,Turkey,6% Loan 1858 (Customs),15.0
+1877-02-28,Turkey,4% 1855 (Anglo-French guarantee),103.5
+1877-03-31,Turkey,5% General Debt 1865,12.62
+1877-03-31,Turkey,6% Loan 1858 (Customs),14.0
+1877-03-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1877-04-30,Turkey,5% General Debt 1865,7.75
+1877-04-30,Turkey,6% Loan 1858 (Customs),9.0
+1877-04-30,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1877-05-31,Turkey,5% General Debt 1865,8.12
+1877-05-31,Turkey,6% Loan 1858 (Customs),9.0
+1877-05-31,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1877-06-30,Turkey,5% General Debt 1865,8.5
+1877-06-30,Turkey,6% Loan 1858 (Customs),9.0
+1877-06-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1877-07-31,Turkey,5% General Debt 1865,9.5
+1877-07-31,Turkey,6% Loan 1858 (Customs),10.0
+1877-07-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1877-08-31,Turkey,5% General Debt 1865,9.37
+1877-08-31,Turkey,6% Loan 1858 (Customs),10.0
+1877-08-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1877-09-30,Turkey,5% General Debt 1865,10.0
+1877-09-30,Turkey,6% Loan 1858 (Customs),10.75
+1877-09-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1877-10-31,Turkey,5% General Debt 1865,10.0
+1877-10-31,Turkey,6% Loan 1858 (Customs),11.0
+1877-10-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1877-11-30,Turkey,5% General Debt 1865,10.0
+1877-11-30,Turkey,6% Loan 1858 (Customs),11.0
+1877-11-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1877-12-31,Turkey,5% General Debt 1865,8.5
+1877-12-31,Turkey,6% Loan 1858 (Customs),9.0
+1877-12-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1878-01-31,Turkey,5% General Debt 1865,9.0
+1878-01-31,Turkey,6% Loan 1858 (Customs),9.5
+1878-01-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1878-02-28,Turkey,5% General Debt 1865,8.75
+1878-02-28,Turkey,6% Loan 1858 (Customs),9.5
+1878-02-28,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1878-03-31,Turkey,5% General Debt 1865,8.0
+1878-03-31,Turkey,6% Loan 1858 (Customs),10.0
+1878-03-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1878-04-30,Turkey,5% General Debt 1865,8.12
+1878-04-30,Turkey,6% Loan 1858 (Customs),10.0
+1878-04-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1878-05-31,Turkey,5% General Debt 1865,9.5
+1878-05-31,Turkey,6% Loan 1858 (Customs),11.5
+1878-05-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1878-06-30,Turkey,5% General Debt 1865,16.25
+1878-06-30,Turkey,6% Loan 1858 (Customs),21.0
+1878-06-30,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1878-07-31,Turkey,5% General Debt 1865,15.5
+1878-07-31,Turkey,6% Loan 1858 (Customs),28.0
+1878-07-31,Turkey,4% 1855 (Anglo-French guarantee),105.5
+1878-08-31,Turkey,5% General Debt 1865,13.87
+1878-08-31,Turkey,6% Loan 1858 (Customs),26.0
+1878-08-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1878-09-30,Turkey,5% General Debt 1865,12.62
+1878-09-30,Turkey,6% Loan 1858 (Customs),22.0
+1878-09-30,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1878-10-31,Turkey,5% General Debt 1865,11.0
+1878-10-31,Turkey,6% Loan 1858 (Customs),20.0
+1878-10-31,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1878-11-30,Turkey,5% General Debt 1865,11.5
+1878-11-30,Turkey,6% Loan 1858 (Customs),21.0
+1878-11-30,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1878-12-31,Turkey,5% General Debt 1865,11.62
+1878-12-31,Turkey,6% Loan 1858 (Customs),20.0
+1878-12-31,Turkey,4% 1855 (Anglo-French guarantee),102.0
+1879-01-31,Turkey,5% General Debt 1865,11.25
+1879-01-31,Turkey,6% Loan 1858 (Customs),20.0
+1879-01-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1879-02-28,Turkey,5% General Debt 1865,12.37
+1879-02-28,Turkey,6% Loan 1858 (Customs),23.0
+1879-02-28,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1879-03-31,Turkey,5% General Debt 1865,11.5
+1879-03-31,Turkey,6% Loan 1858 (Customs),20.0
+1879-03-31,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1879-04-30,Turkey,5% General Debt 1865,11.75
+1879-04-30,Turkey,6% Loan 1858 (Customs),23.5
+1879-04-30,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1879-05-31,Turkey,5% General Debt 1865,11.37
+1879-05-31,Turkey,6% Loan 1858 (Customs),25.0
+1879-05-31,Turkey,4% 1855 (Anglo-French guarantee),104.0
+1879-06-30,Turkey,5% General Debt 1865,12.12
+1879-06-30,Turkey,6% Loan 1858 (Customs),25.0
+1879-07-31,Turkey,5% General Debt 1865,11.75
+1879-07-31,Turkey,6% Loan 1858 (Customs),24.0
+1879-08-31,Turkey,5% General Debt 1865,11.37
+1879-08-31,Turkey,6% Loan 1858 (Customs),21.5
+1879-09-30,Turkey,5% General Debt 1865,11.12
+1879-09-30,Turkey,6% Loan 1858 (Customs),22.0
+1879-10-31,Turkey,5% General Debt 1865,11.62
+1879-10-31,Turkey,6% Loan 1858 (Customs),22.0
+1879-11-30,Turkey,5% General Debt 1865,11.25
+1879-11-30,Turkey,6% Loan 1858 (Customs),21.5
+1879-12-31,Turkey,5% General Debt 1865,9.75
+1879-12-31,Turkey,6% Loan 1858 (Customs),20.5
+1880-01-31,Turkey,5% General Debt 1865,10.37
+1880-01-31,Turkey,6% Loan 1858 (Customs),20.0
+1880-02-29,Turkey,5% General Debt 1865,10.87
+1880-02-29,Turkey,6% Loan 1858 (Customs),20.0
+1880-03-31,Turkey,5% General Debt 1865,10.37
+1880-03-31,Turkey,6% Loan 1858 (Customs),18.0
+1880-04-30,Turkey,5% General Debt 1865,10.37
+1880-04-30,Turkey,6% Loan 1858 (Customs),17.5
+1880-05-31,Turkey,5% General Debt 1865,10.87
+1880-05-31,Turkey,6% Loan 1858 (Customs),17.0
+1880-06-30,Turkey,5% General Debt 1865,10.87
+1880-06-30,Turkey,6% Loan 1858 (Customs),17.5
+1880-07-31,Turkey,5% General Debt 1865,9.5
+1880-07-31,Turkey,6% Loan 1858 (Customs),16.0
+1880-08-31,Turkey,5% General Debt 1865,9.5
+1880-08-31,Turkey,6% Loan 1858 (Customs),15.5
+1880-09-30,Turkey,5% General Debt 1865,9.62
+1880-09-30,Turkey,6% Loan 1858 (Customs),16.5
+1880-10-31,Turkey,5% General Debt 1865,10.37
+1880-10-31,Turkey,6% Loan 1858 (Customs),20.0
+1880-11-30,Turkey,5% General Debt 1865,10.5
+1880-11-30,Turkey,6% Loan 1858 (Customs),18.5
+1880-12-31,Turkey,5% General Debt 1865,12.25
+1880-12-31,Turkey,6% Loan 1858 (Customs),20.0
+1881-01-31,Turkey,5% General Debt 1865,12.87
+1881-01-31,Turkey,6% Loan 1858 (Customs),20.5
+1881-02-28,Turkey,5% General Debt 1865,13.25
+1881-02-28,Turkey,6% Loan 1858 (Customs),21.0
+1881-03-31,Turkey,5% General Debt 1865,13.25
+1881-03-31,Turkey,6% Loan 1858 (Customs),20.5
+1881-04-30,Turkey,5% General Debt 1865,16.0
+1881-04-30,Turkey,6% Loan 1858 (Customs),23.0
+1881-05-31,Turkey,5% General Debt 1865,17.12
+1881-05-31,Turkey,6% Loan 1858 (Customs),23.5
+1881-06-30,Turkey,5% General Debt 1865,17.0
+1881-06-30,Turkey,6% Loan 1858 (Customs),27.0
+1883-01-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1883-02-28,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1883-03-31,Turkey,5% General Debt 1865,12.5
+1883-03-31,Turkey,6% Loan 1858 (Customs),33.25
+1883-03-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1883-04-30,Turkey,5% General Debt 1865,11.75
+1883-04-30,Turkey,6% Loan 1858 (Customs),30.5
+1883-04-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1883-05-31,Turkey,5% General Debt 1865,11.87
+1883-05-31,Turkey,6% Loan 1858 (Customs),28.0
+1883-05-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1883-06-30,Turkey,5% General Debt 1865,11.5
+1883-06-30,Turkey,6% Loan 1858 (Customs),27.0
+1883-06-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1883-07-31,Turkey,5% General Debt 1865,11.0
+1883-07-31,Turkey,6% Loan 1858 (Customs),26.0
+1883-07-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1883-08-31,Turkey,5% General Debt 1865,10.75
+1883-08-31,Turkey,6% Loan 1858 (Customs),26.0
+1883-08-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1883-09-30,Turkey,5% General Debt 1865,10.5
+1883-09-30,Turkey,6% Loan 1858 (Customs),26.5
+1883-09-30,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1883-10-31,Turkey,5% General Debt 1865,10.25
+1883-10-31,Turkey,6% Loan 1858 (Customs),26.0
+1883-10-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1883-11-30,Turkey,5% General Debt 1865,9.5
+1883-11-30,Turkey,6% Loan 1858 (Customs),25.0
+1883-11-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1883-12-31,Turkey,5% General Debt 1865,8.75
+1883-12-31,Turkey,6% Loan 1858 (Customs),24.5
+1883-12-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1884-01-31,Turkey,5% General Debt 1865,9.12
+1884-01-31,Turkey,6% Loan 1858 (Customs),24.5
+1884-01-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1884-02-29,Turkey,5% General Debt 1865,9.5
+1884-02-29,Turkey,6% Loan 1858 (Customs),25.0
+1884-02-29,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1884-03-31,Turkey,5% General Debt 1865,9.0
+1884-03-31,Turkey,6% Loan 1858 (Customs),23.25
+1884-03-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1884-04-30,Turkey,5% General Debt 1865,9.5
+1884-04-30,Turkey,6% Loan 1858 (Customs),26.0
+1884-04-30,Turkey,4% 1855 (Anglo-French guarantee),105.5
+1884-05-31,Turkey,5% General Debt 1865,9.0
+1884-05-31,Turkey,6% Loan 1858 (Customs),26.0
+1884-05-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1884-06-30,Turkey,5% General Debt 1865,8.5
+1884-06-30,Turkey,6% Loan 1858 (Customs),25.5
+1884-06-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1884-07-31,Turkey,5% General Debt 1865,8.5
+1884-07-31,Turkey,6% Loan 1858 (Customs),28.25
+1884-07-31,Turkey,4% 1855 (Anglo-French guarantee),106.5
+1884-08-31,Turkey,5% General Debt 1865,11.75
+1884-08-31,Turkey,6% Loan 1858 (Customs),30.5
+1884-08-31,Turkey,4% 1855 (Anglo-French guarantee),104.5
+1884-09-30,Turkey,5% General Debt 1865,11.685
+1884-09-30,Turkey,6% Loan 1858 (Customs),30.125
+1884-09-30,Turkey,4% 1855 (Anglo-French guarantee),104.5
+1884-10-31,Turkey,5% General Debt 1865,12.059999999999999
+1884-10-31,Turkey,6% Loan 1858 (Customs),33.0
+1884-10-31,Turkey,4% 1855 (Anglo-French guarantee),104.5
+1884-11-30,Turkey,5% General Debt 1865,12.75
+1884-11-30,Turkey,6% Loan 1858 (Customs),35.25
+1884-11-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1884-12-31,Turkey,5% General Debt 1865,12.0
+1884-12-31,Turkey,6% Loan 1858 (Customs),34.25
+1884-12-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1885-01-31,Turkey,5% General Debt 1865,11.935
+1885-01-31,Turkey,6% Loan 1858 (Customs),34.5
+1885-01-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1885-02-28,Turkey,5% General Debt 1865,12.809999999999999
+1885-02-28,Turkey,6% Loan 1858 (Customs),35.0
+1885-02-28,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1885-03-31,Turkey,5% General Debt 1865,12.625
+1885-03-31,Turkey,6% Loan 1858 (Customs),33.75
+1885-03-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1885-04-30,Turkey,5% General Debt 1865,11.75
+1885-04-30,Turkey,6% Loan 1858 (Customs),29.5
+1885-04-30,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1885-05-31,Turkey,5% General Debt 1865,11.75
+1885-05-31,Turkey,6% Loan 1858 (Customs),31.0
+1885-05-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1885-06-30,Turkey,5% General Debt 1865,12.25
+1885-06-30,Turkey,6% Loan 1858 (Customs),31.75
+1885-06-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1885-07-31,Turkey,5% General Debt 1865,12.25
+1885-07-31,Turkey,6% Loan 1858 (Customs),31.25
+1885-07-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1885-08-31,Turkey,5% General Debt 1865,12.25
+1885-08-31,Turkey,6% Loan 1858 (Customs),32.25
+1885-08-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1885-09-30,Turkey,5% General Debt 1865,11.25
+1885-09-30,Turkey,6% Loan 1858 (Customs),28.5
+1885-09-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1885-10-31,Turkey,5% General Debt 1865,11.25
+1885-10-31,Turkey,6% Loan 1858 (Customs),29.0
+1885-10-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1885-11-30,Turkey,5% General Debt 1865,13.0
+1885-11-30,Turkey,6% Loan 1858 (Customs),26.0
+1885-11-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1885-12-31,Turkey,5% General Debt 1865,13.0
+1885-12-31,Turkey,6% Loan 1858 (Customs),26.0
+1885-12-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1886-01-31,Turkey,5% General Debt 1865,14.0
+1886-01-31,Turkey,6% Loan 1858 (Customs),25.0
+1886-01-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1886-02-28,Turkey,5% General Debt 1865,15.0
+1886-02-28,Turkey,6% Loan 1858 (Customs),26.0
+1886-02-28,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1886-03-31,Turkey,5% General Debt 1865,14.0
+1886-03-31,Turkey,6% Loan 1858 (Customs),24.0
+1886-03-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1886-04-30,Turkey,5% General Debt 1865,14.0
+1886-04-30,Turkey,6% Loan 1858 (Customs),24.0
+1886-04-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1886-05-31,Turkey,5% General Debt 1865,14.0
+1886-05-31,Turkey,6% Loan 1858 (Customs),24.0
+1886-05-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1886-06-30,Turkey,5% General Debt 1865,14.0
+1886-06-30,Turkey,6% Loan 1858 (Customs),23.0
+1886-06-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1886-07-31,Turkey,5% General Debt 1865,14.0
+1886-07-31,Turkey,6% Loan 1858 (Customs),24.0
+1886-07-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1886-08-31,Turkey,5% General Debt 1865,13.0
+1886-08-31,Turkey,6% Loan 1858 (Customs),22.0
+1886-08-31,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1886-09-30,Turkey,5% General Debt 1865,12.0
+1886-09-30,Turkey,6% Loan 1858 (Customs),20.0
+1886-09-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1886-10-31,Turkey,5% General Debt 1865,13.0
+1886-10-31,Turkey,6% Loan 1858 (Customs),22.0
+1886-10-31,Turkey,4% 1855 (Anglo-French guarantee),108.5
+1886-11-30,Turkey,5% General Debt 1865,13.0
+1886-11-30,Turkey,6% Loan 1858 (Customs),23.0
+1886-11-30,Turkey,4% 1855 (Anglo-French guarantee),108.5
+1886-12-31,Turkey,5% General Debt 1865,13.0
+1886-12-31,Turkey,6% Loan 1858 (Customs),23.0
+1886-12-31,Turkey,4% 1855 (Anglo-French guarantee),108.5
+1887-01-31,Turkey,5% General Debt 1865,13.0
+1887-01-31,Turkey,6% Loan 1858 (Customs),20.0
+1887-01-31,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1887-02-28,Turkey,5% General Debt 1865,13.0
+1887-02-28,Turkey,6% Loan 1858 (Customs),20.0
+1887-02-28,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1887-03-31,Turkey,5% General Debt 1865,13.0
+1887-03-31,Turkey,6% Loan 1858 (Customs),22.0
+1887-03-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1887-04-30,Turkey,5% General Debt 1865,13.0
+1887-04-30,Turkey,6% Loan 1858 (Customs),21.0
+1887-04-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1887-05-31,Turkey,5% General Debt 1865,14.0
+1887-05-31,Turkey,6% Loan 1858 (Customs),23.0
+1887-05-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1887-06-30,Turkey,5% General Debt 1865,14.0
+1887-06-30,Turkey,6% Loan 1858 (Customs),23.0
+1887-06-30,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1887-07-31,Turkey,5% General Debt 1865,14.0
+1887-07-31,Turkey,6% Loan 1858 (Customs),21.0
+1887-07-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1887-08-31,Turkey,5% General Debt 1865,14.0
+1887-08-31,Turkey,6% Loan 1858 (Customs),21.0
+1887-08-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1887-09-30,Turkey,5% General Debt 1865,13.0
+1887-09-30,Turkey,6% Loan 1858 (Customs),21.0
+1887-09-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1887-10-31,Turkey,5% General Debt 1865,13.0
+1887-10-31,Turkey,6% Loan 1858 (Customs),23.0
+1887-10-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1887-11-30,Turkey,5% General Debt 1865,13.0
+1887-11-30,Turkey,6% Loan 1858 (Customs),24.0
+1887-11-30,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1887-12-31,Turkey,5% General Debt 1865,13.0
+1887-12-31,Turkey,6% Loan 1858 (Customs),22.0
+1887-12-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1888-01-31,Turkey,5% General Debt 1865,13.0
+1888-01-31,Turkey,6% Loan 1858 (Customs),23.0
+1888-01-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1888-02-29,Turkey,5% General Debt 1865,13.0
+1888-02-29,Turkey,6% Loan 1858 (Customs),23.0
+1888-02-29,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1888-03-31,Turkey,5% General Debt 1865,13.0
+1888-03-31,Turkey,6% Loan 1858 (Customs),23.0
+1888-03-31,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1888-04-30,Turkey,5% General Debt 1865,14.0
+1888-04-30,Turkey,6% Loan 1858 (Customs),23.0
+1888-04-30,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1888-05-31,Turkey,5% General Debt 1865,14.0
+1888-05-31,Turkey,6% Loan 1858 (Customs),23.0
+1888-05-31,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1888-06-30,Turkey,5% General Debt 1865,14.0
+1888-06-30,Turkey,6% Loan 1858 (Customs),24.0
+1888-06-30,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1888-07-31,Turkey,5% General Debt 1865,14.0
+1888-07-31,Turkey,6% Loan 1858 (Customs),24.0
+1888-07-31,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1888-08-31,Turkey,5% General Debt 1865,14.0
+1888-08-31,Turkey,6% Loan 1858 (Customs),24.0
+1888-08-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1888-09-30,Turkey,5% General Debt 1865,15.0
+1888-09-30,Turkey,6% Loan 1858 (Customs),25.0
+1888-09-30,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1888-10-31,Turkey,5% General Debt 1865,15.0
+1888-10-31,Turkey,6% Loan 1858 (Customs),28.0
+1888-10-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1888-11-30,Turkey,5% General Debt 1865,15.0
+1888-11-30,Turkey,6% Loan 1858 (Customs),25.0
+1888-11-30,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1888-12-31,Turkey,5% General Debt 1865,15.0
+1888-12-31,Turkey,6% Loan 1858 (Customs),25.0
+1888-12-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1889-01-31,Turkey,5% General Debt 1865,15.0
+1889-01-31,Turkey,6% Loan 1858 (Customs),27.0
+1889-01-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1889-02-28,Turkey,5% General Debt 1865,15.0
+1889-02-28,Turkey,6% Loan 1858 (Customs),28.0
+1889-02-28,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1889-03-31,Turkey,5% General Debt 1865,15.0
+1889-03-31,Turkey,6% Loan 1858 (Customs),27.0
+1889-03-31,Turkey,4% 1855 (Anglo-French guarantee),108.0
+1889-04-30,Turkey,5% General Debt 1865,16.0
+1889-04-30,Turkey,6% Loan 1858 (Customs),29.0
+1889-04-30,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1889-05-31,Turkey,5% General Debt 1865,16.0
+1889-05-31,Turkey,6% Loan 1858 (Customs),28.0
+1889-05-31,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1889-06-30,Turkey,5% General Debt 1865,16.0
+1889-06-30,Turkey,6% Loan 1858 (Customs),27.0
+1889-06-30,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1889-07-31,Turkey,5% General Debt 1865,16.0
+1889-07-31,Turkey,6% Loan 1858 (Customs),27.0
+1889-07-31,Turkey,4% 1855 (Anglo-French guarantee),109.0
+1889-08-31,Turkey,5% General Debt 1865,15.0
+1889-08-31,Turkey,6% Loan 1858 (Customs),28.0
+1889-08-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1889-09-30,Turkey,5% General Debt 1865,15.0
+1889-09-30,Turkey,6% Loan 1858 (Customs),29.0
+1889-09-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1889-10-31,Turkey,5% General Debt 1865,16.0
+1889-10-31,Turkey,6% Loan 1858 (Customs),33.0
+1889-10-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1889-11-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1889-11-30,Turkey,Converted (Muharrem) Series A/B,19.625
+1889-12-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1889-12-31,Turkey,Converted (Muharrem) Series A/B,19.9
+1890-01-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1890-01-31,Turkey,Converted (Muharrem) Series A/B,20.775
+1890-02-28,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1890-02-28,Turkey,Converted (Muharrem) Series A/B,21.560000000000002
+1890-03-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1890-03-31,Turkey,Converted (Muharrem) Series A/B,21.09
+1890-04-30,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1890-04-30,Turkey,Converted (Muharrem) Series A/B,21.560000000000002
+1890-05-31,Turkey,4% 1855 (Anglo-French guarantee),105.0
+1890-05-31,Turkey,Converted (Muharrem) Series A/B,22.655
+1890-06-30,Turkey,4% 1855 (Anglo-French guarantee),106.0
+1890-06-30,Turkey,Converted (Muharrem) Series A/B,21.810000000000002
+1890-07-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1890-07-31,Turkey,Converted (Muharrem) Series A/B,20.65
+1890-08-31,Turkey,4% 1855 (Anglo-French guarantee),98.0
+1890-08-31,Turkey,Converted (Muharrem) Series A/B,21.84
+1890-09-30,Turkey,4% 1855 (Anglo-French guarantee),98.0
+1890-09-30,Turkey,Converted (Muharrem) Series A/B,21.12
+1890-10-31,Turkey,4% 1855 (Anglo-French guarantee),97.5
+1890-10-31,Turkey,Converted (Muharrem) Series A/B,20.435000000000002
+1890-11-30,Turkey,4% 1855 (Anglo-French guarantee),97.5
+1890-11-30,Turkey,Converted (Muharrem) Series A/B,20.5
+1890-12-31,Turkey,4% 1855 (Anglo-French guarantee),98.5
+1890-12-31,Turkey,Converted (Muharrem) Series A/B,20.5
+1891-01-31,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1891-01-31,Turkey,Converted (Muharrem) Series A/B,21.75
+1891-02-28,Turkey,4% 1855 (Anglo-French guarantee),99.5
+1891-02-28,Turkey,Converted (Muharrem) Series A/B,22.435000000000002
+1891-03-31,Turkey,4% 1855 (Anglo-French guarantee),99.5
+1891-03-31,Turkey,Converted (Muharrem) Series A/B,21.625
+1891-04-30,Turkey,4% 1855 (Anglo-French guarantee),99.5
+1891-04-30,Turkey,Converted (Muharrem) Series A/B,20.435000000000002
+1891-05-31,Turkey,4% 1855 (Anglo-French guarantee),98.5
+1891-05-31,Turkey,Converted (Muharrem) Series A/B,20.5
+1891-06-30,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1891-06-30,Turkey,Converted (Muharrem) Series A/B,19.560000000000002
+1891-07-31,Turkey,4% 1855 (Anglo-French guarantee),99.5
+1891-07-31,Turkey,Converted (Muharrem) Series A/B,20.87
+1891-08-31,Turkey,4% 1855 (Anglo-French guarantee),98.0
+1891-08-31,Turkey,Converted (Muharrem) Series A/B,20.685000000000002
+1891-09-30,Turkey,4% 1855 (Anglo-French guarantee),98.0
+1891-09-30,Turkey,Converted (Muharrem) Series A/B,19.935000000000002
+1891-10-31,Turkey,4% 1855 (Anglo-French guarantee),97.5
+1891-10-31,Turkey,Converted (Muharrem) Series A/B,19.435000000000002
+1891-11-30,Turkey,4% 1855 (Anglo-French guarantee),96.0
+1891-11-30,Turkey,Converted (Muharrem) Series A/B,19.875
+1891-12-31,Turkey,4% 1855 (Anglo-French guarantee),99.5
+1891-12-31,Turkey,Converted (Muharrem) Series A/B,21.87
+1892-01-31,Turkey,4% 1855 (Anglo-French guarantee),98.0
+1892-01-31,Turkey,Converted (Muharrem) Series A/B,21.875
+1892-02-29,Turkey,4% 1855 (Anglo-French guarantee),97.0
+1892-02-29,Turkey,Converted (Muharrem) Series A/B,23.060000000000002
+1892-03-31,Turkey,4% 1855 (Anglo-French guarantee),97.5
+1892-03-31,Turkey,Converted (Muharrem) Series A/B,23.655
+1892-04-30,Turkey,4% 1855 (Anglo-French guarantee),98.5
+1892-04-30,Turkey,Converted (Muharrem) Series A/B,24.375
+1892-05-31,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1892-05-31,Turkey,Converted (Muharrem) Series A/B,24.25
+1892-06-30,Turkey,4% 1855 (Anglo-French guarantee),100.5
+1892-06-30,Turkey,Converted (Muharrem) Series A/B,23.935000000000002
+1892-07-31,Turkey,4% 1855 (Anglo-French guarantee),99.0
+1892-07-31,Turkey,Converted (Muharrem) Series A/B,23.935000000000002
+1892-08-31,Turkey,4% 1855 (Anglo-French guarantee),99.0
+1892-08-31,Turkey,Converted (Muharrem) Series A/B,24.935000000000002
+1892-09-30,Turkey,4% 1855 (Anglo-French guarantee),100.5
+1892-09-30,Turkey,Converted (Muharrem) Series A/B,26.965
+1892-10-31,Turkey,4% 1855 (Anglo-French guarantee),100.5
+1892-10-31,Turkey,Converted (Muharrem) Series A/B,26.310000000000002
+1892-11-30,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1892-11-30,Turkey,Converted (Muharrem) Series A/B,26.435000000000002
+1892-12-31,Turkey,4% 1855 (Anglo-French guarantee),100.5
+1892-12-31,Turkey,Converted (Muharrem) Series A/B,26.060000000000002
+1893-01-31,Turkey,4% 1855 (Anglo-French guarantee),100.0
+1893-01-31,Turkey,Converted (Muharrem) Series A/B,26.5
+1893-02-28,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1893-02-28,Turkey,Converted (Muharrem) Series A/B,27.685000000000002
+1893-03-31,Turkey,4% 1855 (Anglo-French guarantee),101.5
+1893-03-31,Turkey,Converted (Muharrem) Series A/B,29.0
+1893-04-30,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1893-04-30,Turkey,Converted (Muharrem) Series A/B,28.875
+1893-05-31,Turkey,4% 1855 (Anglo-French guarantee),102.5
+1893-05-31,Turkey,Converted (Muharrem) Series A/B,27.875
+1893-06-30,Turkey,4% 1855 (Anglo-French guarantee),103.5
+1893-06-30,Turkey,Converted (Muharrem) Series A/B,28.435000000000002
+1893-07-31,Turkey,4% 1855 (Anglo-French guarantee),103.25
+1893-07-31,Turkey,Converted (Muharrem) Series A/B,27.375
+1893-08-31,Turkey,4% 1855 (Anglo-French guarantee),101.0
+1893-08-31,Turkey,Converted (Muharrem) Series A/B,28.369999999999997
+1893-09-30,Turkey,4% 1855 (Anglo-French guarantee),101.5
+1893-09-30,Turkey,Converted (Muharrem) Series A/B,28.625
+1893-10-31,Turkey,4% 1855 (Anglo-French guarantee),101.5
+1893-10-31,Turkey,Converted (Muharrem) Series A/B,28.625
+1893-11-30,Turkey,4% 1855 (Anglo-French guarantee),103.0
+1893-11-30,Turkey,Converted (Muharrem) Series A/B,29.310000000000002
+1893-12-31,Turkey,4% 1855 (Anglo-French guarantee),103.5
+1893-12-31,Turkey,Converted (Muharrem) Series A/B,29.810000000000002
+1894-01-31,Turkey,4% 1855 (Anglo-French guarantee),103.5
+1894-01-31,Turkey,Converted (Muharrem) Series A/B,29.875
+1894-02-28,Turkey,4% 1855 (Anglo-French guarantee),103.5
+1894-02-28,Turkey,Converted (Muharrem) Series A/B,31.125
+1894-03-31,Turkey,4% 1855 (Anglo-French guarantee),103.5
+1894-03-31,Turkey,Converted (Muharrem) Series A/B,29.685000000000002
+1894-04-30,Turkey,4% 1855 (Anglo-French guarantee),104.25
+1894-04-30,Turkey,Converted (Muharrem) Series A/B,30.810000000000002
+1894-05-31,Turkey,4% 1855 (Anglo-French guarantee),105.25
+1894-05-31,Turkey,Converted (Muharrem) Series A/B,32.185
+1894-06-30,Turkey,4% 1855 (Anglo-French guarantee),105.25
+1894-06-30,Turkey,Converted (Muharrem) Series A/B,32.625
+1894-07-31,Turkey,4% 1855 (Anglo-French guarantee),105.5
+1894-07-31,Turkey,Converted (Muharrem) Series A/B,32.81
+1894-07-31,Turkey,4% Loan 1891,99.625
+1894-08-31,Turkey,4% 1855 (Anglo-French guarantee),105.5
+1894-08-31,Turkey,Converted (Muharrem) Series A/B,33.75
+1894-08-31,Turkey,4% Loan 1891,103.5
+1894-09-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1894-09-30,Turkey,Converted (Muharrem) Series A/B,35.185
+1894-09-30,Turkey,4% Loan 1891,104.0
+1894-10-31,Turkey,4% 1855 (Anglo-French guarantee),106.5
+1894-10-31,Turkey,Converted (Muharrem) Series A/B,35.0
+1894-10-31,Turkey,4% Loan 1891,101.75
+1894-11-30,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1894-11-30,Turkey,Converted (Muharrem) Series A/B,36.75
+1894-11-30,Turkey,4% Loan 1891,101.75
+1894-12-31,Turkey,4% 1855 (Anglo-French guarantee),107.0
+1894-12-31,Turkey,Converted (Muharrem) Series A/B,36.185
+1894-12-31,Turkey,4% Loan 1891,102.5
+1895-01-31,Turkey,Converted (Muharrem) Series A/B,45.0
+1895-01-31,Turkey,4% Loan 1891,104.25
+1895-02-28,Turkey,Converted (Muharrem) Series A/B,44.5
+1895-02-28,Turkey,4% Loan 1891,104.0
+1895-03-31,Turkey,Converted (Muharrem) Series A/B,46.5
+1895-03-31,Turkey,4% Loan 1891,103.75
+1895-04-30,Turkey,Converted (Muharrem) Series A/B,45.0
+1895-04-30,Turkey,4% Loan 1891,102.5
+1895-05-31,Turkey,Converted (Muharrem) Series A/B,44.25
+1895-05-31,Turkey,4% Loan 1891,102.0
+1895-06-30,Turkey,Converted (Muharrem) Series A/B,45.0
+1895-06-30,Turkey,4% Loan 1891,102.5
+1895-07-31,Turkey,Converted (Muharrem) Series A/B,42.5
+1895-07-31,Turkey,4% Loan 1891,103.0
+1895-08-31,Turkey,Converted (Muharrem) Series A/B,45.0
+1895-08-31,Turkey,4% Loan 1891,103.5
+1895-09-30,Turkey,Converted (Muharrem) Series A/B,44.0
+1895-09-30,Turkey,4% Loan 1891,103.5
+1895-10-31,Turkey,Converted (Muharrem) Series A/B,39.5
+1895-10-31,Turkey,4% Loan 1891,101.5
+1895-11-30,Turkey,Converted (Muharrem) Series A/B,32.5
+1895-11-30,Turkey,4% Loan 1891,100.0
+1895-12-31,Turkey,Converted (Muharrem) Series A/B,30.0
+1895-12-31,Turkey,4% Loan 1891,99.0
+1895-12-31,Turkey,3.5% Loan 1894,89.0
+1896-01-31,Turkey,Converted (Muharrem) Series A/B,32.5
+1896-01-31,Turkey,4% Loan 1891,101.5
+1896-01-31,Turkey,3.5% Loan 1894,92.0
+1896-02-29,Turkey,Converted (Muharrem) Series A/B,37.5
+1896-02-29,Turkey,4% Loan 1891,101.5
+1896-02-29,Turkey,3.5% Loan 1894,94.0
+1896-03-31,Turkey,Converted (Muharrem) Series A/B,36.0
+1896-03-31,Turkey,4% Loan 1891,102.0
+1896-03-31,Turkey,3.5% Loan 1894,95.5
+1896-04-30,Turkey,Converted (Muharrem) Series A/B,35.0
+1896-04-30,Turkey,4% Loan 1891,101.5
+1896-04-30,Turkey,3.5% Loan 1894,96.5
+1896-05-31,Turkey,Converted (Muharrem) Series A/B,37.5
+1896-05-31,Turkey,4% Loan 1891,101.5
+1896-05-31,Turkey,3.5% Loan 1894,96.0
+1896-06-30,Turkey,Converted (Muharrem) Series A/B,36.5
+1896-06-30,Turkey,4% Loan 1891,102.0
+1896-06-30,Turkey,3.5% Loan 1894,95.5
+1896-07-31,Turkey,Converted (Muharrem) Series A/B,31.5
+1896-07-31,Turkey,4% Loan 1891,102.5
+1896-07-31,Turkey,3.5% Loan 1894,95.5
+1896-08-31,Turkey,Converted (Muharrem) Series A/B,33.5
+1896-08-31,Turkey,4% Loan 1891,102.5
+1896-08-31,Turkey,3.5% Loan 1894,96.0
+1896-09-30,Turkey,Converted (Muharrem) Series A/B,31.5
+1896-09-30,Turkey,4% Loan 1891,101.5
+1896-09-30,Turkey,3.5% Loan 1894,94.0
+1896-10-31,Turkey,Converted (Muharrem) Series A/B,22.560000000000002
+1896-10-31,Turkey,4% Loan 1891,99.0
+1896-10-31,Turkey,3.5% Loan 1894,91.5
+1896-11-30,Turkey,Converted (Muharrem) Series A/B,48.5
+1896-11-30,Turkey,4% Loan 1891,99.0
+1896-11-30,Turkey,3.5% Loan 1894,92.0
+1896-12-31,Turkey,Converted (Muharrem) Series A/B,48.25
+1896-12-31,Turkey,4% Loan 1891,100.5
+1896-12-31,Turkey,3.5% Loan 1894,95.5
+1897-01-31,Turkey,Converted (Muharrem) Series A/B,51.875
+1897-01-31,Turkey,4% Loan 1891,101.0
+1897-01-31,Turkey,3.5% Loan 1894,96.0
+1897-02-28,Turkey,Converted (Muharrem) Series A/B,49.5
+1897-02-28,Turkey,4% Loan 1891,101.0
+1897-02-28,Turkey,3.5% Loan 1894,95.5
+1897-03-31,Turkey,Converted (Muharrem) Series A/B,24.310000000000002
+1897-03-31,Turkey,4% Loan 1891,103.5
+1897-03-31,Turkey,3.5% Loan 1894,96.5
+1897-04-30,Turkey,Converted (Muharrem) Series A/B,24.810000000000002
+1897-04-30,Turkey,4% Loan 1891,101.5
+1897-04-30,Turkey,3.5% Loan 1894,95.5
+1897-05-31,Turkey,Converted (Muharrem) Series A/B,29.81
+1897-05-31,Turkey,4% Loan 1891,103.5
+1897-05-31,Turkey,3.5% Loan 1894,98.5
+1897-06-30,Turkey,Converted (Muharrem) Series A/B,30.25
+1897-06-30,Turkey,4% Loan 1891,103.5
+1897-06-30,Turkey,3.5% Loan 1894,98.5
+1897-07-31,Turkey,Converted (Muharrem) Series A/B,30.685000000000002
+1897-07-31,Turkey,4% Loan 1891,103.5
+1897-07-31,Turkey,3.5% Loan 1894,98.5
+1897-08-31,Turkey,Converted (Muharrem) Series A/B,31.185000000000002
+1897-08-31,Turkey,4% Loan 1891,104.0
+1897-08-31,Turkey,3.5% Loan 1894,99.0
+1897-09-30,Turkey,Converted (Muharrem) Series A/B,32.75
+1897-09-30,Turkey,4% Loan 1891,104.5
+1897-09-30,Turkey,3.5% Loan 1894,99.0
+1897-10-31,Turkey,Converted (Muharrem) Series A/B,33.25
+1897-10-31,Turkey,4% Loan 1891,102.5
+1897-10-31,Turkey,3.5% Loan 1894,97.0
+1897-11-30,Turkey,Converted (Muharrem) Series A/B,33.75
+1897-11-30,Turkey,4% Loan 1891,104.0
+1897-11-30,Turkey,3.5% Loan 1894,97.5
+1897-12-31,Turkey,Converted (Muharrem) Series A/B,33.185
+1897-12-31,Turkey,4% Loan 1891,103.5
+1897-12-31,Turkey,3.5% Loan 1894,98.0
+1898-01-31,Turkey,Converted (Muharrem) Series A/B,35.25
+1898-01-31,Turkey,4% Loan 1891,103.5
+1898-01-31,Turkey,3.5% Loan 1894,98.5
+1898-02-28,Turkey,Converted (Muharrem) Series A/B,35.06
+1898-02-28,Turkey,4% Loan 1891,104.5
+1898-02-28,Turkey,3.5% Loan 1894,100.0
+1898-03-31,Turkey,Converted (Muharrem) Series A/B,32.75
+1898-03-31,Turkey,4% Loan 1891,103.5
+1898-03-31,Turkey,3.5% Loan 1894,99.0
+1898-04-30,Turkey,Converted (Muharrem) Series A/B,32.875
+1898-04-30,Turkey,4% Loan 1891,101.0
+1898-04-30,Turkey,3.5% Loan 1894,97.0
+1898-05-31,Turkey,Converted (Muharrem) Series A/B,34.685
+1898-05-31,Turkey,4% Loan 1891,102.0
+1898-05-31,Turkey,3.5% Loan 1894,98.0
+1898-06-30,Turkey,Converted (Muharrem) Series A/B,36.0
+1898-06-30,Turkey,4% Loan 1891,103.0
+1898-06-30,Turkey,3.5% Loan 1894,99.5
+1898-07-31,Turkey,Converted (Muharrem) Series A/B,36.31
+1898-07-31,Turkey,4% Loan 1891,104.0
+1898-07-31,Turkey,3.5% Loan 1894,100.5
+1898-08-31,Turkey,Converted (Muharrem) Series A/B,37.625
+1898-08-31,Turkey,4% Loan 1891,104.5
+1898-08-31,Turkey,3.5% Loan 1894,101.0
+1898-09-30,Turkey,Converted (Muharrem) Series A/B,36.625
+1898-09-30,Turkey,4% Loan 1891,105.0
+1898-09-30,Turkey,3.5% Loan 1894,101.5
+1898-10-31,Turkey,Converted (Muharrem) Series A/B,25.5
+1898-10-31,Turkey,4% Loan 1891,102.0
+1898-10-31,Turkey,3.5% Loan 1894,99.0
+1898-11-30,Turkey,Converted (Muharrem) Series A/B,26.75
+1898-11-30,Turkey,4% Loan 1891,103.0
+1898-11-30,Turkey,3.5% Loan 1894,99.0
+1898-12-31,Turkey,Converted (Muharrem) Series A/B,27.25
+1898-12-31,Turkey,4% Loan 1891,103.5
+1898-12-31,Turkey,3.5% Loan 1894,100.0
+1899-01-31,Turkey,Converted (Muharrem) Series A/B,27.87
+1899-01-31,Turkey,4% Loan 1891,104.5
+1899-01-31,Turkey,3.5% Loan 1894,100.5
+1899-02-28,Turkey,Converted (Muharrem) Series A/B,28.12
+1899-02-28,Turkey,4% Loan 1891,104.5
+1899-02-28,Turkey,3.5% Loan 1894,101.0
+1899-03-31,Turkey,Converted (Muharrem) Series A/B,26.87
+1899-03-31,Turkey,4% Loan 1891,105.0
+1899-03-31,Turkey,3.5% Loan 1894,101.0
+1899-04-30,Turkey,Converted (Muharrem) Series A/B,27.12
+1899-04-30,Turkey,4% Loan 1891,103.5
+1899-04-30,Turkey,3.5% Loan 1894,100.0
+1899-05-31,Turkey,Converted (Muharrem) Series A/B,27.0
+1899-05-31,Turkey,4% Loan 1891,103.5
+1899-05-31,Turkey,3.5% Loan 1894,99.5
+1899-06-30,Turkey,Converted (Muharrem) Series A/B,26.5
+1899-06-30,Turkey,4% Loan 1891,103.5
+1899-06-30,Turkey,3.5% Loan 1894,99.5
+1899-07-31,Turkey,Converted (Muharrem) Series A/B,26.5
+1899-07-31,Turkey,4% Loan 1891,103.5
+1899-07-31,Turkey,3.5% Loan 1894,99.0
+1899-08-31,Turkey,Converted (Muharrem) Series A/B,26.5
+1899-08-31,Turkey,4% Loan 1891,103.5
+1899-08-31,Turkey,3.5% Loan 1894,99.5
+1899-09-30,Turkey,Converted (Muharrem) Series A/B,25.25
+1899-09-30,Turkey,4% Loan 1891,103.5
+1899-09-30,Turkey,3.5% Loan 1894,99.0
+1899-10-31,Turkey,Converted (Muharrem) Series A/B,25.0
+1899-10-31,Turkey,4% Loan 1891,101.0
+1899-10-31,Turkey,3.5% Loan 1894,97.0
+1899-11-30,Turkey,Converted (Muharrem) Series A/B,25.0
+1899-11-30,Turkey,4% Loan 1891,101.0
+1899-11-30,Turkey,3.5% Loan 1894,97.0
+1899-12-31,Turkey,Converted (Muharrem) Series A/B,25.0
+1899-12-31,Turkey,4% Loan 1891,100.0
+1899-12-31,Turkey,3.5% Loan 1894,95.0
+1900-01-31,Turkey,Converted (Muharrem) Series A/B,26.0
+1900-01-31,Turkey,4% Loan 1891,101.0
+1900-01-31,Turkey,3.5% Loan 1894,97.0
+1900-02-28,Turkey,Converted (Muharrem) Series A/B,27.5
+1900-02-28,Turkey,4% Loan 1891,102.0
+1900-02-28,Turkey,3.5% Loan 1894,97.0
+1900-03-31,Turkey,Converted (Muharrem) Series A/B,26.5
+1900-03-31,Turkey,4% Loan 1891,103.0
+1900-03-31,Turkey,3.5% Loan 1894,98.0
+1900-04-30,Turkey,Converted (Muharrem) Series A/B,26.25
+1900-04-30,Turkey,4% Loan 1891,101.0
+1900-04-30,Turkey,3.5% Loan 1894,96.0
+1900-05-31,Turkey,Converted (Muharrem) Series A/B,26.12
+1900-05-31,Turkey,4% Loan 1891,101.0
+1900-05-31,Turkey,3.5% Loan 1894,97.0
+1900-06-30,Turkey,Converted (Muharrem) Series A/B,25.75
+1900-06-30,Turkey,4% Loan 1891,101.0
+1900-06-30,Turkey,3.5% Loan 1894,97.5
+1900-07-31,Turkey,Converted (Muharrem) Series A/B,25.0
+1900-07-31,Turkey,4% Loan 1891,101.0
+1900-07-31,Turkey,3.5% Loan 1894,97.0
+1900-08-31,Turkey,Converted (Muharrem) Series A/B,25.62
+1900-08-31,Turkey,4% Loan 1891,101.0
+1900-08-31,Turkey,3.5% Loan 1894,97.5
+1900-09-30,Turkey,Converted (Muharrem) Series A/B,25.0
+1900-09-30,Turkey,4% Loan 1891,101.5
+1900-09-30,Turkey,3.5% Loan 1894,97.5
+1900-10-31,Turkey,Converted (Muharrem) Series A/B,25.12
+1900-10-31,Turkey,4% Loan 1891,100.0
+1900-10-31,Turkey,3.5% Loan 1894,96.0
+1900-11-30,Turkey,Converted (Muharrem) Series A/B,25.12
+1900-11-30,Turkey,4% Loan 1891,100.0
+1900-11-30,Turkey,3.5% Loan 1894,96.0
+1900-12-31,Turkey,Converted (Muharrem) Series A/B,25.75
+1900-12-31,Turkey,4% Loan 1891,100.0
+1900-12-31,Turkey,3.5% Loan 1894,96.0
+1901-01-31,Turkey,Converted (Muharrem) Series A/B,26.37
+1901-01-31,Turkey,4% Loan 1891,101.0
+1901-01-31,Turkey,3.5% Loan 1894,96.0
+1901-02-28,Turkey,Converted (Muharrem) Series A/B,27.25
+1901-02-28,Turkey,4% Loan 1891,102.0
+1901-02-28,Turkey,3.5% Loan 1894,97.0
+1901-03-31,Turkey,Converted (Muharrem) Series A/B,26.5
+1901-03-31,Turkey,4% Loan 1891,103.0
+1901-03-31,Turkey,3.5% Loan 1894,98.0
+1901-04-30,Turkey,Converted (Muharrem) Series A/B,27.0
+1901-04-30,Turkey,4% Loan 1891,102.0
+1901-04-30,Turkey,3.5% Loan 1894,96.5
+1901-05-31,Turkey,Converted (Muharrem) Series A/B,27.62
+1901-05-31,Turkey,4% Loan 1891,103.0
+1901-05-31,Turkey,3.5% Loan 1894,97.0
+1901-06-30,Turkey,Converted (Muharrem) Series A/B,27.37
+1901-06-30,Turkey,4% Loan 1891,103.0
+1901-06-30,Turkey,3.5% Loan 1894,97.0
+1901-07-31,Turkey,Converted (Muharrem) Series A/B,26.62
+1901-07-31,Turkey,4% Loan 1891,103.0
+1901-07-31,Turkey,3.5% Loan 1894,97.0
+1901-08-31,Turkey,Converted (Muharrem) Series A/B,26.75
+1901-08-31,Turkey,4% Loan 1891,103.0
+1901-08-31,Turkey,3.5% Loan 1894,98.0
+1901-09-30,Turkey,Converted (Muharrem) Series A/B,25.62
+1901-09-30,Turkey,4% Loan 1891,103.0
+1901-09-30,Turkey,3.5% Loan 1894,98.0
+1901-10-31,Turkey,Converted (Muharrem) Series A/B,25.25
+1901-10-31,Turkey,4% Loan 1891,102.0
+1901-10-31,Turkey,3.5% Loan 1894,97.5
+1901-11-30,Turkey,Converted (Muharrem) Series A/B,26.37
+1901-11-30,Turkey,4% Loan 1891,102.0
+1901-11-30,Turkey,3.5% Loan 1894,97.5
+1901-12-31,Turkey,Converted (Muharrem) Series A/B,26.75
+1901-12-31,Turkey,4% Loan 1891,102.0
+1901-12-31,Turkey,3.5% Loan 1894,98.0
+1902-01-31,Turkey,Converted (Muharrem) Series A/B,27.62
+1902-01-31,Turkey,4% Loan 1891,103.0
+1902-01-31,Turkey,3.5% Loan 1894,98.5
+1902-02-28,Turkey,Converted (Muharrem) Series A/B,28.0
+1902-02-28,Turkey,4% Loan 1891,103.0
+1902-02-28,Turkey,3.5% Loan 1894,99.0
+1902-03-31,Turkey,Converted (Muharrem) Series A/B,27.62
+1902-03-31,Turkey,4% Loan 1891,103.0
+1902-03-31,Turkey,3.5% Loan 1894,99.0
+1902-04-30,Turkey,Converted (Muharrem) Series A/B,27.37
+1902-04-30,Turkey,4% Loan 1891,102.0
+1902-04-30,Turkey,3.5% Loan 1894,97.5
+1902-05-31,Turkey,Converted (Muharrem) Series A/B,27.62
+1902-05-31,Turkey,4% Loan 1891,102.0
+1902-05-31,Turkey,3.5% Loan 1894,98.0
+1902-06-30,Turkey,Converted (Muharrem) Series A/B,28.12
+1902-06-30,Turkey,4% Loan 1891,103.0
+1902-06-30,Turkey,3.5% Loan 1894,100.0
+1902-07-31,Turkey,Converted (Muharrem) Series A/B,29.5
+1902-07-31,Turkey,4% Loan 1891,104.0
+1902-07-31,Turkey,3.5% Loan 1894,101.0
+1902-08-31,Turkey,Converted (Muharrem) Series A/B,30.37
+1902-08-31,Turkey,4% Loan 1891,104.0
+1902-08-31,Turkey,3.5% Loan 1894,102.0
+1902-09-30,Turkey,Converted (Muharrem) Series A/B,30.25
+1902-09-30,Turkey,4% Loan 1891,104.0
+1902-09-30,Turkey,3.5% Loan 1894,102.0
+1902-10-31,Turkey,Converted (Muharrem) Series A/B,30.5
+1902-10-31,Turkey,4% Loan 1891,103.0
+1902-10-31,Turkey,3.5% Loan 1894,101.0
+1902-11-30,Turkey,Converted (Muharrem) Series A/B,30.12
+1902-11-30,Turkey,4% Loan 1891,103.0
+1902-11-30,Turkey,3.5% Loan 1894,101.0
+1902-12-31,Turkey,Converted (Muharrem) Series A/B,31.87
+1902-12-31,Turkey,4% Loan 1891,103.0
+1902-12-31,Turkey,3.5% Loan 1894,101.0
+1903-01-31,Turkey,Converted (Muharrem) Series A/B,33.25
+1903-01-31,Turkey,4% Loan 1891,103.0
+1903-01-31,Turkey,3.5% Loan 1894,101.0
+1903-02-28,Turkey,Converted (Muharrem) Series A/B,32.25
+1903-02-28,Turkey,4% Loan 1891,103.0
+1903-02-28,Turkey,3.5% Loan 1894,101.0
+1903-03-31,Turkey,Converted (Muharrem) Series A/B,31.62
+1903-03-31,Turkey,4% Loan 1891,104.0
+1903-03-31,Turkey,3.5% Loan 1894,101.0
+1903-04-30,Turkey,Converted (Muharrem) Series A/B,31.0
+1903-04-30,Turkey,4% Loan 1891,102.0
+1903-04-30,Turkey,3.5% Loan 1894,99.5
+1903-05-31,Turkey,Converted (Muharrem) Series A/B,32.0
+1903-05-31,Turkey,4% Loan 1891,103.0
+1903-05-31,Turkey,3.5% Loan 1894,100.0
+1903-06-30,Turkey,Converted (Muharrem) Series A/B,33.87
+1903-06-30,Turkey,4% Loan 1891,104.0
+1903-06-30,Turkey,3.5% Loan 1894,100.5
+1903-07-31,Turkey,Converted (Muharrem) Series A/B,34.0
+1903-07-31,Turkey,4% Loan 1891,104.0
+1903-07-31,Turkey,3.5% Loan 1894,101.5
+1903-08-31,Turkey,Converted (Muharrem) Series A/B,34.0
+1903-08-31,Turkey,4% Loan 1891,104.0
+1903-08-31,Turkey,3.5% Loan 1894,102.5
+1903-09-30,Turkey,Converted (Muharrem) Series A/B,35.75
+1903-09-30,Turkey,4% Loan 1891,104.0
+1903-09-30,Turkey,3.5% Loan 1894,102.0
+1903-10-31,Turkey,Converted (Muharrem) Series A/B,36.5
+1903-10-31,Turkey,4% Loan 1891,102.0
+1903-10-31,Turkey,3.5% Loan 1894,101.0
+1903-11-30,Turkey,Converted (Muharrem) Series A/B,36.5
+1903-11-30,Turkey,4% Loan 1891,102.5
+1903-11-30,Turkey,3.5% Loan 1894,100.5
+1903-12-31,Turkey,Converted (Muharrem) Series A/B,36.5
+1903-12-31,Turkey,4% Loan 1891,102.5
+1903-12-31,Turkey,3.5% Loan 1894,100.0
+1904-01-31,Turkey,Converted (Muharrem) Series A/B,35.0
+1904-01-31,Turkey,4% Unified Debt,84.5
+1904-01-31,Turkey,4% Loan 1891,103.0
+1904-01-31,Turkey,3.5% Loan 1894,99.5
+1904-02-29,Turkey,Converted (Muharrem) Series A/B,30.5
+1904-02-29,Turkey,4% Unified Debt,76.5
+1904-02-29,Turkey,4% Loan 1891,101.5
+1904-02-29,Turkey,3.5% Loan 1894,99.0
+1904-03-31,Turkey,Converted (Muharrem) Series A/B,30.5
+1904-03-31,Turkey,4% Unified Debt,79.75
+1904-03-31,Turkey,4% Loan 1891,103.0
+1904-03-31,Turkey,3.5% Loan 1894,100.5
+1904-04-30,Turkey,4% Unified Debt,82.5
+1904-04-30,Turkey,4% Loan 1891,103.0
+1904-04-30,Turkey,3.5% Loan 1894,100.0
+1904-05-31,Turkey,4% Unified Debt,83.25
+1904-05-31,Turkey,4% Loan 1891,103.0
+1904-05-31,Turkey,3.5% Loan 1894,100.0
+1904-06-30,Turkey,4% Unified Debt,85.0
+1904-06-30,Turkey,4% Loan 1891,103.0
+1904-06-30,Turkey,3.5% Loan 1894,100.0
+1904-07-31,Turkey,4% Unified Debt,84.5
+1904-07-31,Turkey,4% Loan 1891,103.0
+1904-07-31,Turkey,3.5% Loan 1894,100.0
+1904-08-31,Turkey,4% Unified Debt,86.0
+1904-08-31,Turkey,4% Loan 1891,103.0
+1904-08-31,Turkey,3.5% Loan 1894,100.0
+1904-09-30,Turkey,4% Unified Debt,84.75
+1904-09-30,Turkey,4% Loan 1891,104.0
+1904-09-30,Turkey,3.5% Loan 1894,100.5
+1904-10-31,Turkey,4% Unified Debt,84.75
+1904-10-31,Turkey,4% Loan 1891,103.0
+1904-10-31,Turkey,3.5% Loan 1894,100.0
+1904-11-30,Turkey,4% Unified Debt,86.87
+1904-11-30,Turkey,4% Loan 1891,103.5
+1904-11-30,Turkey,3.5% Loan 1894,100.5
+1904-12-31,Turkey,4% Unified Debt,86.87
+1904-12-31,Turkey,4% Loan 1891,103.5
+1904-12-31,Turkey,3.5% Loan 1894,100.5
+1905-01-31,Turkey,4% Unified Debt,87.62
+1905-01-31,Turkey,4% Loan 1891,103.5
+1905-01-31,Turkey,3.5% Loan 1894,100.5
+1905-02-28,Turkey,4% Unified Debt,89.62
+1905-02-28,Turkey,4% Loan 1891,104.5
+1905-02-28,Turkey,3.5% Loan 1894,101.0
+1905-03-31,Turkey,4% Unified Debt,87.62
+1905-03-31,Turkey,4% Loan 1891,104.5
+1905-03-31,Turkey,3.5% Loan 1894,102.0
+1905-04-30,Turkey,4% Unified Debt,87.25
+1905-04-30,Turkey,4% Loan 1891,102.5
+1905-04-30,Turkey,3.5% Loan 1894,101.0
+1905-05-31,Turkey,4% Unified Debt,87.5
+1905-05-31,Turkey,4% Loan 1891,103.0
+1905-05-31,Turkey,3.5% Loan 1894,101.0
+1905-06-30,Turkey,4% Unified Debt,87.12
+1905-06-30,Turkey,4% Loan 1891,103.5
+1905-06-30,Turkey,3.5% Loan 1894,101.0
+1905-07-31,Turkey,4% Unified Debt,88.87
+1905-07-31,Turkey,4% Loan 1891,104.0
+1905-07-31,Turkey,3.5% Loan 1894,102.0
+1905-08-31,Turkey,4% Unified Debt,91.0
+1905-08-31,Turkey,4% Loan 1891,104.5
+1905-08-31,Turkey,3.5% Loan 1894,102.5
+1905-09-30,Turkey,4% Unified Debt,90.0
+1905-09-30,Turkey,4% Loan 1891,105.5
+1905-09-30,Turkey,3.5% Loan 1894,102.5
+1905-10-31,Turkey,4% Unified Debt,89.0
+1905-10-31,Turkey,4% Loan 1891,103.0
+1905-10-31,Turkey,3.5% Loan 1894,101.0
+1905-11-30,Turkey,4% Unified Debt,90.62
+1905-11-30,Turkey,4% Loan 1891,103.5
+1905-11-30,Turkey,3.5% Loan 1894,101.5
+1905-12-31,Turkey,4% Unified Debt,90.37
+1905-12-31,Turkey,4% Loan 1891,104.0
+1905-12-31,Turkey,3.5% Loan 1894,102.0
+1906-01-31,Turkey,4% Unified Debt,92.25
+1906-01-31,Turkey,4% Loan 1891,104.5
+1906-01-31,Turkey,3.5% Loan 1894,102.5
+1906-02-28,Turkey,4% Unified Debt,93.5
+1906-02-28,Turkey,4% Loan 1891,105.0
+1906-02-28,Turkey,3.5% Loan 1894,102.5
+1906-03-31,Turkey,4% Unified Debt,92.5
+1906-03-31,Turkey,4% Loan 1891,105.0
+1906-03-31,Turkey,3.5% Loan 1894,102.5
+1906-04-30,Turkey,4% Unified Debt,92.12
+1906-04-30,Turkey,4% Loan 1891,103.0
+1906-04-30,Turkey,3.5% Loan 1894,100.5
+1906-05-31,Turkey,4% Unified Debt,94.12
+1906-05-31,Turkey,4% Loan 1891,103.0
+1906-05-31,Turkey,3.5% Loan 1894,100.5
+1906-06-30,Turkey,4% Unified Debt,95.25
+1906-06-30,Turkey,4% Loan 1891,103.5
+1906-06-30,Turkey,3.5% Loan 1894,101.0
+1906-07-31,Turkey,4% Unified Debt,95.12
+1906-07-31,Turkey,4% Loan 1891,103.5
+1906-07-31,Turkey,3.5% Loan 1894,100.5
+1906-08-31,Turkey,4% Unified Debt,96.87
+1906-08-31,Turkey,4% Loan 1891,103.5
+1906-08-31,Turkey,3.5% Loan 1894,100.5
+1906-09-30,Turkey,4% Unified Debt,97.5
+1906-09-30,Turkey,4% Loan 1891,103.0
+1906-09-30,Turkey,3.5% Loan 1894,100.5
+1906-10-31,Turkey,4% Unified Debt,92.37
+1906-10-31,Turkey,4% Loan 1891,100.5
+1906-10-31,Turkey,3.5% Loan 1894,97.0
+1906-11-30,Turkey,4% Unified Debt,93.87
+1906-11-30,Turkey,4% Loan 1891,101.0
+1906-11-30,Turkey,3.5% Loan 1894,98.0
+1906-12-31,Turkey,4% Unified Debt,93.0
+1906-12-31,Turkey,4% Loan 1891,101.0
+1906-12-31,Turkey,3.5% Loan 1894,97.5
+1907-01-31,Turkey,4% Unified Debt,96.0
+1907-01-31,Turkey,4% Loan 1891,102.0
+1907-01-31,Turkey,3.5% Loan 1894,98.0
+1907-02-28,Turkey,4% Unified Debt,96.25
+1907-02-28,Turkey,4% Loan 1891,102.0
+1907-02-28,Turkey,3.5% Loan 1894,98.0
+1907-03-31,Turkey,4% Unified Debt,92.5
+1907-03-31,Turkey,4% Loan 1891,102.0
+1907-03-31,Turkey,3.5% Loan 1894,98.0
+1907-04-30,Turkey,4% Unified Debt,93.25
+1907-04-30,Turkey,4% Loan 1891,100.5
+1907-04-30,Turkey,3.5% Loan 1894,96.0
+1907-05-31,Turkey,4% Unified Debt,93.0
+1907-05-31,Turkey,4% Loan 1891,100.5
+1907-05-31,Turkey,3.5% Loan 1894,96.0
+1907-06-30,Turkey,4% Unified Debt,94.0
+1907-06-30,Turkey,4% Loan 1891,100.5
+1907-06-30,Turkey,3.5% Loan 1894,96.0
+1907-07-31,Turkey,4% Unified Debt,94.75
+1907-07-31,Turkey,4% Loan 1891,101.0
+1907-07-31,Turkey,3.5% Loan 1894,96.0
+1907-08-31,Turkey,4% Unified Debt,93.5
+1907-08-31,Turkey,4% Loan 1891,100.5
+1907-08-31,Turkey,3.5% Loan 1894,96.0
+1907-09-30,Turkey,4% Unified Debt,92.5
+1907-09-30,Turkey,4% Loan 1891,101.5
+1907-09-30,Turkey,3.5% Loan 1894,97.0
+1907-10-31,Turkey,4% Unified Debt,91.75
+1907-10-31,Turkey,4% Loan 1891,100.0
+1907-10-31,Turkey,3.5% Loan 1894,96.0
+1907-11-30,Turkey,4% Unified Debt,92.0
+1907-11-30,Turkey,4% Loan 1891,99.0
+1907-11-30,Turkey,3.5% Loan 1894,95.0
+1907-12-31,Turkey,4% Unified Debt,94.0
+1907-12-31,Turkey,4% Loan 1891,99.0
+1907-12-31,Turkey,3.5% Loan 1894,95.0
+1908-01-31,Turkey,4% Unified Debt,96.0
+1908-01-31,Turkey,4% Loan 1891,101.0
+1908-01-31,Turkey,3.5% Loan 1894,97.0
+1908-02-29,Turkey,4% Unified Debt,95.25
+1908-02-29,Turkey,4% Loan 1891,101.0
+1908-02-29,Turkey,3.5% Loan 1894,97.0
+1908-03-31,Turkey,4% Unified Debt,94.0
+1908-03-31,Turkey,4% Loan 1891,102.0
+1908-03-31,Turkey,3.5% Loan 1894,97.0
+1908-04-30,Turkey,4% Unified Debt,94.0
+1908-04-30,Turkey,4% Loan 1891,101.0
+1908-04-30,Turkey,3.5% Loan 1894,96.0
+1908-05-31,Turkey,4% Unified Debt,95.5
+1908-05-31,Turkey,4% Loan 1891,101.0
+1908-05-31,Turkey,3.5% Loan 1894,96.0
+1908-06-30,Turkey,4% Unified Debt,96.0
+1908-06-30,Turkey,4% Loan 1891,101.0
+1908-06-30,Turkey,3.5% Loan 1894,96.0
+1908-07-31,Turkey,4% Unified Debt,94.5
+1908-07-31,Turkey,4% Loan 1891,101.0
+1908-07-31,Turkey,3.5% Loan 1894,96.0
+1908-08-31,Turkey,4% Unified Debt,94.0
+1908-08-31,Turkey,4% Loan 1891,101.0
+1908-08-31,Turkey,3.5% Loan 1894,96.0
+1908-09-30,Turkey,4% Unified Debt,92.5
+1908-09-30,Turkey,4% Loan 1891,101.5
+1908-09-30,Turkey,3.5% Loan 1894,97.0
+1908-10-31,Turkey,4% Unified Debt,90.25
+1908-10-31,Turkey,4% Loan 1891,100.0
+1908-10-31,Turkey,3.5% Loan 1894,95.5
+1908-11-30,Turkey,4% Unified Debt,90.75
+1908-11-30,Turkey,4% Loan 1891,101.0
+1908-11-30,Turkey,3.5% Loan 1894,96.0
+1908-12-31,Turkey,4% Unified Debt,92.75
+1908-12-31,Turkey,4% Loan 1891,101.0
+1908-12-31,Turkey,3.5% Loan 1894,96.5
+1909-01-31,Turkey,4% Unified Debt,93.25
+1909-01-31,Turkey,4% Loan 1891,102.0
+1909-01-31,Turkey,3.5% Loan 1894,97.5
+1909-02-28,Turkey,4% Unified Debt,93.75
+1909-02-28,Turkey,4% Loan 1891,102.5
+1909-02-28,Turkey,3.5% Loan 1894,97.0
+1909-03-31,Turkey,4% Unified Debt,93.25
+1909-03-31,Turkey,4% Loan 1891,102.5
+1909-03-31,Turkey,3.5% Loan 1894,97.0
+1909-04-30,Turkey,4% Unified Debt,92.5
+1909-04-30,Turkey,4% Loan 1891,101.5
+1909-04-30,Turkey,3.5% Loan 1894,96.0
+1909-05-31,Turkey,4% Unified Debt,92.25
+1909-05-31,Turkey,4% Loan 1891,101.5
+1909-05-31,Turkey,3.5% Loan 1894,96.0
+1909-06-30,Turkey,4% Unified Debt,92.0
+1909-06-30,Turkey,4% Loan 1891,101.5
+1909-06-30,Turkey,3.5% Loan 1894,96.0
+1909-07-31,Turkey,4% Unified Debt,92.75
+1909-07-31,Turkey,4% Loan 1891,101.5
+1909-07-31,Turkey,3.5% Loan 1894,96.0
+1909-08-31,Turkey,4% Unified Debt,94.5
+1909-08-31,Turkey,4% Loan 1891,102.0
+1909-08-31,Turkey,3.5% Loan 1894,96.5
+1909-09-30,Turkey,4% Unified Debt,92.5
+1909-09-30,Turkey,4% Loan 1891,103.0
+1909-09-30,Turkey,3.5% Loan 1894,96.5
+1909-10-31,Turkey,4% Unified Debt,92.75
+1909-10-31,Turkey,4% Loan 1891,101.0
+1909-10-31,Turkey,3.5% Loan 1894,94.5
+1909-11-30,Turkey,4% Unified Debt,93.0
+1909-11-30,Turkey,4% Loan 1891,100.5
+1909-11-30,Turkey,3.5% Loan 1894,94.5
+1909-12-31,Turkey,4% Unified Debt,93.75
+1909-12-31,Turkey,4% Loan 1891,101.0
+1909-12-31,Turkey,3.5% Loan 1894,95.0
+1910-01-31,Turkey,4% Unified Debt,94.0
+1910-01-31,Turkey,4% Loan 1891,101.0
+1910-01-31,Turkey,3.5% Loan 1894,95.5
+1910-02-28,Turkey,4% Unified Debt,94.25
+1910-02-28,Turkey,4% Loan 1891,101.5
+1910-02-28,Turkey,3.5% Loan 1894,95.5
+1910-03-31,Turkey,4% Unified Debt,93.0
+1910-03-31,Turkey,4% Loan 1891,102.0
+1910-03-31,Turkey,3.5% Loan 1894,95.5
+1910-04-30,Turkey,4% Unified Debt,93.25
+1910-04-30,Turkey,4% Loan 1891,100.5
+1910-04-30,Turkey,3.5% Loan 1894,94.5
+1910-05-31,Turkey,4% Unified Debt,93.25
+1910-05-31,Turkey,4% Loan 1891,100.0
+1910-05-31,Turkey,3.5% Loan 1894,94.5
+1910-06-30,Turkey,4% Unified Debt,93.0
+1910-06-30,Turkey,4% Loan 1891,99.5
+1910-06-30,Turkey,3.5% Loan 1894,93.5
+1910-07-31,Turkey,4% Unified Debt,93.5
+1910-07-31,Turkey,4% Loan 1891,100.0
+1910-07-31,Turkey,3.5% Loan 1894,93.5
+1910-08-31,Turkey,4% Unified Debt,93.75
+1910-08-31,Turkey,4% Loan 1891,100.5
+1910-08-31,Turkey,3.5% Loan 1894,94.0
+1910-09-30,Turkey,4% Unified Debt,92.5
+1910-09-30,Turkey,4% Loan 1891,100.5
+1910-09-30,Turkey,3.5% Loan 1894,94.5
+1910-10-31,Turkey,4% Unified Debt,91.0
+1910-10-31,Turkey,4% Loan 1891,99.5
+1910-10-31,Turkey,3.5% Loan 1894,92.0
+1910-11-30,Turkey,4% Unified Debt,91.5
+1910-11-30,Turkey,4% Loan 1891,99.5
+1910-11-30,Turkey,3.5% Loan 1894,90.5
+1910-12-31,Turkey,4% Unified Debt,93.0
+1910-12-31,Turkey,4% Loan 1891,100.0
+1910-12-31,Turkey,3.5% Loan 1894,91.0
+1911-01-31,Turkey,4% Unified Debt,93.5
+1911-01-31,Turkey,4% Loan 1891,100.0
+1911-01-31,Turkey,3.5% Loan 1894,91.0
+1911-02-28,Turkey,4% Unified Debt,94.5
+1911-02-28,Turkey,4% Loan 1891,101.0
+1911-02-28,Turkey,3.5% Loan 1894,91.5
+1911-03-31,Turkey,4% Unified Debt,92.5
+1911-03-31,Turkey,4% Loan 1891,101.5
+1911-03-31,Turkey,3.5% Loan 1894,92.5
+1911-04-30,Turkey,4% Unified Debt,92.25
+1911-04-30,Turkey,4% Loan 1891,99.5
+1911-04-30,Turkey,3.5% Loan 1894,90.5
+1911-05-31,Turkey,4% Unified Debt,92.25
+1911-05-31,Turkey,4% Loan 1891,100.0
+1911-05-31,Turkey,3.5% Loan 1894,90.5
+1911-06-30,Turkey,4% Unified Debt,92.0
+1911-06-30,Turkey,4% Loan 1891,100.0
+1911-06-30,Turkey,3.5% Loan 1894,92.0
+1911-07-31,Turkey,4% Unified Debt,91.5
+1911-07-31,Turkey,4% Loan 1891,99.0
+1911-07-31,Turkey,3.5% Loan 1894,91.5
+1911-08-31,Turkey,4% Unified Debt,93.0
+1911-08-31,Turkey,4% Loan 1891,99.0
+1911-08-31,Turkey,3.5% Loan 1894,99.5
+1911-09-30,Turkey,4% Unified Debt,84.0
+1911-09-30,Turkey,4% Loan 1891,99.0
+1911-09-30,Turkey,3.5% Loan 1894,91.0
+1911-10-31,Turkey,4% Unified Debt,88.0
+1911-10-31,Turkey,4% Loan 1891,98.0
+1911-10-31,Turkey,3.5% Loan 1894,90.5
+1911-11-30,Turkey,4% Unified Debt,89.0
+1911-11-30,Turkey,4% Loan 1891,98.5
+1911-11-30,Turkey,3.5% Loan 1894,90.5
+1911-12-31,Turkey,4% Unified Debt,89.0
+1911-12-31,Turkey,4% Loan 1891,98.5
+1911-12-31,Turkey,3.5% Loan 1894,90.5
+1912-01-31,Turkey,4% Unified Debt,91.0
+1912-01-31,Turkey,4% Loan 1891,98.5
+1912-01-31,Turkey,3.5% Loan 1894,90.5
+1912-02-29,Turkey,4% Unified Debt,91.5
+1912-02-29,Turkey,4% Loan 1891,99.0
+1912-02-29,Turkey,3.5% Loan 1894,91.0
+1912-03-31,Turkey,4% Unified Debt,88.0
+1912-03-31,Turkey,4% Loan 1891,99.5
+1912-03-31,Turkey,3.5% Loan 1894,91.0
+1912-04-30,Turkey,4% Unified Debt,89.0
+1912-04-30,Turkey,4% Loan 1891,98.0
+1912-04-30,Turkey,3.5% Loan 1894,89.0
+1912-05-31,Turkey,4% Unified Debt,89.5
+1912-05-31,Turkey,4% Loan 1891,98.0
+1912-05-31,Turkey,3.5% Loan 1894,89.0
+1912-06-30,Turkey,4% Unified Debt,89.0
+1912-06-30,Turkey,4% Loan 1891,98.0
+1912-06-30,Turkey,3.5% Loan 1894,89.0
+1912-07-31,Turkey,4% Unified Debt,89.5
+1912-07-31,Turkey,4% Loan 1891,99.0
+1912-07-31,Turkey,3.5% Loan 1894,89.0
+1912-08-31,Turkey,4% Unified Debt,91.5
+1912-08-31,Turkey,4% Loan 1891,99.0
+1912-08-31,Turkey,3.5% Loan 1894,89.0
+1912-09-30,Turkey,4% Unified Debt,89.0
+1912-09-30,Turkey,4% Loan 1891,99.0
+1912-09-30,Turkey,3.5% Loan 1894,88.0
+1912-10-31,Turkey,4% Unified Debt,80.0
+1912-10-31,Turkey,4% Loan 1891,96.0
+1912-10-31,Turkey,3.5% Loan 1894,86.0
+1912-11-30,Turkey,4% Unified Debt,85.0
+1912-11-30,Turkey,4% Loan 1891,96.0
+1912-11-30,Turkey,3.5% Loan 1894,86.0
+1912-12-31,Turkey,4% Unified Debt,85.5
+1912-12-31,Turkey,4% Loan 1891,98.0
+1912-12-31,Turkey,3.5% Loan 1894,87.0
+1913-01-31,Turkey,4% Unified Debt,86.0
+1913-01-31,Turkey,4% Loan 1891,99.0
+1913-01-31,Turkey,3.5% Loan 1894,87.0
+1913-02-28,Turkey,4% Unified Debt,87.0
+1913-02-28,Turkey,4% Loan 1891,99.0
+1913-02-28,Turkey,3.5% Loan 1894,87.0
+1913-03-31,Turkey,4% Unified Debt,86.0
+1913-03-31,Turkey,4% Loan 1891,98.0
+1913-03-31,Turkey,3.5% Loan 1894,87.0
+1913-04-30,Turkey,4% Unified Debt,86.0
+1913-04-30,Turkey,4% Loan 1891,95.5
+1913-04-30,Turkey,3.5% Loan 1894,83.0
+1913-05-31,Turkey,4% Unified Debt,86.0
+1913-05-31,Turkey,4% Loan 1891,93.5
+1913-05-31,Turkey,3.5% Loan 1894,83.0
+1913-06-30,Turkey,4% Unified Debt,84.0
+1913-06-30,Turkey,4% Loan 1891,93.5
+1913-06-30,Turkey,3.5% Loan 1894,82.5
+1913-07-31,Turkey,4% Unified Debt,83.0
+1913-07-31,Turkey,4% Loan 1891,94.5
+1913-07-31,Turkey,3.5% Loan 1894,83.5
+1913-08-31,Turkey,4% Unified Debt,87.0
+1913-08-31,Turkey,4% Loan 1891,95.0
+1913-08-31,Turkey,3.5% Loan 1894,85.0
+1913-09-30,Turkey,4% Unified Debt,86.0
+1913-09-30,Turkey,4% Loan 1891,96.0
+1913-09-30,Turkey,3.5% Loan 1894,86.0
+1913-10-31,Turkey,4% Unified Debt,86.0
+1913-10-31,Turkey,4% Loan 1891,95.0
+1913-10-31,Turkey,3.5% Loan 1894,85.0
+1913-11-30,Turkey,4% Unified Debt,87.0
+1913-11-30,Turkey,4% Loan 1891,94.0
+1913-11-30,Turkey,3.5% Loan 1894,85.0
+1913-12-31,Turkey,4% Unified Debt,86.0
+1913-12-31,Turkey,4% Loan 1891,94.0
+1913-12-31,Turkey,3.5% Loan 1894,85.0
+1914-01-31,Turkey,4% Unified Debt,85.0
+1914-01-31,Turkey,4% Loan 1891,96.0
+1914-01-31,Turkey,3.5% Loan 1894,86.0
+1914-02-28,Turkey,4% Unified Debt,86.0
+1914-02-28,Turkey,4% Loan 1891,98.0
+1914-02-28,Turkey,3.5% Loan 1894,89.5
+1914-03-31,Turkey,4% Unified Debt,86.0
+1914-03-31,Turkey,4% Loan 1891,98.0
+1914-03-31,Turkey,3.5% Loan 1894,88.5
+1914-04-30,Turkey,4% Unified Debt,81.0
+1914-04-30,Turkey,4% Loan 1891,96.0
+1914-04-30,Turkey,3.5% Loan 1894,86.0
+1914-05-31,Turkey,4% Unified Debt,82.0
+1914-05-31,Turkey,4% Loan 1891,95.5
+1914-05-31,Turkey,3.5% Loan 1894,86.0
+1914-06-30,Turkey,4% Unified Debt,81.0
+1914-06-30,Turkey,4% Loan 1891,95.5
+1914-06-30,Turkey,3.5% Loan 1894,84.5
+1914-07-31,Turkey,4% Unified Debt,78.0
+1914-07-31,Turkey,4% Loan 1891,94.5
+1914-07-31,Turkey,3.5% Loan 1894,84.5
+1915-01-31,Turkey,4% Unified Debt,62.0
+1915-01-31,Turkey,4% Loan 1891,85.37
+1915-01-31,Turkey,3.5% Loan 1894,79.0
+1915-02-28,Turkey,4% Unified Debt,60.0
+1915-02-28,Turkey,4% Loan 1891,86.0
+1915-02-28,Turkey,3.5% Loan 1894,79.5
+1915-03-31,Turkey,4% Unified Debt,59.25
+1915-03-31,Turkey,4% Loan 1891,86.75
+1915-03-31,Turkey,3.5% Loan 1894,80.25
+1915-04-30,Turkey,4% Unified Debt,59.0
+1915-04-30,Turkey,4% Loan 1891,85.62
+1915-04-30,Turkey,3.5% Loan 1894,79.25
+1915-05-31,Turkey,4% Unified Debt,59.25
+1915-05-31,Turkey,4% Loan 1891,85.5
+1915-05-31,Turkey,3.5% Loan 1894,78.75
+1915-06-30,Turkey,4% Unified Debt,57.0
+1915-06-30,Turkey,4% Loan 1891,85.75
+1915-06-30,Turkey,3.5% Loan 1894,78.25
+1915-07-31,Turkey,4% Unified Debt,53.5
+1915-07-31,Turkey,4% Loan 1891,82.75
+1915-07-31,Turkey,3.5% Loan 1894,75.0
+1915-08-31,Turkey,4% Unified Debt,48.5
+1915-08-31,Turkey,4% Loan 1891,82.75
+1915-08-31,Turkey,3.5% Loan 1894,74.5
+1915-09-30,Turkey,4% Unified Debt,48.0
+1915-09-30,Turkey,4% Loan 1891,82.75
+1915-09-30,Turkey,3.5% Loan 1894,74.5
+1915-10-31,Turkey,4% Unified Debt,47.5
+1915-10-31,Turkey,4% Loan 1891,80.75
+1915-10-31,Turkey,3.5% Loan 1894,72.5
+1915-11-30,Turkey,4% Unified Debt,53.5
+1915-11-30,Turkey,4% Loan 1891,80.75
+1915-11-30,Turkey,3.5% Loan 1894,72.0
+1915-12-31,Turkey,4% Unified Debt,52.87
+1915-12-31,Turkey,4% Loan 1891,80.75
+1915-12-31,Turkey,3.5% Loan 1894,72.0
+1916-01-31,Turkey,4% Unified Debt,52.87
+1916-01-31,Turkey,4% Loan 1891,80.75
+1916-01-31,Turkey,3.5% Loan 1894,69.0
+1916-02-29,Turkey,4% Unified Debt,45.0
+1916-02-29,Turkey,4% Loan 1891,76.5
+1916-02-29,Turkey,3.5% Loan 1894,69.62
+1916-03-31,Turkey,4% Unified Debt,45.12
+1916-03-31,Turkey,4% Loan 1891,76.5
+1916-03-31,Turkey,3.5% Loan 1894,68.75
+1916-04-30,Turkey,4% Unified Debt,47.0
+1916-05-31,Turkey,4% Unified Debt,52.0
+1916-06-30,Turkey,4% Unified Debt,51.12
+1916-06-30,Turkey,4% Loan 1891,78.0
+1916-06-30,Turkey,3.5% Loan 1894,69.0
+1916-07-31,Turkey,4% Unified Debt,52.25
+1916-07-31,Turkey,4% Loan 1891,77.0
+1916-07-31,Turkey,3.5% Loan 1894,70.25
+1916-08-31,Turkey,4% Unified Debt,56.25
+1916-09-30,Turkey,4% Unified Debt,54.0
+1916-10-31,Turkey,4% Unified Debt,53.75
+1916-11-30,Turkey,4% Unified Debt,54.0
+1916-12-31,Turkey,4% Unified Debt,50.0
+1917-01-31,Turkey,4% Unified Debt,50.0
+1917-02-28,Turkey,4% Unified Debt,51.75
+1917-03-31,Turkey,4% Unified Debt,55.25
+1917-04-30,Turkey,4% Unified Debt,55.37
+1917-05-31,Turkey,4% Unified Debt,56.0
+1917-06-30,Turkey,4% Unified Debt,56.0
+1917-07-31,Turkey,4% Unified Debt,55.5
+1917-08-31,Turkey,4% Unified Debt,56.0
+1917-09-30,Turkey,4% Unified Debt,56.5
+1917-10-31,Turkey,4% Unified Debt,57.0
+1917-11-30,Turkey,4% Unified Debt,56.25
+1917-12-31,Turkey,4% Unified Debt,56.0
+1918-01-31,Turkey,4% Unified Debt,56.0
+1918-02-28,Turkey,4% Unified Debt,56.5
+1918-03-31,Turkey,4% Unified Debt,57.5
+1918-04-30,Turkey,4% Unified Debt,55.5
+1918-05-31,Turkey,4% Unified Debt,55.0
+1918-06-30,Turkey,4% Unified Debt,56.75
+1918-07-31,Turkey,4% Unified Debt,56.0
+1918-08-31,Turkey,4% Unified Debt,55.0
+1918-09-30,Turkey,4% Unified Debt,57.0
+1918-10-31,Turkey,4% Unified Debt,64.75
+1918-11-30,Turkey,4% Unified Debt,70.0
+1918-12-31,Turkey,4% Unified Debt,65.75
+1919-01-31,Turkey,4% Unified Debt,66.25
+1919-02-28,Turkey,4% Unified Debt,68.0
+1919-03-31,Turkey,4% Unified Debt,67.0
+1919-04-30,Turkey,4% Unified Debt,66.5
+1919-05-31,Turkey,4% Unified Debt,69.5
+1919-06-30,Turkey,4% Unified Debt,66.0
+1919-07-31,Turkey,4% Unified Debt,66.0
+1919-08-31,Turkey,4% Unified Debt,66.0
+1919-09-30,Turkey,4% Unified Debt,54.25
+1919-10-31,Turkey,4% Unified Debt,49.0
+1919-11-30,Turkey,4% Unified Debt,45.0
+1919-12-31,Turkey,4% Unified Debt,39.0
+1920-01-31,Turkey,4% Unified Debt,38.5
+1920-02-29,Turkey,4% Unified Debt,34.0
+1920-03-31,Turkey,4% Unified Debt,34.37
+1920-04-30,Turkey,4% Unified Debt,33.25
+1920-05-31,Turkey,4% Unified Debt,33.5
+1920-06-30,Turkey,4% Unified Debt,34.0
+1920-07-31,Turkey,4% Unified Debt,35.0
+1920-08-31,Turkey,4% Unified Debt,35.0
+1920-09-30,Turkey,4% Unified Debt,35.0
+1920-10-31,Turkey,4% Unified Debt,29.0
+1920-11-30,Turkey,4% Unified Debt,27.0
+1920-12-31,Turkey,4% Unified Debt,26.25
+1921-01-31,Turkey,4% Unified Debt,26.0
+1921-03-31,Turkey,4% Unified Debt,15.0
+1921-04-30,Turkey,4% Unified Debt,20.0
+1921-05-31,Turkey,4% Unified Debt,20.0
+1921-06-30,Turkey,4% Unified Debt,20.0
+1921-07-31,Turkey,4% Unified Debt,19.0
+1921-08-31,Turkey,4% Unified Debt,17.0
+1921-09-30,Turkey,4% Unified Debt,17.0
+1921-12-31,Turkey,4% Unified Debt,16.87
+1922-01-31,Turkey,4% Unified Debt,16.5
+1922-02-28,Turkey,4% Unified Debt,18.12
+1922-03-31,Turkey,4% Unified Debt,18.0
+1922-04-30,Turkey,4% Unified Debt,21.0
+1922-05-31,Turkey,4% Unified Debt,21.5
+1922-06-30,Turkey,4% Unified Debt,38.0
+1922-07-31,Turkey,4% Unified Debt,33.87
+1922-08-31,Turkey,4% Unified Debt,33.25
+1922-09-30,Turkey,4% Unified Debt,31.37
+1922-10-31,Turkey,4% Unified Debt,28.25
+1922-11-30,Turkey,4% Unified Debt,26.0
+1922-12-31,Turkey,4% Unified Debt,31.0
+1923-01-31,Turkey,4% Unified Debt,22.31
+1923-02-28,Turkey,4% Unified Debt,26.0
+1923-03-31,Turkey,4% Unified Debt,28.0
+1923-04-30,Turkey,4% Unified Debt,26.62
+1923-05-31,Turkey,4% Unified Debt,27.0
+1923-06-30,Turkey,4% Unified Debt,25.25
+1923-07-31,Turkey,4% Unified Debt,19.12
+1923-08-31,Turkey,4% Unified Debt,19.87
+1923-09-30,Turkey,4% Unified Debt,22.0
+1923-10-31,Turkey,4% Unified Debt,20.25
+1923-11-30,Turkey,4% Unified Debt,19.25
+1923-12-31,Turkey,4% Unified Debt,18.5
+1924-01-31,Turkey,4% Unified Debt,18.0
+1924-02-29,Turkey,4% Unified Debt,18.0
+1924-03-31,Turkey,4% Unified Debt,18.0
+1924-04-30,Turkey,4% Unified Debt,18.75
+1924-05-31,Turkey,4% Unified Debt,15.5
+1924-06-30,Turkey,4% Unified Debt,16.0
+1924-07-31,Turkey,4% Unified Debt,16.0
+1924-08-31,Turkey,4% Unified Debt,16.75
+1924-09-30,Turkey,4% Unified Debt,18.0
+1924-10-31,Turkey,4% Unified Debt,16.5
+1924-11-30,Turkey,4% Unified Debt,16.0
+1924-12-31,Turkey,4% Unified Debt,19.0
+1925-01-31,Turkey,4% Unified Debt,17.75
+1925-02-28,Turkey,4% Unified Debt,17.5
+1925-03-31,Turkey,4% Unified Debt,17.5
+1925-04-30,Turkey,4% Unified Debt,18.5
+1925-05-31,Turkey,4% Unified Debt,17.75
+1925-06-30,Turkey,4% Unified Debt,16.75
+1925-07-31,Turkey,4% Unified Debt,16.0
+1925-08-31,Turkey,4% Unified Debt,16.0
+1925-09-30,Turkey,4% Unified Debt,16.25
+1925-10-31,Turkey,4% Unified Debt,16.25
+1925-11-30,Turkey,4% Unified Debt,16.0
+1925-12-31,Turkey,4% Unified Debt,15.0
+1926-01-31,Turkey,4% Unified Debt,16.25
+1926-02-28,Turkey,4% Unified Debt,18.5
+1926-03-31,Turkey,4% Unified Debt,16.5
+1926-04-30,Turkey,4% Unified Debt,16.5
+1926-05-31,Turkey,4% Unified Debt,15.75
+1926-06-30,Turkey,4% Unified Debt,15.5
+1926-07-31,Turkey,4% Unified Debt,14.75
+1926-08-31,Turkey,4% Unified Debt,15.75
+1926-09-30,Turkey,4% Unified Debt,17.0
+1926-10-31,Turkey,4% Unified Debt,19.5
+1926-11-30,Turkey,4% Unified Debt,21.5
+1926-12-31,Turkey,4% Unified Debt,21.0
+1927-01-31,Turkey,4% Unified Debt,23.25
+1927-02-28,Turkey,4% Unified Debt,23.75
+1927-03-31,Turkey,4% Unified Debt,23.5
+1927-04-30,Turkey,4% Unified Debt,26.5
+1927-05-31,Turkey,4% Unified Debt,25.25
+1927-06-30,Turkey,4% Unified Debt,25.25
+1927-07-31,Turkey,4% Unified Debt,25.5
+1927-08-31,Turkey,4% Unified Debt,24.0
+1927-09-30,Turkey,4% Unified Debt,24.5
+1927-10-31,Turkey,4% Unified Debt,23.5
+1927-11-30,Turkey,4% Unified Debt,23.5
+1927-12-31,Turkey,4% Unified Debt,23.75
+1928-01-31,Turkey,4% Unified Debt,24.5
+1928-02-29,Turkey,4% Unified Debt,26.0
+1928-03-31,Turkey,4% Unified Debt,25.0
+1928-04-30,Turkey,4% Unified Debt,25.0
+1928-05-31,Turkey,4% Unified Debt,22.5
+1928-06-30,Turkey,4% Unified Debt,24.5
+1928-07-31,Turkey,4% Unified Debt,22.0
+1928-08-31,Turkey,4% Unified Debt,23.25
+1928-09-30,Turkey,4% Unified Debt,23.25
+1928-10-31,Turkey,4% Unified Debt,23.5
+1928-11-30,Turkey,4% Unified Debt,24.0
+1928-12-31,Turkey,4% Unified Debt,23.0
+1929-01-31,Turkey,4% Unified Debt,23.0
+1929-02-28,Turkey,4% Unified Debt,22.25
+1929-03-31,Turkey,4% Unified Debt,22.75
+1929-04-30,Turkey,4% Unified Debt,20.5
+1929-05-31,Turkey,4% Unified Debt,20.5
+1929-06-30,Turkey,4% Unified Debt,18.25
+1929-07-31,Turkey,4% Unified Debt,18.75
+1929-08-31,Turkey,4% Unified Debt,18.5
+1929-09-30,Turkey,4% Unified Debt,19.75
+1929-10-31,Turkey,4% Unified Debt,20.5
+1929-11-30,Turkey,4% Unified Debt,20.5
+1929-12-31,Turkey,4% Unified Debt,18.0

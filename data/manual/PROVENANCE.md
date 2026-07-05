@@ -23,6 +23,33 @@ plus the December 1862/January 1863 pre-issue offer price.
   missed, so wartime prices embed arrears treatment (see paper's
   scenarios 1–3, which differ by <2 percentage points of probability).
 
+## danish_london_1862_1865.csv
+
+Prices of Danish government bonds marked in London around the
+Schleswig-Holstein crisis and the war of 1864, hand-read from page scans of
+*The Economist*'s weekly "Bankers' Price Current — Prices of Foreign
+Stocks" table (archive.org, Serials in Microfilm collection,
+`sim_economist_*`). OCR of the table columns is unusable, so every value
+was read visually from the page image of the issue named in
+`source_issue`; `date` is the weekday column in which the bargain is
+marked. Method files: `scripts/fetch_danish_pages.py` documents the
+scan-retrieval pipeline (leaf located via hOCR word coordinates).
+
+Three caveats transcribed onto the analysis:
+
+1. **These are marked bargains, not continuous quotes.** The London market
+   in Danish sovereigns was very thin: in most weeks of 1862-65 *no*
+   Danish bargain is marked at all, including the entire invasion phase
+   (Feb-Apr 1864) for the older bonds. Silence is informative about
+   liquidity, not about price.
+2. Issues covered: the 3% loan of 1825 (Wilson/Hambro), the 4% loan of
+   1863 (Hambro, issued March 1863 at ~91-92), and the 5% war loan of
+   January 1864 (Hambro, 1.2m pounds, issued at 93; traded as
+   partly-paid scrip - quoted per pounds paid, excluded here - until
+   fully paid in May 1864).
+3. `flag` = "xd" where the printed quote is marked ex-dividend; no
+   coupon adjustment has been applied.
+
 ## Union greenback series (data/processed/greenback_monthly.csv)
 
 Not in this directory but partially manual: parsed by
